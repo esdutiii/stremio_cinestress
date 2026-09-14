@@ -114,8 +114,6 @@ def movie_stream_endpoint(id_str, config=None):
     if not links:
         return jsonify({"streams": []})
 
-    user_cfg = parse_config(config)
-    provider, credentials = get_effective_credentials(user_cfg)
     host_url = request.host_url.rstrip("/")
 
     streams = []
@@ -124,13 +122,8 @@ def movie_stream_endpoint(id_str, config=None):
         if not decrypted_url or "1fichier" not in decrypted_url:
             continue
 
-        # Generamos el token de reproducción diferida para resolver al hacer clic
-        payload = {
-            "url": decrypted_url,
-            "provider": provider,
-            "credentials": credentials
-        }
-        token = base64.urlsafe_b64encode(json.dumps(payload).encode("utf-8")).decode("utf-8")
+        # Solo embebimos la URL en el token (las credenciales se leen del servidor)
+        token = base64.urlsafe_b64encode(decrypted_url.encode("utf-8")).decode("utf-8")
         playback_url = f"{host_url}/playback/{token}"
 
         calidad = item["calidad"] or "1080p"
@@ -139,9 +132,10 @@ def movie_stream_endpoint(id_str, config=None):
         desc_parts = [p for p in [audio, info] if p]
         details = " | ".join(desc_parts)
 
+        provider_name = os.environ.get("DEBRID_PROVIDER", "1fichier").capitalize()
         streams.append({
             "name": f"CineStress [{calidad}]",
-            "title": f"🎬 1fichier Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider.capitalize()}",
+            "title": f"🎬 1fichier Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider_name}",
             "url": playback_url,
             "behaviorHints": {
                 "notWebReady": True
@@ -175,8 +169,6 @@ def series_stream_endpoint(id_str, config=None):
     if not links:
         return jsonify({"streams": []})
 
-    user_cfg = parse_config(config)
-    provider, credentials = get_effective_credentials(user_cfg)
     host_url = request.host_url.rstrip("/")
 
     streams = []
@@ -185,12 +177,8 @@ def series_stream_endpoint(id_str, config=None):
         if not decrypted_url or "1fichier" not in decrypted_url:
             continue
 
-        payload = {
-            "url": decrypted_url,
-            "provider": provider,
-            "credentials": credentials
-        }
-        token = base64.urlsafe_b64encode(json.dumps(payload).encode("utf-8")).decode("utf-8")
+        # Solo embebimos la URL en el token (las credenciales se leen del servidor)
+        token = base64.urlsafe_b64encode(decrypted_url.encode("utf-8")).decode("utf-8")
         playback_url = f"{host_url}/playback/{token}"
 
         calidad = item["calidad"] or "1080p"
@@ -199,9 +187,10 @@ def series_stream_endpoint(id_str, config=None):
         desc_parts = [p for p in [audio, info] if p]
         details = " | ".join(desc_parts)
 
+        provider_name = os.environ.get("DEBRID_PROVIDER", "1fichier").capitalize()
         streams.append({
             "name": f"CineStress [{calidad}]",
-            "title": f"📺 T{season}xE{episode} - 1fichier Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider.capitalize()}",
+            "title": f"📺 T{season}xE{episode} - 1fichier Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider_name}",
             "url": playback_url,
             "behaviorHints": {
                 "notWebReady": True
@@ -214,20 +203,31 @@ def series_stream_endpoint(id_str, config=None):
 def playback_endpoint(token):
     # Endpoint invocado por el reproductor de vídeo de Stremio al pulsar Play
     try:
+        # Decodificamos la URL del fichero (ya no viene un JSON, solo la URL en base64)
         padded = token + "=" * ((4 - len(token) % 4) % 4)
-        data = json.loads(base64.urlsafe_b64decode(padded).decode("utf-8"))
-        raw_url = data.get("url")
-        provider = data.get("provider", "1fichier")
-        credentials = data.get("credentials", {})
-        
+        raw_url = base64.urlsafe_b64decode(padded).decode("utf-8")
+
+        # Leemos las credenciales directamente de las variables de entorno del servidor
+        provider = os.environ.get("DEBRID_PROVIDER", "1fichier").lower().strip()
+        credentials = {
+            "1fichier_key": os.environ.get("ONEFICHIER_API_KEY", ""),
+            "rd_token": os.environ.get("REALDEBRID_API_KEY", ""),
+            "ad_key": os.environ.get("ALLDEBRID_API_KEY", ""),
+        }
+
+        print(f"[Playback] Provider: {provider} | URL: {raw_url[:80]}...")
+        print(f"[Playback] Credenciales disponibles: 1f={'si' if credentials['1fichier_key'] else 'no'}, rd={'si' if credentials['rd_token'] else 'no'}, ad={'si' if credentials['ad_key'] else 'no'}")
+
         # Desrestringimos el enlace con el proveedor configurado
         result = resolve_stream_url(raw_url, provider, credentials)
         if result.get("success") and result.get("stream_url"):
             # Redirigimos el reproductor a la URL de streaming directa (HTTP 302)
-            resp = redirect(result["stream_url"], code=302)
+            stream_url = result["stream_url"]
+            print(f"[Playback OK] Redirigiendo a: {stream_url[:100]}...")
+            resp = redirect(stream_url, code=302)
             resp.headers["Access-Control-Allow-Origin"] = "*"
             resp.headers["Access-Control-Allow-Headers"] = "*"
-            resp.headers["Location"] = result["stream_url"]
+            resp.headers["Location"] = stream_url
             return resp
 
         error_msg = result.get("error", "No se pudo desrestringir el enlace.")
@@ -240,6 +240,28 @@ def playback_endpoint(token):
         resp = Response(f"Error interno en playback: {str(e)}", status=500, mimetype="text/plain")
         resp.headers["Access-Control-Allow-Origin"] = "*"
         return resp
+
+@app.route("/debug/config")
+def debug_config():
+    # Endpoint de diagnóstico para verificar la configuración (sin exponer las claves completas)
+    provider = os.environ.get("DEBRID_PROVIDER", "(no configurado)")
+    ad_key = os.environ.get("ALLDEBRID_API_KEY", "")
+    rd_key = os.environ.get("REALDEBRID_API_KEY", "")
+    of_key = os.environ.get("ONEFICHIER_API_KEY", "")
+    db_url = os.environ.get("DATABASE_URL", "")
+
+    def mask(key):
+        if not key:
+            return "❌ NO CONFIGURADA"
+        return f"✅ configurada ({key[:4]}...{key[-4:]})"
+
+    return jsonify({
+        "provider": provider,
+        "alldebrid_key": mask(ad_key),
+        "realdebrid_key": mask(rd_key),
+        "onefichier_key": mask(of_key),
+        "database": "✅ configurada" if db_url else "❌ NO CONFIGURADA"
+    })
 
 @app.route("/health")
 def health_endpoint():

@@ -49,16 +49,24 @@ def resolve_alldebrid(url: str, api_key: str) -> dict:
 
     clean_key = api_key.strip()
     headers = {
-        "User-Agent": "EduTeAmo"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "es-ES,es;q=0.9,en;q=0.8"
     }
 
-    # Invocamos la API de AllDebrid usando el agente de Kodi EduTeAmo
-    endpoint = f"https://api.alldebrid.com/v4/link/unlock?agent=EduTeAmo&apikey={clean_key}&link={quote_plus(url)}"
+    endpoint = f"https://api.alldebrid.com/v4/link/unlock?agent=cinestress&apikey={clean_key}&link={quote_plus(url)}"
 
     try:
         res = requests.get(endpoint, headers=headers, timeout=15)
-        data = res.json()
-        if res.ok and data.get("status") == "success":
+        if not res.ok:
+            return {"error": f"AllDebrid HTTP {res.status_code}: {res.text[:150]}"}
+            
+        try:
+            data = res.json()
+        except Exception:
+            return {"error": f"Respuesta no JSON de AllDebrid (HTTP {res.status_code}): {res.text[:150]}"}
+
+        if data.get("status") == "success":
             data_inner = data.get("data", {})
             download_url = data_inner.get("link")
             if download_url:
@@ -68,16 +76,19 @@ def resolve_alldebrid(url: str, api_key: str) -> dict:
             delayed_id = data_inner.get("delayed")
             if delayed_id:
                 import time
-                delayed_endpoint = f"https://api.alldebrid.com/v4/link/delayed?agent=EduTeAmo&apikey={clean_key}&id={delayed_id}"
+                delayed_endpoint = f"https://api.alldebrid.com/v4/link/delayed?agent=cinestress&apikey={clean_key}&id={delayed_id}"
                 for _ in range(8):
                     time.sleep(1)
                     d_res = requests.get(delayed_endpoint, headers=headers, timeout=10)
                     if d_res.ok:
-                        d_data = d_res.json()
-                        if d_data.get("status") == "success":
-                            d_link = d_data.get("data", {}).get("link")
-                            if d_link:
-                                return {"success": True, "stream_url": d_link}
+                        try:
+                            d_data = d_res.json()
+                            if d_data.get("status") == "success":
+                                d_link = d_data.get("data", {}).get("link")
+                                if d_link:
+                                    return {"success": True, "stream_url": d_link}
+                        except Exception:
+                            continue
 
         err = data.get("error")
         err_msg = err.get("message") if isinstance(err, dict) else str(err)
