@@ -1,0 +1,31 @@
+name: Sincronizar BBDD con Repositorio de Kodi
+
+on:
+  schedule:
+    # Se ejecuta automáticamente cada 12 horas (a las 06:00 y 18:00 UTC)
+    - cron: '0 6,18 * * *'
+  workflow_dispatch:
+    # Permite ejecutarlo manualmente con un clic desde la pestaña Actions en GitHub
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar código del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pycryptodome psycopg2-binary
+
+      - name: Sincronizar actualizaciones de Kodi con la Base de Datos
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          python scripts/sync_updates.py

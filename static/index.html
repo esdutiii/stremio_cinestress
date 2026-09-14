@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineStress - Complemento de Stremio (1fichier / Debrid)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-gradient: radial-gradient(circle at 20% 20%, #171923 0%, #0d0e15 100%);
+      --card-bg: rgba(26, 32, 44, 0.85);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --accent: #6366f1;
+      --accent-hover: #4f46e5;
+      --accent-glow: rgba(99, 102, 241, 0.3);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --success: #10b981;
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    body {
+      background: var(--bg-gradient);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 620px;
+      background: var(--card-bg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 36px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+      animation: fadeIn 0.4s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      background: rgba(99, 102, 241, 0.15);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #a5b4fc;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 14px;
+      margin-bottom: 22px;
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: #818cf8;
+    }
+
+    .stat-label {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    .form-group {
+      margin-bottom: 18px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: #e2e8f0;
+      margin-bottom: 8px;
+    }
+
+    select, input {
+      width: 100%;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 10px;
+      color: #ffffff;
+      padding: 12px 16px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: all 0.25s ease;
+    }
+
+    select:focus, input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .help-text {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 6px;
+      line-height: 1.4;
+    }
+
+    .local-notice {
+      background: rgba(99, 102, 241, 0.1);
+      border: 1px solid rgba(99, 102, 241, 0.35);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+      font-size: 0.88rem;
+      line-height: 1.5;
+    }
+
+    .local-notice strong {
+      color: #a5b4fc;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .local-notice ol {
+      padding-left: 20px;
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      color: #cbd5e1;
+    }
+
+    .url-box {
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      border-radius: 10px;
+      padding: 10px 14px;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .url-input {
+      background: transparent;
+      border: none;
+      padding: 0;
+      font-size: 0.86rem;
+      color: #cbd5e1;
+      font-family: monospace;
+      width: 100%;
+      outline: none;
+    }
+
+    .actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 13px 18px;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #ffffff;
+      border: none;
+      box-shadow: 0 4px 14px var(--accent-glow);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.06);
+      color: #e2e8f0;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      background: #10b981;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 0.92rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.3s ease;
+      pointer-events: none;
+      z-index: 1000;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <span class="badge">BBDD de Kodi en Stremio</span>
+      <h1>CineStress Addon</h1>
+      <p class="subtitle">Disfruta de los enlaces de 1fichier directamente en Stremio con resolución de alta velocidad.</p>
+    </div>
+
+    <div class="stats">
+      <div>
+        <div class="stat-number">29.000+</div>
+        <div class="stat-label">Películas</div>
+      </div>
+      <div>
+        <div class="stat-number">8.800+</div>
+        <div class="stat-label">Series</div>
+      </div>
+      <div>
+        <div class="stat-number">1.000.000+</div>
+        <div class="stat-label">Enlaces 1fichier</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="provider">Proveedor de Desrestricción</label>
+      <select id="provider" onchange="onInputChange()">
+        <option value="1fichier">1fichier Directo (API Key Premium)</option>
+        <option value="realdebrid">Real-Debrid (Token API)</option>
+        <option value="alldebrid">AllDebrid (API Key)</option>
+      </select>
+    </div>
+
+    <div class="form-group" id="group-1fichier">
+      <label for="key_1fichier">1fichier API Key</label>
+      <input type="password" id="key_1fichier" placeholder="Introduce tu API Key de 1fichier" oninput="onInputChange()">
+      <div class="help-text">Obtenla en los ajustes de tu cuenta en 1fichier.com (requiere cuenta Premium).</div>
+    </div>
+
+    <div class="form-group" id="group-realdebrid" style="display: none;">
+      <label for="key_rd">Real-Debrid API Token</label>
+      <input type="password" id="key_rd" placeholder="Introduce tu API Token de Real-Debrid" oninput="onInputChange()">
+      <div class="help-text">Obtenla en <a href="https://real-debrid.com/apitoken" target="_blank" style="color: #818cf8;">real-debrid.com/apitoken</a>.</div>
+    </div>
+
+    <div class="form-group" id="group-alldebrid" style="display: none;">
+      <label for="key_ad">AllDebrid API Key</label>
+      <input type="password" id="key_ad" placeholder="Introduce tu API Key de AllDebrid" oninput="onInputChange()">
+      <div class="help-text">Obtenla en los ajustes de API de tu cuenta en alldebrid.com.</div>
+    </div>
+
+    <!-- Aviso especial para modo local -->
+    <div id="local-banner" class="local-notice">
+      <strong>📌 Instalación en Stremio (Modo Local):</strong>
+      La aplicación de Stremio exige conexión segura (HTTPS) para los botones automáticos <code>stremio://</code>, por lo que en local debe agregarse manualmente con estos 2 pasos:
+      <ol>
+        <li>Pulsa el botón <strong>"Copiar URL del Manifiesto"</strong> de abajo.</li>
+        <li>En la app de Stremio, ve a <strong>Complementos (🧩)</strong>, pega la URL en la <strong>barra de búsqueda de complementos</strong> y pulsa <strong>Enter</strong>.</li>
+      </ol>
+      <div style="margin-top: 8px; font-size: 0.78rem; color: #94a3b8;">
+        *(Cuando lo despliegues gratis en Vercel, el botón "Instalar en Stremio" funcionará con 1 solo clic automáticamente porque Vercel incluye HTTPS).*
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>URL del Manifiesto HTTP</label>
+      <div class="url-box">
+        <input type="text" id="manifest-url-display" class="url-input" readonly value="">
+        <button class="btn btn-secondary" style="width: auto; padding: 6px 12px; font-size: 0.8rem;" onclick="copyManifestUrl()">Copiar</button>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-primary" onclick="copyManifestUrl()">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+        Copiar URL del Manifiesto para Stremio
+      </button>
+
+      <a href="#" id="install-btn" class="btn btn-secondary" style="display: none;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+        Instalar directamente (Solo HTTPS / Vercel)
+      </a>
+    </div>
+  </div>
+
+  <div id="toast" class="toast">¡Enlace copiado al portapapeles!</div>
+
+  <script>
+    function updateProviderVisibility() {
+      const prov = document.getElementById('provider').value;
+      document.getElementById('group-1fichier').style.display = prov === '1fichier' ? 'block' : 'none';
+      document.getElementById('group-realdebrid').style.display = prov === 'realdebrid' ? 'block' : 'none';
+      document.getElementById('group-alldebrid').style.display = prov === 'alldebrid' ? 'block' : 'none';
+    }
+
+    function getConfigObject() {
+      const provider = document.getElementById('provider').value;
+      const config = { provider: provider };
+
+      if (provider === '1fichier') {
+        const k = document.getElementById('key_1fichier').value.trim();
+        if (k) config['1fichier_key'] = k;
+      } else if (provider === 'realdebrid') {
+        const k = document.getElementById('key_rd').value.trim();
+        if (k) config['rd_token'] = k;
+      } else if (provider === 'alldebrid') {
+        const k = document.getElementById('key_ad').value.trim();
+        if (k) config['ad_key'] = k;
+      }
+      return config;
+    }
+
+    function getManifestUrl() {
+      const config = getConfigObject();
+
+      // En entornos locales usamos explícitamente 127.0.0.1 con su puerto
+      let host = window.location.hostname;
+      if (host === 'localhost') {
+        host = '127.0.0.1';
+      }
+      const port = window.location.port ? ':' + window.location.port : '';
+      const origin = `${window.location.protocol}//${host}${port}`;
+
+      const hasCreds = config['1fichier_key'] || config['rd_token'] || config['ad_key'];
+      if (!hasCreds) {
+        return `${origin}/manifest.json`;
+      }
+
+      // Convertimos a base64 seguro para URLs
+      const jsonStr = JSON.stringify(config);
+      const b64 = btoa(unescape(encodeURIComponent(jsonStr)))
+        .replace(/\+/g, '-')
+        .replace(/\//g, '_')
+        .replace(/=+$/, '');
+
+      return `${origin}/${b64}/manifest.json`;
+    }
+
+    function onInputChange() {
+      updateProviderVisibility();
+      const manifestUrl = getManifestUrl();
+
+      // Actualizamos el campo de texto visible
+      document.getElementById('manifest-url-display').value = manifestUrl;
+
+      // Si estamos en HTTPS (producción o Vercel), mostramos el botón directo de stremio://
+      const isHttps = window.location.protocol === 'https:';
+      const installBtn = document.getElementById('install-btn');
+      const localBanner = document.getElementById('local-banner');
+
+      if (isHttps) {
+        localBanner.style.display = 'none';
+        installBtn.style.display = 'flex';
+        const stremioUrl = manifestUrl.replace(/^https:\/\//, 'stremio://');
+        installBtn.setAttribute('href', stremioUrl);
+      } else {
+        localBanner.style.display = 'block';
+        installBtn.style.display = 'none';
+      }
+    }
+
+    function copyManifestUrl() {
+      const url = getManifestUrl();
+      copyToClipboard(url);
+    }
+
+    function copyToClipboard(text) {
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(() => {
+          showToast("¡Enlace del manifiesto copiado!");
+        }).catch(() => {
+          fallbackCopy(text);
+        });
+      } else {
+        fallbackCopy(text);
+      }
+    }
+
+    function fallbackCopy(text) {
+      const input = document.getElementById('manifest-url-display');
+      if (input) {
+        input.focus();
+        input.select();
+        input.setSelectionRange(0, 99999);
+      }
+      try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+          showToast("¡Enlace copiado al portapapeles!");
+          return;
+        }
+      } catch (err) {}
+      prompt("Copia manualmente este enlace de manifiesto:", text);
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.classList.add('show');
+      setTimeout(() => {
+        t.classList.remove('show');
+      }, 2500);
+    }
+
+    // Inicializamos al cargar la página
+    window.addEventListener('DOMContentLoaded', () => {
+      onInputChange();
+    });
+  </script>
+</body>
+</html>
