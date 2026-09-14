@@ -127,6 +127,9 @@ def movie_stream_endpoint(id_str, config=None):
         return jsonify({"streams": []})
 
     host_url = get_request_base_url()
+    user_cfg = parse_config(config)
+    provider_eff, _ = get_effective_credentials(user_cfg)
+    provider_name = provider_eff.capitalize()
 
     streams = []
     for i, item in enumerate(links):
@@ -134,9 +137,12 @@ def movie_stream_endpoint(id_str, config=None):
         if not decrypted_url or "1fichier" not in decrypted_url:
             continue
 
-        # Solo embebimos la URL en el token (las credenciales se leen del servidor)
+        # Embebemos la URL cifrada en el token
         token = base64.urlsafe_b64encode(decrypted_url.encode("utf-8")).decode("utf-8")
-        playback_url = f"{host_url}/playback/{token}"
+        if config:
+            playback_url = f"{host_url}/{config}/playback/{token}"
+        else:
+            playback_url = f"{host_url}/playback/{token}"
 
         calidad = item["calidad"] or "1080p"
         audio = item["audio"] or "Castellano"
@@ -144,7 +150,6 @@ def movie_stream_endpoint(id_str, config=None):
         desc_parts = [p for p in [audio, info] if p]
         details = " | ".join(desc_parts)
 
-        provider_name = os.environ.get("DEBRID_PROVIDER", "1fichier").capitalize()
         streams.append({
             "name": f"CineStress [{calidad}]",
             "title": f"🎬 1fichier Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider_name}",
@@ -182,6 +187,9 @@ def series_stream_endpoint(id_str, config=None):
         return jsonify({"streams": []})
 
     host_url = get_request_base_url()
+    user_cfg = parse_config(config)
+    provider_eff, _ = get_effective_credentials(user_cfg)
+    provider_name = provider_eff.capitalize()
 
     streams = []
     for i, item in enumerate(links):
@@ -189,9 +197,12 @@ def series_stream_endpoint(id_str, config=None):
         if not decrypted_url or "1fichier" not in decrypted_url:
             continue
 
-        # Solo embebimos la URL en el token (las credenciales se leen del servidor)
+        # Embebemos la URL cifrada en el token
         token = base64.urlsafe_b64encode(decrypted_url.encode("utf-8")).decode("utf-8")
-        playback_url = f"{host_url}/playback/{token}"
+        if config:
+            playback_url = f"{host_url}/{config}/playback/{token}"
+        else:
+            playback_url = f"{host_url}/playback/{token}"
 
         calidad = item["calidad"] or "1080p"
         audio = item["audio"] or "Castellano"
@@ -199,7 +210,6 @@ def series_stream_endpoint(id_str, config=None):
         desc_parts = [p for p in [audio, info] if p]
         details = " | ".join(desc_parts)
 
-        provider_name = os.environ.get("DEBRID_PROVIDER", "1fichier").capitalize()
         streams.append({
             "name": f"CineStress [{calidad}]",
             "title": f"📺 T{season}xE{episode} - 1fichier Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider_name}",
@@ -212,22 +222,19 @@ def series_stream_endpoint(id_str, config=None):
     return jsonify({"streams": streams})
 
 @app.route("/playback/<token>")
-def playback_endpoint(token):
+@app.route("/<config>/playback/<token>")
+def playback_endpoint(token, config=None):
     # Endpoint invocado por el reproductor de vídeo de Stremio al pulsar Play
     try:
-        # Decodificamos la URL del fichero (ya no viene un JSON, solo la URL en base64)
+        # Decodificamos la URL del fichero
         padded = token + "=" * ((4 - len(token) % 4) % 4)
         raw_url = base64.urlsafe_b64decode(padded).decode("utf-8")
 
-        # Leemos las credenciales directamente de las variables de entorno del servidor
-        provider = os.environ.get("DEBRID_PROVIDER", "1fichier").lower().strip()
-        credentials = {
-            "1fichier_key": os.environ.get("ONEFICHIER_API_KEY", ""),
-            "rd_token": os.environ.get("REALDEBRID_API_KEY", ""),
-            "ad_key": os.environ.get("ALLDEBRID_API_KEY", ""),
-        }
+        # Obtenemos las credenciales: si el usuario configuró su propia clave en la URL, la usamos; si no, las del servidor
+        user_cfg = parse_config(config) if config else {}
+        provider, credentials = get_effective_credentials(user_cfg)
 
-        print(f"[Playback] Provider: {provider} | URL: {raw_url[:80]}...")
+        print(f"[Playback] Provider: {provider} (personalizado: {'sí' if config else 'no (servidor)'}) | URL: {raw_url[:80]}...")
         print(f"[Playback] Credenciales disponibles: 1f={'si' if credentials['1fichier_key'] else 'no'}, rd={'si' if credentials['rd_token'] else 'no'}, ad={'si' if credentials['ad_key'] else 'no'}")
 
         # Desrestringimos el enlace con el proveedor configurado
