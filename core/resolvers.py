@@ -35,10 +35,16 @@ def resolve_realdebrid(url: str, api_token: str) -> dict:
 
     try:
         res = requests.post(endpoint, data=payload, headers=headers, timeout=15)
-        data = res.json()
+        try:
+            data = res.json()
+        except Exception:
+            return {"error": f"Real-Debrid HTTP {res.status_code}: {res.text[:150]}"}
+
         if res.ok and "download" in data:
             return {"success": True, "stream_url": data["download"]}
-        return {"error": data.get("message", "Error al resolver con Real-Debrid")}
+
+        err_msg = data.get("error") or data.get("message") or f"HTTP {res.status_code}"
+        return {"error": f"Real-Debrid: {err_msg}"}
     except Exception as e:
         return {"error": f"Excepción en Real-Debrid: {str(e)}"}
 

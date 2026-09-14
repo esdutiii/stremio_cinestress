@@ -261,10 +261,28 @@ def debug_config():
             return "❌ NO CONFIGURADA"
         return f"✅ configurada ({key[:4]}...{key[-4:]})"
 
+    rd_info = "No configurada"
+    if rd_key:
+        try:
+            import requests as req
+            r_user = req.get(
+                "https://api.real-debrid.com/rest/1.0/user",
+                headers={"Authorization": f"Bearer {rd_key.strip()}"},
+                timeout=5
+            )
+            if r_user.status_code == 200:
+                udata = r_user.json()
+                rd_info = f"Usuario: {udata.get('username')}, Tipo: {udata.get('type')}, Expira: {udata.get('expiration')}"
+            else:
+                rd_info = f"Error HTTP {r_user.status_code}: {r_user.text}"
+        except Exception as e:
+            rd_info = f"Excepcion: {str(e)}"
+
     return jsonify({
         "provider": provider,
         "alldebrid_key": mask(ad_key),
         "realdebrid_key": mask(rd_key),
+        "realdebrid_account": rd_info,
         "onefichier_key": mask(of_key),
         "database": "✅ configurada" if db_url else "❌ NO CONFIGURADA"
     })
