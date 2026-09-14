@@ -1,6 +1,6 @@
 # Guía de Instalación y Configuración: CineStress Addon para Stremio
 
-Esta guía explica paso a paso cómo obtener tu clave de acceso (API Key) en **AllDebrid** o **Real-Debrid**, cómo configurar el complemento en la web y cómo instalarlo en cualquier versión de **Stremio** (PC, Android, Android TV, Fire TVStick o iPad/iPhone).
+Esta guía explica paso a paso cómo obtener tu clave de acceso (API Key) en **AllDebrid** o **Real-Debrid**, cómo configurar el complemento en la web y cómo instalarlo en cualquier versión de **Stremio** (PC, Android, Android TV o iPad/iPhone).
 
 ---
 
@@ -87,3 +87,9 @@ La forma más cómoda es instalar el complemento primero en tu móvil o PC con l
   Comprueba que tu suscripción a AllDebrid o Real-Debrid no haya caducado y que hayas copiado la clave completa sin espacios al principio ni al final.
 * **¿Puedo cambiar de cuenta o de clave más adelante?**
   Sí, simplemente vuelve a entrar en la web de configuración, introduce la nueva clave, copia el nuevo enlace e instálalo de nuevo en Stremio.
+* **¿Por qué has hecho este addon, Edu?**
+  Porque hay personas, inconscientes, inus, que se compran iphones y iPads y luego quieren ver pelis o series sin pagar 5 suscripciones... Y porque soy un tío majísimo.
+
+
+## Made with ❤️ in Katowice by Eduardo
+
