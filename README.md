@@ -108,6 +108,23 @@ Esta opción es ideal porque utiliza una IP residencial (evitando restricciones 
 
 ---
 
-## 📄 Licencia
+## 💾 Descarga de Contenidos (Ver sin conexión)
 
-Desarrollado para la comunidad de streaming y entretenimiento.
+Además de la reproducción directa en streaming, los contenidos resueltos por CineStress se pueden descargar al disco o dispositivo a la máxima velocidad de tu conexión:
+
+### 1. Desde el reproductor de Stremio (PC / Escritorio)
+* Durante la reproducción, hacemos clic en el icono de los **tres puntos (`...`)** en la esquina inferior derecha.
+* **Descargar vídeo directamente:** Si aparece la opción **"Descargar este vídeo"**, pulsamos sobre ella para que el navegador inicie la descarga del archivo.
+* **Mediante gestor de descargas:** Pulsamos en **"Copiar enlace de streaming"** (*Copy stream link*). Pegamos dicho enlace en el navegador o en programas como **JDownloader** o **Internet Download Manager (IDM)** para descargarlo a máxima velocidad.
+
+### 2. Desde el panel web de Real-Debrid o AllDebrid (El método más cómodo)
+Cada vez que abrimos un contenido en CineStress con nuestra cuenta Debrid configurada, el enlace desrestringido de alta velocidad queda guardado en el historial:
+* **Real-Debrid:** Entramos en [real-debrid.com/downloads](https://real-debrid.com/downloads) y encontraremos la lista de archivos listos para descargar con un clic.
+* **AllDebrid:** Accedemos a [alldebrid.com/saved-links](https://alldebrid.com/saved-links) para descargar los enlaces procesados.
+
+### 3. En dispositivos móviles (Android)
+* En los ajustes de Stremio activamos la opción de **"Reproductor externo"**.
+* Al pulsar sobre el enlace, seleccionamos un gestor de descargas compatible (como **1DM** o **ADM**) para guardar la película o episodio directamente en el almacenamiento del dispositivo.
+
+---
+

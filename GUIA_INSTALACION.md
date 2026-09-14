@@ -89,6 +89,8 @@ La forma más cómoda es instalar el complemento primero en tu móvil o PC con l
   Comprueba que tu suscripción a AllDebrid o Real-Debrid no haya caducado y que hayas copiado la clave completa sin espacios al principio ni al final.
 * **¿Puedo cambiar de cuenta o de clave más adelante?**
   Sí, simplemente vuelve a entrar en la web de configuración, introduce la nueva clave, copia el nuevo enlace e instálalo de nuevo en Stremio.
+* **¿Se pueden descargar las películas o series para verlas sin conexión?**
+  Sí. Puedes pulsar en los tres puntos del reproductor (`...`) y elegir *"Copiar enlace de streaming"* o *"Descargar este vídeo"*, o bien entrar directamente en el historial de tu cuenta en [Real-Debrid Downloads](https://real-debrid.com/downloads) o [AllDebrid Saved Links](https://alldebrid.com/saved-links), donde los enlaces generados quedan listos para descargar con un solo clic.
 * **¿Por qué has hecho este addon, Edu?**
   Porque hay personas, inconscientes, inus, que se compran iphones y iPads y luego quieren ver pelis o series sin pagar 5 suscripciones... Y porque soy un tío majísimo.
 
