@@ -75,6 +75,12 @@ def get_effective_credentials(user_cfg: dict) -> tuple[str, dict]:
     }
     return provider, credentials
 
+def get_request_base_url() -> str:
+    # Obtenemos la URL base respetando proxies y túneles (HTTPS)
+    proto = request.headers.get("X-Forwarded-Proto", request.scheme)
+    host = request.headers.get("X-Forwarded-Host", request.host)
+    return f"{proto}://{host}".rstrip("/")
+
 def add_cors_headers(response: Response) -> Response:
     # Añadimos cabeceras CORS para compatibilidad con Stremio Web y aplicaciones nativas
     response.headers["Access-Control-Allow-Origin"] = "*"
@@ -120,7 +126,7 @@ def movie_stream_endpoint(id_str, config=None):
     if not links:
         return jsonify({"streams": []})
 
-    host_url = request.host_url.rstrip("/")
+    host_url = get_request_base_url()
 
     streams = []
     for i, item in enumerate(links):
@@ -175,7 +181,7 @@ def series_stream_endpoint(id_str, config=None):
     if not links:
         return jsonify({"streams": []})
 
-    host_url = request.host_url.rstrip("/")
+    host_url = get_request_base_url()
 
     streams = []
     for i, item in enumerate(links):
