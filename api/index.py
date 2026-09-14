@@ -26,9 +26,9 @@ app = Flask(__name__)
 # Definimos el manifiesto base oficial de Stremio
 ADDON_MANIFEST = {
     "id": "org.cinestress.1fichier",
-    "version": "1.0.1",
-    "name": "CineStress (1fichier / Debrid)",
-    "description": "Enlaces 1fichier de películas y series procedentes de la BBDD de CineStress/Kodi, resueltos mediante 1fichier Premium, Real-Debrid o AllDebrid.",
+    "version": "1.0.2",
+    "name": "CineStress (Debrid)",
+    "description": "Películas y series procedentes de la BBDD de CineStress/Kodi, resueltas en streaming mediante Real-Debrid o AllDebrid.",
     "resources": [
         {
             "name": "stream",
@@ -152,7 +152,7 @@ def movie_stream_endpoint(id_str, config=None):
 
         streams.append({
             "name": f"CineStress [{calidad}]",
-            "title": f"🎬 1fichier Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider_name}",
+            "title": f"🎬 Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider_name}",
             "url": playback_url,
             "behaviorHints": {
                 "notWebReady": True
@@ -212,7 +212,7 @@ def series_stream_endpoint(id_str, config=None):
 
         streams.append({
             "name": f"CineStress [{calidad}]",
-            "title": f"📺 T{season}xE{episode} - 1fichier Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider_name}",
+            "title": f"📺 T{season}xE{episode} - Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider_name}",
             "url": playback_url,
             "behaviorHints": {
                 "notWebReady": True

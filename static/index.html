@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CineStress - Complemento de Stremio (1fichier / Debrid)</title>
+  <title>CineStress - Complemento de Stremio (Debrid)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -272,7 +272,7 @@
     <div class="header">
       <span class="badge">BBDD de Kodi en Stremio</span>
       <h1>CineStress Addon</h1>
-      <p class="subtitle">Disfruta de los enlaces de 1fichier directamente en Stremio con resolución de alta velocidad.</p>
+      <p class="subtitle">Disfruta de películas y series directamente en Stremio con resolución de alta velocidad vía Debrid.</p>
     </div>
 
     <div class="stats">
@@ -286,23 +286,22 @@
       </div>
       <div>
         <div class="stat-number">1.000.000+</div>
-        <div class="stat-label">Enlaces 1fichier</div>
+        <div class="stat-label">Enlaces Debrid</div>
       </div>
     </div>
 
     <div class="form-group">
       <label for="provider">Proveedor de Desrestricción</label>
       <select id="provider" onchange="onInputChange()">
-        <option value="1fichier">1fichier Directo (API Key Premium)</option>
+        <option value="alldebrid" selected>AllDebrid (API Key)</option>
         <option value="realdebrid">Real-Debrid (Token API)</option>
-        <option value="alldebrid">AllDebrid (API Key)</option>
       </select>
     </div>
 
-    <div class="form-group" id="group-1fichier">
-      <label for="key_1fichier">1fichier API Key</label>
-      <input type="password" id="key_1fichier" placeholder="Introduce tu API Key de 1fichier" oninput="onInputChange()">
-      <div class="help-text">Obtenla en los ajustes de tu cuenta en 1fichier.com (requiere cuenta Premium).</div>
+    <div class="form-group" id="group-alldebrid">
+      <label for="key_ad">AllDebrid API Key</label>
+      <input type="password" id="key_ad" placeholder="Introduce tu API Key de AllDebrid" oninput="onInputChange()">
+      <div class="help-text">Obtenla en los ajustes de API de tu cuenta en alldebrid.com.</div>
     </div>
 
     <div class="form-group" id="group-realdebrid" style="display: none;">
@@ -311,27 +310,21 @@
       <div class="help-text">Obtenla en <a href="https://real-debrid.com/apitoken" target="_blank" style="color: #818cf8;">real-debrid.com/apitoken</a>.</div>
     </div>
 
-    <div class="form-group" id="group-alldebrid" style="display: none;">
-      <label for="key_ad">AllDebrid API Key</label>
-      <input type="password" id="key_ad" placeholder="Introduce tu API Key de AllDebrid" oninput="onInputChange()">
-      <div class="help-text">Obtenla en los ajustes de API de tu cuenta en alldebrid.com.</div>
-    </div>
-
     <!-- Aviso especial para modo local -->
     <div id="local-banner" class="local-notice">
-      <strong>📌 Instalación en Stremio (Modo Local):</strong>
-      La aplicación de Stremio exige conexión segura (HTTPS) para los botones automáticos <code>stremio://</code>, por lo que en local debe agregarse manualmente con estos 2 pasos:
+      <strong>📌 Instalación en Stremio:</strong>
+      Para agregar el complemento a Stremio sigue estos 2 sencillos pasos:
       <ol>
         <li>Pulsa el botón <strong>"Copiar URL del Manifiesto"</strong> de abajo.</li>
         <li>En la app de Stremio, ve a <strong>Complementos (🧩)</strong>, pega la URL en la <strong>barra de búsqueda de complementos</strong> y pulsa <strong>Enter</strong>.</li>
       </ol>
       <div style="margin-top: 8px; font-size: 0.78rem; color: #94a3b8;">
-        *(Cuando lo despliegues gratis en Vercel, el botón "Instalar en Stremio" funcionará con 1 solo clic automáticamente porque Vercel incluye HTTPS).*
+        *(En conexiones HTTPS el botón "Instalar directamente" abre Stremio con un solo clic).*
       </div>
     </div>
 
     <div class="form-group">
-      <label>URL del Manifiesto HTTP</label>
+      <label>URL del Manifiesto</label>
       <div class="url-box">
         <input type="text" id="manifest-url-display" class="url-input" readonly value="">
         <button class="btn btn-secondary" style="width: auto; padding: 6px 12px; font-size: 0.8rem;" onclick="copyManifestUrl()">Copiar</button>
@@ -346,7 +339,7 @@
 
       <a href="#" id="install-btn" class="btn btn-secondary" style="display: none;">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-        Instalar directamente (Solo HTTPS / Vercel)
+        Instalar directamente
       </a>
     </div>
   </div>
@@ -356,7 +349,6 @@
   <script>
     function updateProviderVisibility() {
       const prov = document.getElementById('provider').value;
-      document.getElementById('group-1fichier').style.display = prov === '1fichier' ? 'block' : 'none';
       document.getElementById('group-realdebrid').style.display = prov === 'realdebrid' ? 'block' : 'none';
       document.getElementById('group-alldebrid').style.display = prov === 'alldebrid' ? 'block' : 'none';
     }
@@ -365,10 +357,7 @@
       const provider = document.getElementById('provider').value;
       const config = { provider: provider };
 
-      if (provider === '1fichier') {
-        const k = document.getElementById('key_1fichier').value.trim();
-        if (k) config['1fichier_key'] = k;
-      } else if (provider === 'realdebrid') {
+      if (provider === 'realdebrid') {
         const k = document.getElementById('key_rd').value.trim();
         if (k) config['rd_token'] = k;
       } else if (provider === 'alldebrid') {
@@ -389,7 +378,7 @@
       const port = window.location.port ? ':' + window.location.port : '';
       const origin = `${window.location.protocol}//${host}${port}`;
 
-      const hasCreds = config['1fichier_key'] || config['rd_token'] || config['ad_key'];
+      const hasCreds = config['rd_token'] || config['ad_key'];
       if (!hasCreds) {
         return `${origin}/manifest.json`;
       }
