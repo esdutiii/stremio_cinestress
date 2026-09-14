@@ -4,6 +4,15 @@ import requests
 _IMDB_TO_TMDB_CACHE = {}
 
 def get_tmdb_id(identifier: str, item_type: str = "movie") -> int | None:
+    if not identifier:
+        return None
+
+    identifier = identifier.strip()
+    # Limpiamos prefijos comunes si vienen en la petición
+    for prefix in ["series:", "movie:", "tv:"]:
+        if identifier.startswith(prefix):
+            identifier = identifier[len(prefix):]
+
     # Si el identificador ya viene con el prefijo de TMDB, lo extraemos directamente
     if identifier.startswith("tmdb:"):
         try:

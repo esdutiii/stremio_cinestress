@@ -20,10 +20,16 @@ app = Flask(__name__)
 # Definimos el manifiesto base oficial de Stremio
 ADDON_MANIFEST = {
     "id": "org.cinestress.1fichier",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "CineStress (1fichier / Debrid)",
     "description": "Enlaces 1fichier de películas y series procedentes de la BBDD de CineStress/Kodi, resueltos mediante 1fichier Premium, Real-Debrid o AllDebrid.",
-    "resources": ["stream"],
+    "resources": [
+        {
+            "name": "stream",
+            "types": ["movie", "series"],
+            "idPrefixes": ["tt", "tmdb:"]
+        }
+    ],
     "types": ["movie", "series"],
     "catalogs": [],
     "idPrefixes": ["tt", "tmdb:"],
@@ -94,11 +100,12 @@ def manifest_endpoint(config=None):
     manifest["name"] = f"CineStress ({provider.capitalize()})"
     return jsonify(manifest)
 
-@app.route("/stream/movie/<id_str>.json")
-@app.route("/<config>/stream/movie/<id_str>.json")
+@app.route("/stream/movie/<path:id_str>")
+@app.route("/<config>/stream/movie/<path:id_str>")
 def movie_stream_endpoint(id_str, config=None):
+    from urllib.parse import unquote
     # Atendemos la petición de streams para una película
-    clean_id = id_str.replace(".json", "")
+    clean_id = unquote(id_str).replace(".json", "")
     tmdb_id = get_tmdb_id(clean_id, item_type="movie")
     if not tmdb_id:
         return jsonify({"streams": []})
@@ -137,17 +144,18 @@ def movie_stream_endpoint(id_str, config=None):
             "title": f"🎬 1fichier Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider.capitalize()}",
             "url": playback_url,
             "behaviorHints": {
-                "notWebReady": False
+                "notWebReady": True
             }
         })
 
     return jsonify({"streams": streams})
 
-@app.route("/stream/series/<id_str>.json")
-@app.route("/<config>/stream/series/<id_str>.json")
+@app.route("/stream/series/<path:id_str>")
+@app.route("/<config>/stream/series/<path:id_str>")
 def series_stream_endpoint(id_str, config=None):
+    from urllib.parse import unquote
     # Atendemos la petición de streams para series (formato id:temporada:episodio)
-    clean_id = id_str.replace(".json", "")
+    clean_id = unquote(id_str).replace(".json", "")
     parts = clean_id.rsplit(":", 2)
     if len(parts) < 3:
         return jsonify({"streams": []})
@@ -196,7 +204,7 @@ def series_stream_endpoint(id_str, config=None):
             "title": f"📺 T{season}xE{episode} - 1fichier Servidor {i+1} ({calidad})\n🔊 Audio: {details}\n⚡ Reproducción directa vía {provider.capitalize()}",
             "url": playback_url,
             "behaviorHints": {
-                "notWebReady": False
+                "notWebReady": True
             }
         })
 
@@ -216,12 +224,22 @@ def playback_endpoint(token):
         result = resolve_stream_url(raw_url, provider, credentials)
         if result.get("success") and result.get("stream_url"):
             # Redirigimos el reproductor a la URL de streaming directa (HTTP 302)
-            return redirect(result["stream_url"], code=302)
+            resp = redirect(result["stream_url"], code=302)
+            resp.headers["Access-Control-Allow-Origin"] = "*"
+            resp.headers["Access-Control-Allow-Headers"] = "*"
+            resp.headers["Location"] = result["stream_url"]
+            return resp
 
         error_msg = result.get("error", "No se pudo desrestringir el enlace.")
-        return Response(f"Error al resolver vídeo: {error_msg}", status=502, mimetype="text/plain")
+        print(f"[Playback Error] Proveedor: {provider} - {error_msg}")
+        resp = Response(f"Error al resolver vídeo: {error_msg}", status=502, mimetype="text/plain")
+        resp.headers["Access-Control-Allow-Origin"] = "*"
+        return resp
     except Exception as e:
-        return Response(f"Error interno en playback: {str(e)}", status=500, mimetype="text/plain")
+        print(f"[Playback Exception] {e}")
+        resp = Response(f"Error interno en playback: {str(e)}", status=500, mimetype="text/plain")
+        resp.headers["Access-Control-Allow-Origin"] = "*"
+        return resp
 
 @app.route("/health")
 def health_endpoint():

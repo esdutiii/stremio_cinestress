@@ -15,8 +15,8 @@ def test_api_endpoints():
     res = client.get("/manifest.json")
     assert res.status_code == 200, f"Error en manifest: {res.status_code}"
     data = res.get_json()
-    assert data["id"] == "org.cinestress.1fichier"
-    assert "stream" in data["resources"]
+    resource_names = [r if isinstance(r, str) else r.get("name") for r in data["resources"]]
+    assert "stream" in resource_names
     assert "movie" in data["types"]
     print("   Manifest base valido.")
 

@@ -47,16 +47,41 @@ def resolve_alldebrid(url: str, api_key: str) -> dict:
     if not api_key:
         return {"error": "Falta la API Key de AllDebrid"}
 
-    endpoint = f"https://api.alldebrid.com/v4/link/unlock?agent=StremioAddon&apikey={api_key.strip()}&link={quote_plus(url)}"
+    clean_key = api_key.strip()
+    headers = {
+        "User-Agent": "EduTeAmo"
+    }
+
+    # Invocamos la API de AllDebrid usando el agente de Kodi EduTeAmo
+    endpoint = f"https://api.alldebrid.com/v4/link/unlock?agent=EduTeAmo&apikey={clean_key}&link={quote_plus(url)}"
 
     try:
-        res = requests.get(endpoint, timeout=15)
+        res = requests.get(endpoint, headers=headers, timeout=15)
         data = res.json()
         if res.ok and data.get("status") == "success":
-            download_url = data.get("data", {}).get("link")
+            data_inner = data.get("data", {})
+            download_url = data_inner.get("link")
             if download_url:
                 return {"success": True, "stream_url": download_url}
-        return {"error": data.get("error", {}).get("message", "Error al resolver con AllDebrid")}
+
+            # Si el enlace es diferido (delayed) esperamos y consultamos link/delayed
+            delayed_id = data_inner.get("delayed")
+            if delayed_id:
+                import time
+                delayed_endpoint = f"https://api.alldebrid.com/v4/link/delayed?agent=EduTeAmo&apikey={clean_key}&id={delayed_id}"
+                for _ in range(8):
+                    time.sleep(1)
+                    d_res = requests.get(delayed_endpoint, headers=headers, timeout=10)
+                    if d_res.ok:
+                        d_data = d_res.json()
+                        if d_data.get("status") == "success":
+                            d_link = d_data.get("data", {}).get("link")
+                            if d_link:
+                                return {"success": True, "stream_url": d_link}
+
+        err = data.get("error")
+        err_msg = err.get("message") if isinstance(err, dict) else str(err)
+        return {"error": err_msg or "Error al resolver con AllDebrid"}
     except Exception as e:
         return {"error": f"Excepción en AllDebrid: {str(e)}"}
 
