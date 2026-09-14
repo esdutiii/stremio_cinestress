@@ -10,6 +10,12 @@ parent_dir = os.path.dirname(current_dir)
 if parent_dir not in sys.path:
     sys.path.insert(0, parent_dir)
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 from core.database import get_movie_links, get_series_links, get_movie_title
 from core.crypto import decrypt_link
 from core.id_mapper import get_tmdb_id
