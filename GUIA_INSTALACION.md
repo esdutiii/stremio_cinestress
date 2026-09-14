@@ -17,6 +17,8 @@ Para poder utilizar este complemento necesitamos:
 ### Opción A: AllDebrid (Recomendado)
 AllDebrid permite mayor flexibilidad de uso en varios dispositivos de la familia.
 
+> 💡 **Prueba gratuita de 7 días:** Si aún no tienes cuenta, puedes registrarte en [alldebrid.com/register](https://alldebrid.com/register). Ofrecen 7 días de prueba gratis activándola simplemente mediante un código por SMS a tu móvil (**sin tener que poner tarjeta de crédito**).
+
 1. Inicia sesión en tu cuenta en [alldebrid.com](https://alldebrid.com/).
 2. Accede al apartado de claves API en: **[alldebrid.com/apikeys](https://alldebrid.com/apikeys/)**.
 3. En el campo para crear una nueva clave, escribe un nombre para identificarla (por ejemplo: `Stremio`) y pulsa en **Crear**.
