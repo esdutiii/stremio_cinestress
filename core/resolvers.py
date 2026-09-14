@@ -31,7 +31,7 @@ def resolve_realdebrid(url: str, api_token: str) -> dict:
     headers = {
         "Authorization": f"Bearer {api_token.strip()}"
     }
-    payload = {"link": url}
+    payload = {"link": url, "remote": 1}
 
     try:
         res = requests.post(endpoint, data=payload, headers=headers, timeout=15)
