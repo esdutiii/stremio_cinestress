@@ -95,10 +95,11 @@ Tienes dos alternativas sencillas:
   4. En el panel de Vercel (Settings -> Environment Variables), añade la variable `DATABASE_URL`.
 
 ### Paso 3: Desplegar en Vercel
-1. Conecta tu repositorio en [Vercel](https://vercel.com).
-2. Root Directory: `stremio`.
-3. Haz clic en **Deploy**.
-4. Una vez publicado, visita tu dominio de Vercel (`https://tu-addon.vercel.app`), ingresa tus claves y pulsa **Instalar en Stremio**.
+1. Conecta tu repositorio `esdutiii/stremio_cinestress` en [Vercel](https://vercel.com).
+2. Root Directory: `./` (por defecto, la raíz del proyecto).
+3. Añade la variable de entorno `DATABASE_URL` con tu enlace de Neon.
+4. Haz clic en **Deploy**.
+5. Una vez publicado, visita tu dominio de Vercel (`https://tu-addon.vercel.app`), ingresa tus claves y pulsa **Instalar en Stremio**.
 
 ---
 
