@@ -123,13 +123,50 @@
           <div class="modal-chips" id="modal-chips"></div>
           <p class="modal-plot" id="modal-plot">Sinopsis...</p>
           <div class="modal-actions">
-            <a href="#" id="btn-open-stremio" class="btn-stremio">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-              Abrir en Stremio
-            </a>
+            <button type="button" id="btn-toggle-links" class="btn-links">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+              Ver Enlaces
+            </button>
             <a href="#" id="btn-open-tmdb" target="_blank" rel="noopener noreferrer" class="btn-tmdb">
               Ficha en TMDB ↗
             </a>
+          </div>
+
+          <!-- Sección desplegable de enlaces protegidos -->
+          <div id="links-container" class="links-container" style="display: none;">
+            <!-- Formulario de contraseña -->
+            <div id="links-auth-box" class="links-auth-box">
+              <div class="auth-header">
+                <span class="auth-icon">🔒</span>
+                <span class="auth-title">Acceso Protegido</span>
+              </div>
+              <p class="auth-desc">Introduce la clave para desbloquear los enlaces de descarga directa:</p>
+              <form id="links-auth-form" class="auth-form" onsubmit="return false;">
+                <input type="password" id="input-password" class="auth-input" placeholder="Introduce la contraseña..." autocomplete="current-password">
+                <button type="button" id="btn-unlock" class="btn-unlock">Desbloquear</button>
+              </form>
+              <div id="auth-error" class="auth-error" style="display: none;">Contraseña incorrecta. Inténtalo de nuevo.</div>
+            </div>
+
+            <!-- Listado de enlaces descifrados -->
+            <div id="links-content" class="links-content" style="display: none;">
+              <div class="links-header">
+                <div class="links-header-title">
+                  <span class="links-badge-icon">⚡</span>
+                  <span>Enlaces Directos (1fichier)</span>
+                </div>
+                <div id="links-count" class="links-count-badge">0 enlaces</div>
+              </div>
+
+              <!-- Selector de temporadas (series) -->
+              <div id="series-season-bar" class="series-season-bar" style="display: none;"></div>
+
+              <!-- Contenedor dinámico de enlaces -->
+              <div id="links-items-list" class="links-items-list"></div>
+            </div>
           </div>
         </div>
       </div>

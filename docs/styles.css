@@ -477,10 +477,10 @@ main {
   flex-wrap: wrap;
 }
 
-.btn-stremio {
-  background: var(--accent);
+.btn-links {
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
   color: #fff;
-  text-decoration: none;
+  border: none;
   padding: 10px 18px;
   border-radius: var(--radius-md);
   font-weight: 600;
@@ -488,12 +488,312 @@ main {
   display: flex;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
   transition: all 0.2s ease;
 }
 
-.btn-stremio:hover {
-  background: #4f46e5;
+.btn-links:hover {
+  background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%);
   transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(99, 102, 241, 0.5);
+}
+
+.btn-links.active-open {
+  background: #312e81;
+  border: 1px solid rgba(165, 180, 252, 0.4);
+}
+
+/* Contenedor principal de enlaces */
+.links-container {
+  margin-top: 18px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  border-radius: var(--radius-md);
+  padding: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.25s ease-out;
+}
+
+/* Caja de autenticación */
+.links-auth-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.auth-icon {
+  font-size: 1.2rem;
+}
+
+.auth-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #f1f5f9;
+}
+
+.auth-desc {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.auth-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.auth-input {
+  flex: 1;
+  background: #0f172a;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  color: #fff;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.auth-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+}
+
+.btn-unlock {
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-unlock:hover {
+  background: #4f46e5;
+}
+
+.auth-error {
+  font-size: 0.82rem;
+  color: #f87171;
+  background: rgba(239, 68, 68, 0.1);
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+/* Caja de contenido con enlaces descifrados */
+.links-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.links-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.links-header-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #e2e8f0;
+}
+
+.links-badge-icon {
+  color: #fbbf24;
+}
+
+.links-count-badge {
+  font-size: 0.75rem;
+  background: rgba(99, 102, 241, 0.2);
+  color: #a5b4fc;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+/* Barra de selección de temporadas */
+.series-season-bar {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+}
+
+.season-tab-btn {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.season-tab-btn:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.season-tab-btn.active {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: #fff;
+}
+
+/* Lista scrolleable de tarjetas de enlace */
+.links-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 260px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.links-items-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.links-items-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}
+
+.link-card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 8px 12px;
+  transition: background 0.2s ease;
+}
+
+.link-card-row:hover {
+  background: rgba(30, 41, 59, 0.85);
+  border-color: rgba(99, 102, 241, 0.3);
+}
+
+.link-info-badges {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.badge-ep {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.badge-quality {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #34d399;
+  background: rgba(52, 211, 153, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.badge-audio {
+  font-size: 0.72rem;
+  color: #cbd5e1;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.badge-info {
+  font-size: 0.7rem;
+  color: #94a3b8;
+}
+
+.link-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.btn-open-1f {
+  background: rgba(99, 102, 241, 0.2);
+  color: #a5b4fc;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s ease;
+}
+
+.btn-open-1f:hover {
+  background: #6366f1;
+  color: #fff;
+}
+
+.btn-copy-url {
+  background: rgba(255, 255, 255, 0.08);
+  color: #cbd5e1;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 5px 9px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s ease;
+}
+
+.btn-copy-url:hover {
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+}
+
+.btn-copy-url.copied {
+  background: #059669;
+  border-color: #10b981;
+  color: #fff;
+}
+
+.no-links-msg {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+  font-size: 0.85rem;
 }
 
 .btn-tmdb {

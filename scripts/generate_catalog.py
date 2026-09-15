@@ -1,14 +1,19 @@
 import os
 import sys
 import json
+import hashlib
+import base64
 import psycopg2
 import psycopg2.extras
+from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
-# Añadimos la raíz del proyecto para importar módulos si fuera necesario
+# Añadimos la raíz del proyecto para importar módulos del core
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 if parent_dir not in sys.path:
     sys.path.insert(0, parent_dir)
+
+from core.crypto import decrypt_link
 
 # Intentamos cargar el archivo .env si existe localmente
 env_file = os.path.join(parent_dir, ".env")
@@ -30,6 +35,20 @@ def clean_db_url(url):
 
 DATABASE_URL = clean_db_url(os.environ.get("DATABASE_URL_DIRECT") or os.environ.get("DATABASE_URL"))
 DOCS_DATA_DIR = os.path.join(parent_dir, "docs", "data")
+
+# Contraseña para cifrar los enlaces (por defecto 03Edu24 o variable de entorno)
+CATALOG_PASSWORD = os.environ.get("CATALOG_PASSWORD", "03Edu24")
+AES_KEY = hashlib.sha256(CATALOG_PASSWORD.encode("utf-8")).digest()
+CIPHER_GCM = AESGCM(AES_KEY)
+
+def encrypt_links_payload(links_list):
+    # Ciframos la lista de enlaces en AES-GCM con la clave derivada de la contraseña
+    if not links_list:
+        return ""
+    plaintext = json.dumps(links_list, ensure_ascii=False).encode("utf-8")
+    iv = os.urandom(12)
+    ciphertext = CIPHER_GCM.encrypt(iv, plaintext, None)
+    return base64.b64encode(iv + ciphertext).decode("ascii")
 
 def format_poster(path):
     # Aseguramos que la URL del poster apunte a la CDN pública de TMDB
@@ -103,8 +122,70 @@ def process_rows(rows, default_type="movie"):
             "year": clean_year(r.get("fecha")),
             "rating": str(r.get("rating") or "0")[:3],
             "updated": str(r.get("updated") or ""),
-            "type": item_type
+            "type": item_type,
+            "links_enc": ""
         })
+    return items
+
+def attach_encrypted_links(cur, items):
+    # Obtenemos y ciframos los enlaces de 1fichier para las películas y series de la lista
+    if not items:
+        return items
+
+    movie_tmdbs = [it["tmdb"] for it in items if it.get("type") == "movie" and it.get("tmdb")]
+    series_tmdbs = [it["tmdb"] for it in items if it.get("type") == "series" and it.get("tmdb")]
+    links_by_tmdb = {}
+
+    if movie_tmdbs:
+        cur.execute("""
+            SELECT tmdb, link, calidad, audio, info 
+            FROM enlaces_pelis 
+            WHERE tmdb = ANY(%s)
+        """, (movie_tmdbs,))
+        for r in cur.fetchall():
+            t = r["tmdb"]
+            if t not in links_by_tmdb:
+                links_by_tmdb[t] = []
+            try:
+                dec_url = decrypt_link(r["link"])
+            except Exception:
+                dec_url = ""
+            links_by_tmdb[t].append({
+                "q": r.get("calidad") or "1080p",
+                "a": r.get("audio") or "Castellano",
+                "i": r.get("info") or "",
+                "u": dec_url
+            })
+
+    if series_tmdbs:
+        cur.execute("""
+            SELECT tmdb, temporada, episodio, link, calidad, audio, info 
+            FROM enlaces_series 
+            WHERE tmdb = ANY(%s)
+            ORDER BY temporada ASC, episodio ASC
+        """, (series_tmdbs,))
+        for r in cur.fetchall():
+            t = r["tmdb"]
+            if t not in links_by_tmdb:
+                links_by_tmdb[t] = []
+            try:
+                dec_url = decrypt_link(r["link"])
+            except Exception:
+                dec_url = ""
+            links_by_tmdb[t].append({
+                "s": r.get("temporada") or 1,
+                "e": r.get("episodio") or 1,
+                "q": r.get("calidad") or "1080p",
+                "a": r.get("audio") or "Castellano",
+                "i": r.get("info") or "",
+                "u": dec_url
+            })
+
+    for it in items:
+        t = it.get("tmdb")
+        it_links = links_by_tmdb.get(t, [])
+        it["links_enc"] = encrypt_links_payload(it_links)
+
     return items
 
 def generate_catalog():
@@ -173,10 +254,10 @@ def generate_catalog():
 
     with open(os.path.join(DOCS_DATA_DIR, "stats.json"), "w", encoding="utf-8") as f:
         json.dump(stats, f, ensure_ascii=False, indent=2)
-    print(f"Estadísticas guardadas con éxito.")
+    print("Estadísticas guardadas con éxito.")
 
     # 1. Novedades globales combinadas
-    print("1. Generando novedades...")
+    print("1. Generando novedades con enlaces cifrados...")
     cur.execute("""
         (SELECT tmdb, titulo, plot, poster, fondo, categoria, genero, updated, fecha, rating, 'movie' as type
          FROM pelis WHERE poster IS NOT NULL AND poster != ''
@@ -187,33 +268,39 @@ def generate_catalog():
          ORDER BY updated DESC LIMIT 50)
         ORDER BY updated DESC LIMIT 100
     """)
+    novedades = process_rows(cur.fetchall())
+    attach_encrypted_links(cur, novedades)
     with open(os.path.join(DOCS_DATA_DIR, "novedades.json"), "w", encoding="utf-8") as f:
-        json.dump(process_rows(cur.fetchall()), f, ensure_ascii=False, indent=2)
+        json.dump(novedades, f, ensure_ascii=False, indent=2)
 
     # 2. Películas
-    print("2. Generando películas...")
+    print("2. Generando películas con enlaces cifrados...")
     cur.execute("""
         SELECT tmdb, titulo, plot, poster, fondo, categoria, genero, updated, fecha, rating, 'movie' as type
         FROM pelis
         WHERE (categoria ILIKE '%pel%' OR categoria IS NULL OR categoria = '') AND poster IS NOT NULL AND poster != ''
         ORDER BY updated DESC LIMIT 100
     """)
+    pelis = process_rows(cur.fetchall(), "movie")
+    attach_encrypted_links(cur, pelis)
     with open(os.path.join(DOCS_DATA_DIR, "peliculas.json"), "w", encoding="utf-8") as f:
-        json.dump(process_rows(cur.fetchall(), "movie"), f, ensure_ascii=False, indent=2)
+        json.dump(pelis, f, ensure_ascii=False, indent=2)
 
     # 3. Series
-    print("3. Generando series...")
+    print("3. Generando series con enlaces cifrados...")
     cur.execute("""
         SELECT tmdb, titulo, plot, poster, fondo, categoria, genero, updated, fecha, rating, 'series' as type
         FROM series
         WHERE (categoria = 'General' OR categoria ILIKE '%serie%' OR categoria IS NULL OR categoria = '') AND poster IS NOT NULL AND poster != ''
         ORDER BY updated DESC LIMIT 100
     """)
+    series = process_rows(cur.fetchall(), "series")
+    attach_encrypted_links(cur, series)
     with open(os.path.join(DOCS_DATA_DIR, "series.json"), "w", encoding="utf-8") as f:
-        json.dump(process_rows(cur.fetchall(), "series"), f, ensure_ascii=False, indent=2)
+        json.dump(series, f, ensure_ascii=False, indent=2)
 
     # 4. Anime (Películas + Series)
-    print("4. Generando anime...")
+    print("4. Generando anime con enlaces cifrados...")
     cur.execute("""
         (SELECT tmdb, titulo, plot, poster, fondo, categoria, genero, updated, fecha, rating, 'movie' as type
          FROM pelis WHERE categoria ILIKE '%anime%' AND poster IS NOT NULL AND poster != ''
@@ -224,11 +311,13 @@ def generate_catalog():
          ORDER BY updated DESC LIMIT 50)
         ORDER BY updated DESC LIMIT 100
     """)
+    anime = process_rows(cur.fetchall())
+    attach_encrypted_links(cur, anime)
     with open(os.path.join(DOCS_DATA_DIR, "anime.json"), "w", encoding="utf-8") as f:
-        json.dump(process_rows(cur.fetchall()), f, ensure_ascii=False, indent=2)
+        json.dump(anime, f, ensure_ascii=False, indent=2)
 
     # 5. Dibujos / Animación (Películas + Series)
-    print("5. Generando dibujos animados...")
+    print("5. Generando dibujos animados con enlaces cifrados...")
     cur.execute("""
         (SELECT tmdb, titulo, plot, poster, fondo, categoria, genero, updated, fecha, rating, 'movie' as type
          FROM pelis WHERE categoria ILIKE '%dibujo%' AND poster IS NOT NULL AND poster != ''
@@ -239,11 +328,13 @@ def generate_catalog():
          ORDER BY updated DESC LIMIT 50)
         ORDER BY updated DESC LIMIT 100
     """)
+    dibujos = process_rows(cur.fetchall())
+    attach_encrypted_links(cur, dibujos)
     with open(os.path.join(DOCS_DATA_DIR, "dibujos.json"), "w", encoding="utf-8") as f:
-        json.dump(process_rows(cur.fetchall()), f, ensure_ascii=False, indent=2)
+        json.dump(dibujos, f, ensure_ascii=False, indent=2)
 
     # 6. Documentales (Películas + Series)
-    print("6. Generando documentales...")
+    print("6. Generando documentales con enlaces cifrados...")
     cur.execute("""
         (SELECT tmdb, titulo, plot, poster, fondo, categoria, genero, updated, fecha, rating, 'movie' as type
          FROM pelis WHERE categoria ILIKE '%docu%' AND poster IS NOT NULL AND poster != ''
@@ -254,33 +345,39 @@ def generate_catalog():
          ORDER BY updated DESC LIMIT 50)
         ORDER BY updated DESC LIMIT 100
     """)
+    docu = process_rows(cur.fetchall())
+    attach_encrypted_links(cur, docu)
     with open(os.path.join(DOCS_DATA_DIR, "documentales.json"), "w", encoding="utf-8") as f:
-        json.dump(process_rows(cur.fetchall()), f, ensure_ascii=False, indent=2)
+        json.dump(docu, f, ensure_ascii=False, indent=2)
 
     # 7. Música (Conciertos / Películas musicales)
-    print("7. Generando música...")
+    print("7. Generando música con enlaces cifrados...")
     cur.execute("""
         SELECT tmdb, titulo, plot, poster, fondo, categoria, genero, updated, fecha, rating, 'movie' as type
         FROM pelis
         WHERE (categoria ILIKE '%mús%' OR categoria ILIKE '%mus%' OR categoria ILIKE '%ms%') AND poster IS NOT NULL AND poster != ''
         ORDER BY updated DESC LIMIT 100
     """)
+    musica = process_rows(cur.fetchall(), "movie")
+    attach_encrypted_links(cur, musica)
     with open(os.path.join(DOCS_DATA_DIR, "musica.json"), "w", encoding="utf-8") as f:
-        json.dump(process_rows(cur.fetchall(), "movie"), f, ensure_ascii=False, indent=2)
+        json.dump(musica, f, ensure_ascii=False, indent=2)
 
     # 8. Retro, Reality y Telenovelas
-    print("8. Generando retro y telenovelas...")
+    print("8. Generando retro y telenovelas con enlaces cifrados...")
     cur.execute("""
         SELECT tmdb, titulo, plot, poster, fondo, categoria, genero, updated, fecha, rating, 'series' as type
         FROM series
         WHERE (categoria ILIKE '%retro%' OR categoria ILIKE '%novel%' OR categoria ILIKE '%realit%') AND poster IS NOT NULL AND poster != ''
         ORDER BY updated DESC LIMIT 100
     """)
+    retro = process_rows(cur.fetchall(), "series")
+    attach_encrypted_links(cur, retro)
     with open(os.path.join(DOCS_DATA_DIR, "retro.json"), "w", encoding="utf-8") as f:
-        json.dump(process_rows(cur.fetchall(), "series"), f, ensure_ascii=False, indent=2)
+        json.dump(retro, f, ensure_ascii=False, indent=2)
 
     conn.close()
-    print("¡Todas las secciones generadas exitosamente en docs/data/!")
+    print("¡Todas las secciones generadas exitosamente con enlaces protegidos en docs/data/!")
 
 if __name__ == "__main__":
     generate_catalog()
