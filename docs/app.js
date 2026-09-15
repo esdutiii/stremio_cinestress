@@ -186,7 +186,7 @@ function renderGrid() {
     const typeLabel = item.type === 'series' ? 'Serie' : 'Película';
 
     return `
-      <article class="media-card" onclick="openDetailsModal(${item.tmdb})">
+      <article class="media-card" onclick="openDetailsModal(${item.tmdb}, '${item.type}')">
         <div class="poster-wrapper">
           <img class="poster-img" src="${posterUrl}" alt="${item.title}" loading="lazy" onerror="this.src='${FALLBACK_POSTER}'">
           ${ratingDisplay ? `<span class="rating-badge">${ratingDisplay}</span>` : ''}
@@ -205,8 +205,9 @@ function renderGrid() {
 }
 
 // Abre el modal de detalle del elemento seleccionado
-function openDetailsModal(tmdbId) {
-  const item = state.currentList.find(i => i.tmdb === tmdbId);
+function openDetailsModal(tmdbId, itemType) {
+  const item = state.currentList.find(i => i.tmdb === tmdbId && (!itemType || i.type === itemType))
+            || state.currentList.find(i => i.tmdb === tmdbId);
   if (!item) return;
 
   state.selectedItem = item;
@@ -235,10 +236,20 @@ function openDetailsModal(tmdbId) {
   item.genres.forEach(g => chips.push(`<span class="chip">${g}</span>`));
   if (chipsEl) chipsEl.innerHTML = chips.join('');
 
-  // Enlace a TMDB
-  const mediaType = item.type === 'series' ? 'tv' : 'movie';
+  // Enlace a TMDB: Ocultamos en TV & Retro y usamos /tv/ para series y /movie/ para peliculas
+  const isRetro = state.currentTab === 'retro' || 
+                  item.category === 'Retro' || 
+                  item.category === 'Telenovela' || 
+                  item.category === 'Reality';
+
   if (elements.btnTmdb) {
-    elements.btnTmdb.href = `https://www.themoviedb.org/${mediaType}/${item.tmdb}`;
+    if (isRetro) {
+      elements.btnTmdb.style.display = 'none';
+    } else {
+      elements.btnTmdb.style.display = 'inline-flex';
+      const tmdbType = item.type === 'series' ? 'tv' : 'movie';
+      elements.btnTmdb.href = `https://www.themoviedb.org/${tmdbType}/${item.tmdb}`;
+    }
   }
 
   // Reseteamos el estado del botón y la sección de enlaces
