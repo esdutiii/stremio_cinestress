@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineStress - Catálogo de Películas, Series y Anime</title>
+  <meta name="description" content="Explora las últimas incorporaciones de películas, series y anime del catálogo de CineStress para Stremio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo-group">
+        <div class="logo-icon">🍿</div>
+        <div class="logo-text">
+          <h1>CineStress</h1>
+          <span>Catálogo & Novedades</span>
+        </div>
+      </a>
+      <div class="nav-actions">
+        <a href="https://cinestress.serveousercontent.com/?serveo-skip-browser-warning=true" target="_blank" class="btn-addon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          Configurar Addon Stremio
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Métricas rápidas de la base de datos -->
+    <section class="stats-banner">
+      <div class="stat-card">
+        <div class="stat-value" id="stat-movies">29.000+</div>
+        <div class="stat-label">Películas</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-series">8.800+</div>
+        <div class="stat-label">Series</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-anime">5.200+</div>
+        <div class="stat-label">Anime</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-links">1.000.000+</div>
+        <div class="stat-label">Enlaces Debrid</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-updated" style="font-size: 1.15rem; color: #cbd5e1;">-</div>
+        <div class="stat-label">Última Sincronización</div>
+      </div>
+    </section>
+
+    <!-- Controles de navegación y búsqueda -->
+    <section class="control-bar">
+      <nav class="tabs-nav" aria-label="Secciones del catálogo">
+        <button class="tab-btn active" data-tab="novedades">
+          <span>🔥</span> Novedades
+        </button>
+        <button class="tab-btn" data-tab="peliculas">
+          <span>🎬</span> Películas
+        </button>
+        <button class="tab-btn" data-tab="series">
+          <span>📺</span> Series
+        </button>
+        <button class="tab-btn" data-tab="anime">
+          <span>🇯🇵</span> Anime
+        </button>
+      </nav>
+
+      <div class="search-box">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="search-input" class="search-input" placeholder="Buscar por título, género o año...">
+      </div>
+    </section>
+
+    <!-- Cuadrícula de tarjetas -->
+    <section class="grid-container" id="media-grid">
+      <!-- Se inyecta dinámicamente con JavaScript -->
+    </section>
+  </main>
+
+  <!-- Modal de detalle -->
+  <div class="modal-backdrop" id="item-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img class="modal-backdrop-img" id="modal-backdrop-img" src="" alt="Fondo">
+        <div class="modal-gradient"></div>
+        <button class="modal-close" id="modal-close" aria-label="Cerrar modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img class="modal-poster" id="modal-poster" src="" alt="Carátula">
+        <div class="modal-details">
+          <h2 class="modal-title" id="modal-title">Título</h2>
+          <div class="modal-chips" id="modal-chips"></div>
+          <p class="modal-plot" id="modal-plot">Sinopsis...</p>
+          <div class="modal-actions">
+            <a href="#" id="btn-open-stremio" class="btn-stremio">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              Abrir en Stremio
+            </a>
+            <a href="#" id="btn-open-tmdb" target="_blank" rel="noopener noreferrer" class="btn-tmdb">
+              Ficha en TMDB ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>CineStress Catalog · Sincronizado automáticamente desde Neon PostgreSQL · Made with ❤️ in Katowice</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -22,6 +22,19 @@ Para instalar el complemento en cualquier dispositivo (PC, Android, Smart TV, iP
 
 ---
 
+## 🌐 Catálogo Web y Novedades (GitHub Pages)
+
+El proyecto cuenta con un catálogo web público y estático alojado en GitHub Pages para explorar las últimas incorporaciones:
+- 🔥 **Novedades, Películas, Series y Anime** con carátulas oficiales en alta resolución (TMDB).
+- 🔍 **Buscador en tiempo real** por título, género o año.
+- ⚡ **Acceso directo a Stremio** con un solo clic en cada ficha.
+- 🔄 **Sincronización desatendida**: GitHub Actions actualiza automáticamente los datos desde Neon PostgreSQL cada 12 horas sin exponer credenciales.
+
+> **Para activar la web en GitHub:**  
+> Ve a **Settings** → **Pages** → en *Branch* selecciona `main` y la carpeta `/docs` → pulsa **Save**. Tu catálogo estará activo en `https://esdutiii.github.io/stremio_cinestress/`.
+
+---
+
 ## 📁 Estructura del Proyecto
 
 ```plaintext

@@ -1,4 +1,4 @@
-name: Sincronizar BBDD con Repositorio de Kodi
+name: Sincronizar BBDD y Actualizar Catálogo Web
 
 on:
   schedule:
@@ -6,6 +6,9 @@ on:
     - cron: '0 6,18 * * *'
   workflow_dispatch:
     # Permite ejecutarlo manualmente con un clic desde la pestaña Actions en GitHub
+
+permissions:
+  contents: write
 
 jobs:
   sync:
@@ -29,3 +32,16 @@ jobs:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
           python scripts/sync_updates.py
+
+      - name: Generar catálogo estático JSON
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          python scripts/generate_catalog.py
+
+      - name: Publicar cambios del catálogo en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/*.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: actualizar catálogo estático [skip ci]" && git push)
