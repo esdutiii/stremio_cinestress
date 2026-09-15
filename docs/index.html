@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
 
@@ -151,20 +151,12 @@
                 <div id="links-count" class="links-count-badge">0 enlaces</div>
               </div>
 
-              <!-- Controles de navegación de serie: Temporada y Episodio -->
+              <!-- Controles de navegación de serie: Temporadas y Capítulos -->
               <div id="series-nav" class="series-nav" style="display: none;">
-                <div class="series-selectors-bar">
-                  <div class="selector-field">
-                    <label for="season-select" class="field-label">Temporada</label>
-                    <select id="season-select" class="series-select"></select>
-                  </div>
-                  <div class="selector-field">
-                    <label for="episode-select" class="field-label">Episodio</label>
-                    <select id="episode-select" class="series-select"></select>
-                  </div>
-                </div>
-                <!-- Chips rápidos de episodios -->
-                <div id="episode-chips-bar" class="episode-chips-bar"></div>
+                <!-- Fila superior: Selector de temporadas -->
+                <div id="season-chips-bar" class="nav-chips-bar"></div>
+                <!-- Fila inferior: Selector de capítulos -->
+                <div id="episode-chips-bar" class="nav-chips-bar"></div>
               </div>
 
               <!-- Contenedor dinámico de enlaces -->
@@ -180,6 +172,6 @@
     <p>CineStress Catalog · Sincronizado automáticamente desde Neon PostgreSQL · Made with ❤️ in Katowice</p>
   </footer>
 
-  <script src="app.js?v=5"></script>
+  <script src="app.js?v=7"></script>
 </body>
 </html>

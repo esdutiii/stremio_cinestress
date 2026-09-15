@@ -38,8 +38,7 @@ const elements = {
   authError: document.getElementById('auth-error'),
   linksCount: document.getElementById('links-count'),
   seriesNav: document.getElementById('series-nav'),
-  seasonSelect: document.getElementById('season-select'),
-  episodeSelect: document.getElementById('episode-select'),
+  seasonChipsBar: document.getElementById('season-chips-bar'),
   episodeChipsBar: document.getElementById('episode-chips-bar'),
   linksItemsList: document.getElementById('links-items-list')
 };
@@ -336,11 +335,11 @@ async function renderDecryptedLinks() {
     state.activeSeason = seasons[0];
   }
 
-  // Rellenamos el desplegable de temporadas
-  if (elements.seasonSelect) {
-    elements.seasonSelect.innerHTML = seasons.map(s => {
-      const epCount = [...new Set(links.filter(l => l.s === s).map(l => l.e))].length;
-      return `<option value="${s}" ${s === state.activeSeason ? 'selected' : ''}>Temporada ${s} (${epCount} caps)</option>`;
+  // Rellenamos los botones de temporadas (fila superior)
+  if (elements.seasonChipsBar) {
+    elements.seasonChipsBar.innerHTML = seasons.map(s => {
+      const activeClass = s === state.activeSeason ? 'active' : '';
+      return `<button type="button" class="nav-chip-btn ${activeClass}" onclick="selectSeason(${s})">Temporada ${s}</button>`;
     }).join('');
   }
 
@@ -348,26 +347,17 @@ async function renderDecryptedLinks() {
   const seasonLinks = links.filter(l => l.s === state.activeSeason);
   const episodes = [...new Set(seasonLinks.map(l => l.e))].sort((a, b) => a - b);
 
-  // Si el episodio activo no es válido para esta temporada, seleccionamos el primero disponible
+  // Si el episodio activo no está fijado o no es válido para esta temporada, seleccionamos 'all' por defecto
   if (state.activeEpisode !== 'all' && (!state.activeEpisode || !episodes.includes(state.activeEpisode))) {
-    state.activeEpisode = episodes[0] || 'all';
+    state.activeEpisode = 'all';
   }
 
-  // Rellenamos el desplegable de episodios
-  if (elements.episodeSelect) {
-    let epOptions = `<option value="all" ${state.activeEpisode === 'all' ? 'selected' : ''}>Todos los episodios (${seasonLinks.length} enlaces)</option>`;
-    epOptions += episodes.map(e => {
-      const verCount = seasonLinks.filter(l => l.e === e).length;
-      return `<option value="${e}" ${state.activeEpisode === e ? 'selected' : ''}>Episodio ${e} (${verCount} versión${verCount > 1 ? 'es' : ''})</option>`;
-    }).join('');
-    elements.episodeSelect.innerHTML = epOptions;
-  }
-
-  // Rellenamos los botones/chips rápidos de episodios
+  // Rellenamos los botones de episodios (fila inferior)
   if (elements.episodeChipsBar) {
-    let chipsHtml = `<button type="button" class="ep-chip-btn ${state.activeEpisode === 'all' ? 'active' : ''}" onclick="selectEpisode('all')">Todos</button>`;
+    let chipsHtml = `<button type="button" class="nav-chip-btn ${state.activeEpisode === 'all' ? 'active' : ''}" onclick="selectEpisode('all')">Todos</button>`;
     chipsHtml += episodes.map(e => {
-      return `<button type="button" class="ep-chip-btn ${state.activeEpisode === e ? 'active' : ''}" onclick="selectEpisode(${e})">E${e}</button>`;
+      const activeClass = state.activeEpisode === e ? 'active' : '';
+      return `<button type="button" class="nav-chip-btn ${activeClass}" onclick="selectEpisode(${e})">E${e}</button>`;
     }).join('');
     elements.episodeChipsBar.innerHTML = chipsHtml;
   }
@@ -418,7 +408,7 @@ window.selectEpisode = function(epVal) {
 // Cambia la temporada activa seleccionada
 window.selectSeason = function(seasonNum) {
   state.activeSeason = Number(seasonNum);
-  state.activeEpisode = null;
+  state.activeEpisode = 'all';
   renderDecryptedLinks();
 };
 
@@ -516,22 +506,6 @@ elements.searchInput.addEventListener('input', (e) => {
   state.searchQuery = e.target.value;
   renderGrid();
 });
-
-if (elements.seasonSelect) {
-  elements.seasonSelect.addEventListener('change', (e) => {
-    state.activeSeason = Number(e.target.value);
-    state.activeEpisode = null; // Reinicia al primer episodio de la nueva temporada
-    renderDecryptedLinks();
-  });
-}
-
-if (elements.episodeSelect) {
-  elements.episodeSelect.addEventListener('change', (e) => {
-    const val = e.target.value;
-    state.activeEpisode = val === 'all' ? 'all' : Number(val);
-    renderDecryptedLinks();
-  });
-}
 
 if (elements.btnToggleLinks) {
   elements.btnToggleLinks.addEventListener('click', toggleLinksPanel);
