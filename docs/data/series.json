@@ -5,7 +5,7 @@
     "plot": "Serie de TV (2009). 2 temporadas.",
     "poster": "https://image.tmdb.org/t/p/w500/pRiVYkf0RwFsNC0KjrZHOAaRpe5.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/eHyO20ykolQX019F3JjPkoyOUuO.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Comedia"
     ],
@@ -15,46 +15,12 @@
     "type": "series"
   },
   {
-    "tmdb": 211688,
-    "title": "No se lo digas a nadie",
-    "plot": "En agosto de 2016, el hallazgo de los cuerpos sin vida de Marcos Campos, Janaina Santos y sus hijos, María Carolina y David, de tres y un año, enfrenta a los investigadores a un caso sin precedentes: el primer crimen compartido por WhatsApp. Muy pronto, las pesquisas de la Policía apuntan a Patrick, un joven de 19 años, sobrino y primo de las víctimas.",
-    "poster": "https://image.tmdb.org/t/p/w500/slXl79RPrePpCR6CphtwLqBz86N.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/eMOWmwAz1Ir8zaqwXim7KOVTVT8.jpg",
-    "category": "Documental",
-    "genres": [
-      "Crimen",
-      "Drama",
-      "Misterio",
-      "Actualidad",
-      "Documental"
-    ],
-    "year": "2023",
-    "rating": "7.9",
-    "updated": "2026-09-13 07:47:39",
-    "type": "series"
-  },
-  {
-    "tmdb": 300946,
-    "title": "Los archivos secretos del NO-DO",
-    "plot": "En los almacenes de la Filmoteca Española hay más de 6.000 latas con películas que el NO-DO, el noticiario franquista, rodó y que no vieron la luz.",
-    "poster": "https://image.tmdb.org/t/p/w500/sTKGCXOqLnuR5RVbx4UHlxo63I0.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/efQQJBvr6GHldNKaRzMZj6yuWfe.jpg",
-    "category": "Documental",
-    "genres": [
-      "Documental"
-    ],
-    "year": "2025",
-    "rating": "0",
-    "updated": "2026-09-13 07:47:39",
-    "type": "series"
-  },
-  {
     "tmdb": 60059,
     "title": "Better Call Saul",
     "plot": "Esta precuela de 'Breaking Bad' nominada al Emmy narra la vida del picapleitos Jimmy McGill y su transformación en Saul Goodman, el abogado de moral laxa.",
     "poster": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/hPea3Qy5Gd6z4kJLUruBbwAH8Rm.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Crimen",
       "Drama"
@@ -65,90 +31,12 @@
     "type": "series"
   },
   {
-    "tmdb": 35790,
-    "title": "Sakura, cazadora de cartas",
-    "plot": "La obra narra las aventuras de Sakura Kinomoto, una pequeña niña de diez años que accidentalmente libera un conjunto de cartas que se encontraban dentro de un libro, el cual había descubierto en la biblioteca de su padre. Tras esto, Kero —el guardián del libro— emerge y, al enterarse de que la mayoría de las cartas conocidas como las «cartas Clow» se habían esparcido por todas partes, le dice a Sakura que ahora es su responsabilidad convertirse en una «cardcaptor» e ir en busca de ellas para evitar que ocurra una «catástrofe» en el mundo.",
-    "poster": "https://image.tmdb.org/t/p/w500/q1oEuSFkG6DZJnsXBPEPARUgrZn.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/5IpJOGP0HAuwm9zwjt4NyqKe9oc.jpg",
-    "category": "Anime",
-    "genres": [
-      "Animación",
-      "Acción",
-      "Ciencia ficción"
-    ],
-    "year": "1998",
-    "rating": "8.6",
-    "updated": "2026-09-13 07:47:36",
-    "type": "series"
-  },
-  {
-    "tmdb": 300507,
-    "title": "La timonel",
-    "plot": "Tras un humillante escándalo familiar que trunca su vida, Teagan, una prometedora deportista de remo, se ve obligada a empezar de cero en un exclusivo instituto. Al descubrir que no hay equipo femenino, se convierte en la timonel del caótico equipo masculino para volver al agua.",
-    "poster": "https://image.tmdb.org/t/p/w500/jkPZW1iHNvlI6077NxSxwITa1tj.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/lmtTtOjsIBxwKD7LsAD5eeyhq1g.jpg",
-    "category": "General",
-    "genres": [
-      "Drama"
-    ],
-    "year": "2026",
-    "rating": "5.5",
-    "updated": "2026-09-13 07:47:35",
-    "type": "series"
-  },
-  {
-    "tmdb": 286255,
-    "title": "Los Forsytes",
-    "plot": "En el Londres de 1880, los Forsyte son una adinerada familia aparentemente unida, pero, en realidad, los celos y las envidias los corroen. La competencia entre Jolyon y James, hermanos de sangre, pero con caracteres muy diferentes, se transmite a sus hijos varones que pugnan por el control de la empresa familiar de inversiones.",
-    "poster": "https://image.tmdb.org/t/p/w500/vpLmjeJJMIJfxCSNEDfedIV4Q8.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/qV4RqUpXYtLBSMNQD47JNdq1U4I.jpg",
-    "category": "General",
-    "genres": [
-      "Drama"
-    ],
-    "year": "2025",
-    "rating": "2.3",
-    "updated": "2026-09-13 07:47:35",
-    "type": "series"
-  },
-  {
-    "tmdb": 325755,
-    "title": "El club gastronómico",
-    "plot": "Cuando Karen se muda a Bergen con su familia, la reciben con los brazos abiertos en el club gastronómico, un seductor grupo de amigos entregado a una vida de lujo y excesos. Pero todo cambia cuando una de sus lujosas villas arde en llamas y Evert, uno de sus amigos, muere.",
-    "poster": "https://image.tmdb.org/t/p/w500/kGqVIxC0FH4AbbBXjaVFqXQ3Azz.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/vYO9OkYHSNfYuqz6VMS4aCCfRb8.jpg",
-    "category": "General",
-    "genres": [
-      "Drama"
-    ],
-    "year": "2026",
-    "rating": "0",
-    "updated": "2026-09-13 07:47:35",
-    "type": "series"
-  },
-  {
-    "tmdb": 125988,
-    "title": "Silo",
-    "plot": "En un futuro ruinoso y tóxico, existe una comunidad en un gigantesco silo subterráneo que alcanza cientos de pisos de profundidad. Allí, las personas viven en una sociedad llena de normas que creen que están destinadas a protegerlas.",
-    "poster": "https://image.tmdb.org/t/p/w500/ak7NFISSaROyoWjSOIjamhpt1LB.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/n5FPNMJ0eRoiQrKGfUQQRAZeaxg.jpg",
-    "category": "General",
-    "genres": [
-      "Ciencia ficción",
-      "Drama"
-    ],
-    "year": "2023",
-    "rating": "8.2",
-    "updated": "2026-09-13 07:47:35",
-    "type": "series"
-  },
-  {
     "tmdb": 247718,
     "title": "Tierra de mafiosos",
     "plot": "El poder está en juego cuando los Harrigan y los Stevenson, dos familias criminales londinenses en guerra, se enfrentan en una batalla de matar o morir que amenaza con derribar imperios y arruinar vidas. Atrapado en el fuego cruzado está Harry Da Souza, el astuto 'solucionador' tan peligroso como atractivo, que sabe muy bien dónde están las lealtades cuando las fuerzas opuestas chocan.",
     "poster": "https://image.tmdb.org/t/p/w500/s7ye2BFq4HjGMi0dGkzGu5c2fyz.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/tQqbbxBAdW2ql8vbOqMOJbtSQ7O.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Crimen",
       "Drama"
@@ -159,17 +47,63 @@
     "type": "series"
   },
   {
-    "tmdb": 98177,
-    "title": "Ciclos",
-    "plot": "Todo lo que Nikki y Jason quieren es un bebé, lo único que no pueden tener. Entonces deciden adoptar.",
-    "poster": "https://image.tmdb.org/t/p/w500/i60GHCNKIXncadHwf0INXhyHm2E.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/jeGWGcS2OrCvwFh3NBb3KxX7OZY.jpg",
-    "category": "General",
+    "tmdb": 300507,
+    "title": "La timonel",
+    "plot": "Tras un humillante escándalo familiar que trunca su vida, Teagan, una prometedora deportista de remo, se ve obligada a empezar de cero en un exclusivo instituto. Al descubrir que no hay equipo femenino, se convierte en la timonel del caótico equipo masculino para volver al agua.",
+    "poster": "https://image.tmdb.org/t/p/w500/jkPZW1iHNvlI6077NxSxwITa1tj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/lmtTtOjsIBxwKD7LsAD5eeyhq1g.jpg",
+    "category": "Serie",
     "genres": [
-      "Comedia"
+      "Drama"
     ],
-    "year": "2020",
-    "rating": "7.7",
+    "year": "2026",
+    "rating": "5.5",
+    "updated": "2026-09-13 07:47:35",
+    "type": "series"
+  },
+  {
+    "tmdb": 325755,
+    "title": "El club gastronómico",
+    "plot": "Cuando Karen se muda a Bergen con su familia, la reciben con los brazos abiertos en el club gastronómico, un seductor grupo de amigos entregado a una vida de lujo y excesos. Pero todo cambia cuando una de sus lujosas villas arde en llamas y Evert, uno de sus amigos, muere.",
+    "poster": "https://image.tmdb.org/t/p/w500/kGqVIxC0FH4AbbBXjaVFqXQ3Azz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vYO9OkYHSNfYuqz6VMS4aCCfRb8.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2026",
+    "rating": "0",
+    "updated": "2026-09-13 07:47:35",
+    "type": "series"
+  },
+  {
+    "tmdb": 286255,
+    "title": "Los Forsytes",
+    "plot": "En el Londres de 1880, los Forsyte son una adinerada familia aparentemente unida, pero, en realidad, los celos y las envidias los corroen. La competencia entre Jolyon y James, hermanos de sangre, pero con caracteres muy diferentes, se transmite a sus hijos varones que pugnan por el control de la empresa familiar de inversiones.",
+    "poster": "https://image.tmdb.org/t/p/w500/vpLmjeJJMIJfxCSNEDfedIV4Q8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qV4RqUpXYtLBSMNQD47JNdq1U4I.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2025",
+    "rating": "2.3",
+    "updated": "2026-09-13 07:47:35",
+    "type": "series"
+  },
+  {
+    "tmdb": 125988,
+    "title": "Silo",
+    "plot": "En un futuro ruinoso y tóxico, existe una comunidad en un gigantesco silo subterráneo que alcanza cientos de pisos de profundidad. Allí, las personas viven en una sociedad llena de normas que creen que están destinadas a protegerlas.",
+    "poster": "https://image.tmdb.org/t/p/w500/ak7NFISSaROyoWjSOIjamhpt1LB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/n5FPNMJ0eRoiQrKGfUQQRAZeaxg.jpg",
+    "category": "Serie",
+    "genres": [
+      "Ciencia ficción",
+      "Drama"
+    ],
+    "year": "2023",
+    "rating": "8.2",
     "updated": "2026-09-13 07:47:35",
     "type": "series"
   },
@@ -179,7 +113,7 @@
     "plot": "Lindy y Les Littlejohn parecían la pareja perfecta: ella ganó un Premio Pulitzer con su primera novela y él está convencido de que su investigación revolucionará la ciencia. Sin embargo, los años han transformado el éxito compartido en una relación marcada por la frustración, los reproches y el resentimiento.",
     "poster": "https://image.tmdb.org/t/p/w500/99SkFAS3S3iOtnplwH0byFUMiHK.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/gQTjztsHxB7swHm6Dy2h8blukEi.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Comedia"
@@ -190,12 +124,27 @@
     "type": "series"
   },
   {
+    "tmdb": 98177,
+    "title": "Ciclos",
+    "plot": "Todo lo que Nikki y Jason quieren es un bebé, lo único que no pueden tener. Entonces deciden adoptar.",
+    "poster": "https://image.tmdb.org/t/p/w500/i60GHCNKIXncadHwf0INXhyHm2E.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/jeGWGcS2OrCvwFh3NBb3KxX7OZY.jpg",
+    "category": "Serie",
+    "genres": [
+      "Comedia"
+    ],
+    "year": "2020",
+    "rating": "7.7",
+    "updated": "2026-09-13 07:47:35",
+    "type": "series"
+  },
+  {
     "tmdb": 97546,
     "title": "Ted Lasso",
     "plot": "Un ingenuo entrenador de fútbol americano (Jason Sudeikis) decide probar suerte en un club de fútbol inglés, pero su inexperiencia despierta recelo y desdén entre jugadores y aficionados. ¿Logrará conquistarlos con sus peculiares métodos?",
     "poster": "https://image.tmdb.org/t/p/w500/5fhZdwP1DVJ0FyVH6vrFdHwpXIn.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/wImNeqxKsqmJ5OBw8j3I37GNFN3.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Comedia"
@@ -206,29 +155,12 @@
     "type": "series"
   },
   {
-    "tmdb": 9103,
-    "title": "Kimagure Orange Road",
-    "plot": "Kyosuke Kasuga es un chico de 15 años nuevo en la ciudad donde se enamorará de Madoka Ayukawa. Ella es amable cuando está solo pero cuando hay gente delante se comporta como una delincuente.",
-    "poster": "https://image.tmdb.org/t/p/w500/spa4vqIguULjaWpXmjmVGcAfWDt.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/1gJqo6S3gN3ibAZDJYtMD9oJBG5.jpg",
-    "category": "Anime",
-    "genres": [
-      "Ciencia ficción",
-      "Comedia",
-      "Animación"
-    ],
-    "year": "1987",
-    "rating": "6.7",
-    "updated": "2026-09-12 16:59:32",
-    "type": "series"
-  },
-  {
     "tmdb": 44006,
     "title": "Chicago Fire",
     "plot": "El espectáculo sigue las vidas de los bomberos y paramédicos que trabajan en el Departamento de Bomberos de la ciudad de Chicago en la estación de bomberos 51, formada por el Camión 81, el Escuadrón 3, la Ambulancia 61 y el Batallón 25.",
     "poster": "https://image.tmdb.org/t/p/w500/2yaeYNplMuLGNjBigMFsek7UZmq.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/nIRkbnnSHZhbjR01ZEKFZGyCoUc.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama"
     ],
@@ -238,29 +170,12 @@
     "type": "series"
   },
   {
-    "tmdb": 212907,
-    "title": "La Promesa (TVE)",
-    "plot": "En la España de 1913, una mujer consigue un trabajo en el palacio de La Promesa como recompensa por salvar al hijo de los marqueses, pero nadie sabe que ella tiene sus propios planes, que incluyen vengar la muerte de su madre y encontrar a su hermano desaparecido.",
-    "poster": "https://image.tmdb.org/t/p/w500/y656ZhHU2Hh3bmC5vBtMa2vKpUM.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/mbSSCIbNpeyNJqKAKkWgdvYsQ8F.jpg",
-    "category": "Novela",
-    "genres": [
-      "Comedia",
-      "Telenovela",
-      "Drama"
-    ],
-    "year": "2023",
-    "rating": "7.7",
-    "updated": "2026-09-12 10:07:56",
-    "type": "series"
-  },
-  {
     "tmdb": 260249,
     "title": "El juicio",
     "plot": "Una joven y su padre buscan justicia después de que ella fuese víctima de abuso sexual. Además de lidiar con las secuelas del delito, ambos luchan contra un fallido sistema judicial y el propio padre del joven agresor: un exitoso hombre dispuesto a usar todo su poder para proteger a su hijo y evitar que pague por su crimen.",
     "poster": "https://image.tmdb.org/t/p/w500/liefj2iaQJ7y6EZYHy4NiFkftX4.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/9XMSRCNVBQvi4D7x2EcsY8T4hrs.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama"
     ],
@@ -270,29 +185,12 @@
     "type": "series"
   },
   {
-    "tmdb": 255358,
-    "title": "THE GHOST IN THE SHELL",
-    "plot": "En el Japón de 2029, la cíborg Motoko Kusanagi aspira a dirigir un comando que detenga a las amenazas emergentes. El jefe Aramaki convierte a su equipo en la Sección 9 de Seguridad Pública: la unidad blindada.",
-    "poster": "https://image.tmdb.org/t/p/w500/yMLOJmSv7pA2y3BkDR8ioKM6HZv.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/app8YXZ4NS0hMTYZuIA6zx92xVm.jpg",
-    "category": "Anime",
-    "genres": [
-      "Ciencia ficción",
-      "Acción",
-      "Animación"
-    ],
-    "year": "2026",
-    "rating": "7.7",
-    "updated": "2026-09-12 09:53:50",
-    "type": "series"
-  },
-  {
     "tmdb": 287620,
     "title": "Stuart no consigue salvar el universo",
     "plot": "Stuart Bloom, dueño de una tienda de cómics, recibe la misión de restaurar la realidad tras romper un dispositivo construido por Sheldon y Leonard, provocando accidentalmente un Armagedón multiverso. En esta misión, Stuart cuenta con la ayuda de su novia Denise, su amigo geólogo Bert y el físico cuántico y pesado Barry Kripke.",
     "poster": "https://image.tmdb.org/t/p/w500/vFatvMvG3svwTZ1WH9shKRpFhEH.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/2ngdvUiEKW8Q37ta8BBdydE2cuq.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Ciencia ficción",
       "Comedia"
@@ -308,7 +206,7 @@
     "plot": "Jason Dessen acaba en una versión alternativa de su vida. Para volver con su auténtica familia, se embarca en un tortuoso viaje para salvarla del enemigo más aterrador: él mismo.",
     "poster": "https://image.tmdb.org/t/p/w500/8ckubtGN3gYdp8KO6RCz8wSg7rE.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/5fWxvjOUvtUoSmiMEpFl77V6KZV.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Ciencia ficción",
@@ -325,7 +223,7 @@
     "plot": "American Horror Story es una serie antológica de televisión, creada y producida por Ryan Murphy y Brad Falchuk. Cada una de sus temporadas narra una trama independiente, ambientada en lugares diferentes y cerrando siempre la historia; donde muchos actores repiten, pero siempre interpretando personajes distintos.",
     "poster": "https://image.tmdb.org/t/p/w500/5LLG9bjq0i7V5N4UfRhnab8zHK4.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/a4doyPOabvQor0RGkWdhVENAR3G.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Misterio",
@@ -337,46 +235,12 @@
     "type": "series"
   },
   {
-    "tmdb": 270462,
-    "title": "La revuelta",
-    "plot": "Un grupo de grandes cómicos y cómicas acompañan a David Broncano, que entrevista a gente famosa en un teatro del centro de Madrid para que al final el protagonista sea uno del público que se sentó en la tercera fila. Artistas, deportistas, científicos y todo tipo de personalidades se sumergen en las conversaciones más impredecibles con el presentador, siempre acompañado por su banda: Ricardo Castella, veterano de la comedia española, y el campeón de beatbox Grison, una mina antipersona de chistes que nunca sabes cuándo ni cómo va a saltar.",
-    "poster": "https://image.tmdb.org/t/p/w500/4uaguchJwBK0bl4zjluU6af8J7V.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/y7rHxt5ML9LhF80EzzdohAv5le1.jpg",
-    "category": "Reality",
-    "genres": [
-      "Reality",
-      "Comedia",
-      "Programa de TV"
-    ],
-    "year": "2024",
-    "rating": "8.0",
-    "updated": "2026-09-12 09:53:48",
-    "type": "series"
-  },
-  {
-    "tmdb": 113036,
-    "title": "American Horror Stories",
-    "plot": "Una serie de antología de episodios independientes que profundizan en los mitos, leyendas y tradiciones del terror.",
-    "poster": "https://image.tmdb.org/t/p/w500/8b9FGJ9WhpkeGFOHYgKjPT5AXS6.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/2Zx415N1EDG3CcJsM2QKKiS9xwV.jpg",
-    "category": "General",
-    "genres": [
-      "Drama",
-      "Misterio",
-      "Ciencia ficción"
-    ],
-    "year": "2021",
-    "rating": "7.9",
-    "updated": "2026-09-12 09:53:48",
-    "type": "series"
-  },
-  {
     "tmdb": 108978,
     "title": "Reacher",
     "plot": "Cuando el exagente de la Policía Militar Jack Reacher es detenido por un asesinato que no ha cometido, se ve envuelto en una mortífera conspiración llena de policías corruptos, empresarios dudosos y políticos intrigantes. Armado solo con su ingenio, debe averiguar qué pasa en Margrave, Georgia.",
     "poster": "https://image.tmdb.org/t/p/w500/xFognKEBtBPyQ1IPMtwWlqa7q92.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/wrhLyiY7ksW0fQCqNpa52qiOAH8.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Acción",
       "Crimen",
@@ -388,20 +252,20 @@
     "type": "series"
   },
   {
-    "tmdb": 239526,
-    "title": "Sueños de libertad",
-    "plot": "Año 1958. Begoña Montes huye a través del bosque junto a la pequeña Julia, su hijastra.",
-    "poster": "https://image.tmdb.org/t/p/w500/95RVeMWMvk97PBW0msryIJC32XD.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/r8skRloVAaAPBboMyY0FyrCMuka.jpg",
-    "category": "Novela",
+    "tmdb": 113036,
+    "title": "American Horror Stories",
+    "plot": "Una serie de antología de episodios independientes que profundizan en los mitos, leyendas y tradiciones del terror.",
+    "poster": "https://image.tmdb.org/t/p/w500/8b9FGJ9WhpkeGFOHYgKjPT5AXS6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/2Zx415N1EDG3CcJsM2QKKiS9xwV.jpg",
+    "category": "Serie",
     "genres": [
-      "Comedia",
-      "Telenovela",
-      "Drama"
+      "Drama",
+      "Misterio",
+      "Ciencia ficción"
     ],
-    "year": "2024",
-    "rating": "6.1",
-    "updated": "2026-09-11 17:01:18",
+    "year": "2021",
+    "rating": "7.9",
+    "updated": "2026-09-12 09:53:48",
     "type": "series"
   },
   {
@@ -410,7 +274,7 @@
     "plot": "Paca es una pescadera que sobrelleva una vida llena de penalidades junto a su hijo Pablo. Un buen día reaparece Viviano que los abandonó 20 años antes para probar suerte como banderillero en México, y que pretende recuperar a su familia.",
     "poster": "https://image.tmdb.org/t/p/w500/fiHlCHwZclQKVAoSgzaeIv9vKlp.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/fiHlCHwZclQKVAoSgzaeIv9vKlp.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama"
     ],
@@ -425,7 +289,7 @@
     "plot": "Una gran familia y cuatro jóvenes se ven arrastrados al mundo del ska y la música de dos tonos, que estalló desde las bases de Coventry y Birmingham a finales de los 70 y principios de los 80 y que unió a jóvenes negros, blancos y asiáticos.",
     "poster": "https://image.tmdb.org/t/p/w500/l48hfg9xsJfTYHsJs0qS5ovaD6Z.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/sQYY1QqTv7xDEYCyO0ENkemflRJ.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama"
     ],
@@ -440,7 +304,7 @@
     "plot": "Familia, fe, amor y perdón. Estos y otros temas cobran vida en las ocho historias inspiradas en las icónicas canciones de música country de Dolly Parton.",
     "poster": "https://image.tmdb.org/t/p/w500/jW41XQ28sRYf7WDTtPuQaymlOxW.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/6ayRwd2P0K3d1TDaePcxvDkDjsv.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama"
     ],
@@ -450,27 +314,12 @@
     "type": "series"
   },
   {
-    "tmdb": 212171,
-    "title": "Interstellar Ella",
-    "plot": "El año es 3021. El lugar es la Vía Láctea, donde Ella, de ocho años, sale alegremente con sus amigos en emocionantes aventuras de descubrimiento.",
-    "poster": "https://image.tmdb.org/t/p/w500/ts78UV7RyAKVsHxNnX597gbcGuM.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/rtbfEuctRg4VOhg0viQhtytnrHd.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación"
-    ],
-    "year": "2022",
-    "rating": "5.0",
-    "updated": "2026-09-11 17:01:17",
-    "type": "series"
-  },
-  {
     "tmdb": 69557,
     "title": "Fauda",
     "plot": "'Fauda' (en árabe 'Caos') representa la historia de dos lados del conflicto israelí-palestino. Doron, un comandante de la unidad secreta israelí que opera dentro de los territorios palestinos, y su equipo, están persiguiendo al activista de Hamas, Abu-Ahmed.",
     "poster": "https://image.tmdb.org/t/p/w500/iTZX0noHJMYLhNHNj7r97mm9Zi.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/d882Gu6n2x4ev8Lol5AxZIAyx5R.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Acción",
@@ -487,7 +336,7 @@
     "plot": "Ambientada en un elitista instituto de Los Ángeles en los años 80, la historia gira alrededor de Bret, un joven aspirante a escritor, muy observador y perspicaz cuya realidad comienza a tambalearse con la llegada de un nuevo alumno misterioso, Robert Mallory. Su incorporación al instituto coincide con el creciente terror provocado por «The Trawler», un asesino en serie que tiene como objetivo a adolescentes en toda la ciudad.",
     "poster": "https://image.tmdb.org/t/p/w500/xxz63rBBX5MiPzZ7HDoBGfl7zTK.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/vTzfZ55Qp1GP3uKGSMlsLEYrn6.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Misterio",
       "Drama"
@@ -503,7 +352,7 @@
     "plot": "El capitán Pike, el oficial científico Spock y Number One exploran nuevos mundos alrededor de la galaxia a bordo de la USS Enterprise.",
     "poster": "https://image.tmdb.org/t/p/w500/7Cp5w4X8xH2x4xDk67C5kMC5ePA.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/627K48naKH2Y3Rz47Ydra4qktdI.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Ciencia ficción"
     ],
@@ -513,12 +362,28 @@
     "type": "series"
   },
   {
+    "tmdb": 262388,
+    "title": "M.I.A.",
+    "plot": "El tráfico de drogas es un asunto familiar para Etta Tiger Jonze. Pero cuando su familia es asesinada ante sus ojos, Etta se propone hacer justicia a los responsables, vengando a su familia de sangre.",
+    "poster": "https://image.tmdb.org/t/p/w500/g2jLT8TjwgJ6UywCz9EkOyMcp3i.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/wqjhAWmqHrIIn4PdchGCuEgPksw.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama",
+      "Crimen"
+    ],
+    "year": "2026",
+    "rating": "8.5",
+    "updated": "2026-09-11 17:00:59",
+    "type": "series"
+  },
+  {
     "tmdb": 246473,
     "title": "Made in Korea",
     "plot": "Un hombre movido por la ambición de riqueza y poder, y un fiscal que lo sacrifica todo para detenerlo: una historia que se desarrolla en el torbellino de una época turbulenta.",
     "poster": "https://image.tmdb.org/t/p/w500/7sTnLKLRyOL91WNKJeOHjdddiTk.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/rppLg4LrbkMkm8lqlGd1k4bTOEX.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Crimen"
@@ -534,7 +399,7 @@
     "plot": "Anka Serafin, una joven doctora en antropología cultural de Cracovia, huye a las montañas para encontrarse a sí misma. Un día, mientras está dando un paseo, se topa con un cadáver.",
     "poster": "https://image.tmdb.org/t/p/w500/7BnRlXE7qTVbIaBnCCZlef5fNss.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/27JaZQypz1yXU8NCFvguVHc91o0.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Misterio",
       "Crimen",
@@ -546,77 +411,12 @@
     "type": "series"
   },
   {
-    "tmdb": 262388,
-    "title": "M.I.A.",
-    "plot": "El tráfico de drogas es un asunto familiar para Etta Tiger Jonze. Pero cuando su familia es asesinada ante sus ojos, Etta se propone hacer justicia a los responsables, vengando a su familia de sangre.",
-    "poster": "https://image.tmdb.org/t/p/w500/g2jLT8TjwgJ6UywCz9EkOyMcp3i.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/wqjhAWmqHrIIn4PdchGCuEgPksw.jpg",
-    "category": "General",
-    "genres": [
-      "Drama",
-      "Crimen"
-    ],
-    "year": "2026",
-    "rating": "8.5",
-    "updated": "2026-09-11 17:00:59",
-    "type": "series"
-  },
-  {
-    "tmdb": 278635,
-    "title": "Backstabbed in a Backwater Dungeon",
-    "plot": "Cuando Light es expulsado de la Concordia de las Tribus, sus antiguos camaradas se vuelven contra él al instante. Light escapa por los pelos de esta diabólica traición.",
-    "poster": "https://image.tmdb.org/t/p/w500/pGNBYEae87H8iLRF3AoztonnZkp.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/c18riMetjfxzaSwnylcAnyPgUm0.jpg",
-    "category": "Anime",
-    "genres": [
-      "Ciencia ficción",
-      "Drama",
-      "Acción",
-      "Animación"
-    ],
-    "year": "2025",
-    "rating": "8.2",
-    "updated": "2026-09-11 17:00:57",
-    "type": "series"
-  },
-  {
-    "tmdb": 21561,
-    "title": "Más allá del límite",
-    "plot": "Más allá del límite de 1995 es la reedición de una serie anterior emitida entre 1963 y 1965. En 1995, tras el éxito de las secuelas de Star Trek o Babylon 5, Metro Goldwyn Mayer (poseedora de los derechos) decidió relanzar la serie, teniendo como productores consultivos a Stefano y Stevens.",
-    "poster": "https://image.tmdb.org/t/p/w500/pi6uo8huONeyuxcliK7o6jAc4k4.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/yeuPvfPYK7Y3J3ZWqLF2IcWEi36.jpg",
-    "category": "Retro",
-    "genres": [
-      "Ciencia ficción",
-      "Drama"
-    ],
-    "year": "1995",
-    "rating": "7.8",
-    "updated": "2026-09-11 17:00:57",
-    "type": "series"
-  },
-  {
-    "tmdb": 95676,
-    "title": "La isla de las tentaciones",
-    "plot": "Cinco parejas que viven un momento crítico en su relación buscan la respuesta a la gran pregunta ¿Están hechos el uno para el otro? Los participantes vivirán separados pero no estarán solos. Convivirán con diez solteros y diez solteras que quieren encontrar el amor.",
-    "poster": "https://image.tmdb.org/t/p/w500/3VkKoZSAujFSBD20RUZqYnBnMjl.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/ajbZzYy2slD0QC2lkGK0edctm1x.jpg",
-    "category": "Reality",
-    "genres": [
-      "Reality"
-    ],
-    "year": "2020",
-    "rating": "7.3",
-    "updated": "2026-09-10 16:52:49",
-    "type": "series"
-  },
-  {
     "tmdb": 62516,
     "title": "Flesh and Bone",
     "plot": "Clare, una bailarina con mucho talento pero emocionalmente desequilibrada, de tendencia autodestructiva y con un pasado complicado, se une a la compañía de danza de Nueva York y pronto se da cuenta de lo duro y despiadado que es el mundo del ballet.",
     "poster": "https://image.tmdb.org/t/p/w500/yP4vPgb7Inpmhxgy9iTEsy1faSy.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/k3KyjZLNGoQlsR4i7J05INW3V2x.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama"
     ],
@@ -626,117 +426,52 @@
     "type": "series"
   },
   {
-    "tmdb": 4324,
-    "title": "La doctora Quinn",
-    "plot": "La doctora Quinn fue una multigalardonada serie de televisión creada por Beth Sullivan, que se emitió por la cadena estadounidense CBS durante 6 temporadas, desde el 1 de enero de 1993 hasta el 16 de mayo de 1998 en 150 episodios y posteriormente en 2 películas emitidas en televisión, una vez cancelada la serie.",
-    "poster": "https://image.tmdb.org/t/p/w500/rF32uo83bzezkEUQ8VGarbCJi32.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/tXJf6radpACrCQPYIU0ARFsVV7z.jpg",
-    "category": "Retro",
+    "tmdb": 194583,
+    "title": "The Walking Dead: Dead City",
+    "plot": "'Dead City' amplía la narración de 'The Walking Dead' en torno a dos personajes inolvidables que los fanáticos han llegado a amar, odiar y luego amar en Maggie y Negan. También explora un rincón de este universo ubicado en la isla de Manhattan, con un horizonte icónico que adquiere un significado muy diferente cuando se ve a través de la lente de un apocalipsis zombie.",
+    "poster": "https://image.tmdb.org/t/p/w500/wq3vuQzQgbS83zX3malAFWMsSwX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg",
+    "category": "Serie",
     "genres": [
-      "Western",
-      "Drama"
-    ],
-    "year": "1993",
-    "rating": "7.6",
-    "updated": "2026-09-10 16:52:48",
-    "type": "series"
-  },
-  {
-    "tmdb": 332470,
-    "title": "Antiguo Egipto el legado en disputa",
-    "plot": "Esta serie reconstruye la extraordinaria historia de Egipto en los años de entreguerras: un periodo en el que arqueología, nacionalismo y política se entrelazaron.",
-    "poster": "https://image.tmdb.org/t/p/w500/yzzyKFydUY3WlCLG7YBvUXNJ0WN.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/yzzyKFydUY3WlCLG7YBvUXNJ0WN.jpg",
-    "category": "Documental",
-    "genres": [
-      "Documental"
-    ],
-    "year": "2026",
-    "rating": "0",
-    "updated": "2026-09-10 16:52:48",
-    "type": "series"
-  },
-  {
-    "tmdb": 331227,
-    "title": "Hijos del fin del mundo",
-    "plot": "En el mundo hay más de 9.000.",
-    "poster": "https://image.tmdb.org/t/p/w500/lRsoTvudD90K85vdi55opm23utK.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/kg77mfwM8oeAnlCFSsyrP24LwW4.jpg",
-    "category": "Documental",
-    "genres": [
-      "Documental"
-    ],
-    "year": "2026",
-    "rating": "0",
-    "updated": "2026-09-10 16:52:47",
-    "type": "series"
-  },
-  {
-    "tmdb": 205980,
-    "title": "Mis 3 hermanas",
-    "plot": "Augusto y sus tres hermanas, Silvia, Lisa y Beatriz, quedan huérfanos de madre, y su padre los ha abandonado. Augusto decide tomar el rol de ambos y sacrificar sus propios sueños para no apartarse de sus hermanas.",
-    "poster": "https://image.tmdb.org/t/p/w500/8N3NU8NiUm2fBdBYnkAFdRfEZHe.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/pAYdWUJ5Q7170mpsmdb104FIQ53.jpg",
-    "category": "Novela",
-    "genres": [
-      "Telenovela",
-      "Drama"
-    ],
-    "year": "2000",
-    "rating": "7.0",
-    "updated": "2026-09-10 16:52:47",
-    "type": "series"
-  },
-  {
-    "tmdb": 115515,
-    "title": "Masha´s Songs",
-    "plot": "Masha junto a sus amigos del bosque viajan por todo el mundo para traer una nueva y apasionante temporada musical.",
-    "poster": "https://image.tmdb.org/t/p/w500/noJ7bh12Cq1uJsBHjKrNjE2OeT8.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/3CD6AYIhMyqwk7oBWT4X5Vx6J5Q.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Peques"
-    ],
-    "year": "2020",
-    "rating": "5.5",
-    "updated": "2026-09-10 16:52:45",
-    "type": "series"
-  },
-  {
-    "tmdb": 4335,
-    "title": "Oban Star-Racers",
-    "plot": "Una vez cada 10000 años los más grandes pilotos del universo se encuentran en Oban, un legendario mundo localizado en el centro de la galaxia. Allí se lleva a cabo la mayor carrera que se ha visto.",
-    "poster": "https://image.tmdb.org/t/p/w500/oVDayjVhJRQUBOwVBrwCtwAEywr.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/jUhdXLgj2FZtxAXQI7FIsImkpR0.jpg",
-    "category": "Anime",
-    "genres": [
-      "Animación",
-      "Ciencia ficción",
       "Drama",
-      "Acción"
+      "Acción",
+      "Ciencia ficción"
     ],
-    "year": "2006",
-    "rating": "7.8",
-    "updated": "2026-09-10 16:52:45",
+    "year": "2023",
+    "rating": "8.1",
+    "updated": "2026-09-10 16:52:35",
     "type": "series"
   },
   {
-    "tmdb": 112613,
-    "title": "Ousama Ranking",
-    "plot": "Incapaz de oír, hablar o incluso de empuñar una espada, el príncipe Bojji no parece el típico heredero al trono, algo que todo su reino comparte. Pero un encuentro con una misteriosa sombra hace que consiga su primer amigo verdadero.",
-    "poster": "https://image.tmdb.org/t/p/w500/vvCi807jBcxszztbPSWTvOikPeR.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/drYqIJgwAB6QS2N7DhSBXNdTUgo.jpg",
-    "category": "Anime",
+    "tmdb": 137932,
+    "title": "Un minuto de silencio",
+    "plot": "Un cartero retirado inicia un negocio funerario después de que la muerte de su amigo sea rechazada por la funeraria local. Enfrenta conflictos de la industria, problemas legales y dilemas morales mientras que oscuros secretos surgen, cambiándolo todo.",
+    "poster": "https://image.tmdb.org/t/p/w500/eA6Taus2sKIrktXXbY2pMX6lcMK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/oNradGFk5AItn20jvlwgEUhR7Jd.jpg",
+    "category": "Serie",
     "genres": [
-      "Ciencia ficción",
-      "Animación",
-      "Comedia",
-      "Acción"
+      "Drama",
+      "Comedia"
     ],
-    "year": "2021",
-    "rating": "8.0",
-    "updated": "2026-09-10 16:52:45",
+    "year": "2022",
+    "rating": "7.7",
+    "updated": "2026-09-10 16:52:35",
+    "type": "series"
+  },
+  {
+    "tmdb": 253983,
+    "title": "Las azules",
+    "plot": "En 1971, cuatro mujeres desafían las normas ultraconservadoras y se unen a la primera fuerza policial femenina de México, pero descubren que se trata de un truco publicitario para distraer a los medios de un asesino en serie. A medida que aumenta el número de cadáveres, hacen un pacto para llevar al asesino ante la justicia.",
+    "poster": "https://image.tmdb.org/t/p/w500/yZyfKzPxKNVW4WV2xXjm3uBx00I.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vUuQzgCD9itDEb18HiFUZKvxo2m.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama",
+      "Crimen"
+    ],
+    "year": "2024",
+    "rating": "7.4",
+    "updated": "2026-09-10 16:52:35",
     "type": "series"
   },
   {
@@ -745,7 +480,7 @@
     "plot": "Anka Serafin, un joven antropólogo de Krakow, que escapa a las montañas en busca de sí misma y descubre accidentalmente un cadáver. Anka rápidamente se enreda en resolver un misterio de asesinato, y su destino está inextricablemente entrelazado con Sebastian, un periodista que busca sensaciones, y Jędrek, un policía local con el que era cercana cuando era adolescente.",
     "poster": "https://image.tmdb.org/t/p/w500/aIrtJMuUfp4sbUJwrtOtOK1ZrMt.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/15B8uDGEsiTl2srdW5tz9WAwarW.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Crimen",
       "Drama",
@@ -762,7 +497,7 @@
     "plot": "Cuando Ian Ridley, telefonista de emergencias, recibe la llamada histérica de una chica que cree que podría ser su hija desaparecida, no se detiene ante nada para encontrarla.",
     "poster": "https://image.tmdb.org/t/p/w500/6HMiiSm258vZ9GMCc3itUYeaKeU.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/1562e8QwwpFCxQAnJTUQrth5VrI.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Misterio",
@@ -774,95 +509,12 @@
     "type": "series"
   },
   {
-    "tmdb": 253983,
-    "title": "Las azules",
-    "plot": "En 1971, cuatro mujeres desafían las normas ultraconservadoras y se unen a la primera fuerza policial femenina de México, pero descubren que se trata de un truco publicitario para distraer a los medios de un asesino en serie. A medida que aumenta el número de cadáveres, hacen un pacto para llevar al asesino ante la justicia.",
-    "poster": "https://image.tmdb.org/t/p/w500/yZyfKzPxKNVW4WV2xXjm3uBx00I.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/vUuQzgCD9itDEb18HiFUZKvxo2m.jpg",
-    "category": "General",
-    "genres": [
-      "Drama",
-      "Crimen"
-    ],
-    "year": "2024",
-    "rating": "7.4",
-    "updated": "2026-09-10 16:52:35",
-    "type": "series"
-  },
-  {
-    "tmdb": 260823,
-    "title": "De campesino cuarentón a espadachín legendario",
-    "plot": "Beryl Gardenant, un espadachín de mediana edad que dirige un dojo en un lugar remoto, lleva una vida tranquila, hasta que aparece Allucia, exalumna y Comandante de la Real Orden de Caballeros. ¡La vida de Beryl está a punto de dar un giro radical! Vida en la ciudad.",
-    "poster": "https://image.tmdb.org/t/p/w500/7PWkmn864jAlTYoSX5lNIc5n4ZZ.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/sEagMcuLL3beaHc3ToiZicMuYSb.jpg",
-    "category": "Anime",
-    "genres": [
-      "Acción",
-      "Animación",
-      "Comedia",
-      "Ciencia ficción"
-    ],
-    "year": "2025",
-    "rating": "8.3",
-    "updated": "2026-09-10 16:52:35",
-    "type": "series"
-  },
-  {
-    "tmdb": 137932,
-    "title": "Un minuto de silencio",
-    "plot": "Un cartero retirado inicia un negocio funerario después de que la muerte de su amigo sea rechazada por la funeraria local. Enfrenta conflictos de la industria, problemas legales y dilemas morales mientras que oscuros secretos surgen, cambiándolo todo.",
-    "poster": "https://image.tmdb.org/t/p/w500/eA6Taus2sKIrktXXbY2pMX6lcMK.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/oNradGFk5AItn20jvlwgEUhR7Jd.jpg",
-    "category": "General",
-    "genres": [
-      "Drama",
-      "Comedia"
-    ],
-    "year": "2022",
-    "rating": "7.7",
-    "updated": "2026-09-10 16:52:35",
-    "type": "series"
-  },
-  {
-    "tmdb": 194583,
-    "title": "The Walking Dead: Dead City",
-    "plot": "'Dead City' amplía la narración de 'The Walking Dead' en torno a dos personajes inolvidables que los fanáticos han llegado a amar, odiar y luego amar en Maggie y Negan. También explora un rincón de este universo ubicado en la isla de Manhattan, con un horizonte icónico que adquiere un significado muy diferente cuando se ve a través de la lente de un apocalipsis zombie.",
-    "poster": "https://image.tmdb.org/t/p/w500/wq3vuQzQgbS83zX3malAFWMsSwX.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg",
-    "category": "General",
-    "genres": [
-      "Drama",
-      "Acción",
-      "Ciencia ficción"
-    ],
-    "year": "2023",
-    "rating": "8.1",
-    "updated": "2026-09-10 16:52:35",
-    "type": "series"
-  },
-  {
-    "tmdb": 314478,
-    "title": "DANG!",
-    "plot": "Sigue a un hermano y una hermana cuyas divertidas y desordenadas vidas en la ciudad de Nueva York se ven interrumpidas cuando su peor pesadilla se hace realidad: su hermana mayor, de alto rendimiento, aparece y quiere pasar el rato con ellos.",
-    "poster": "https://image.tmdb.org/t/p/w500/wSDM4tIC5praLH9GxZisiIBIkz.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/xcjvlbVkVvGodPdfv3c6NzknMIB.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Comedia",
-      "Animación"
-    ],
-    "year": "2026",
-    "rating": "8.3",
-    "updated": "2026-09-10 12:02:06",
-    "type": "series"
-  },
-  {
     "tmdb": 278283,
     "title": "Babies",
     "plot": "La esperanza de Lisa y Stephen, una pareja de treintañeros, se pone a prueba al sufrir múltiples abortos espontáneos. Mientras se enfrentan a un dolor inimaginable, su vínculo brilla con humor, calidez y un amor inquebrantable.",
     "poster": "https://image.tmdb.org/t/p/w500/M1UADUxyIcEkiHWiqBmSCDmqLd.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/xtDuksq9S4CVKUOC9j9tEQtCEGY.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama"
     ],
@@ -877,7 +529,7 @@
     "plot": "La historia sigue a Harry, un extraterrestre que aterriza en la Tierra y se hace pasar por un médico humano de un pequeño pueblo. Al llegar con una misión secreta para matar a todos los humanos, Harry comienza a vivir una vida simple… Pero las cosas se ponen un poco difíciles cuando se ve obligado a resolver un asesinato local y se da cuenta de que necesita asimilarse a su nuevo mundo.",
     "poster": "https://image.tmdb.org/t/p/w500/5van3ktOTqWr5lcixh5aR8NlqqW.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/aCbOj4wc6vQUUVNKppssj2PYUy0.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Ciencia ficción"
     ],
@@ -887,46 +539,12 @@
     "type": "series"
   },
   {
-    "tmdb": 32726,
-    "title": "Bob´s Burgers",
-    "plot": "Bob’s Burgers narra la historia de los Belcher, una familia disfuncional que regenta una hamburguesería situada entre un crematorio y la sede de organización que lucha por los derechos de los animales. En el día de su gran reapertura reciben la visita de unos inspectores de sanidad que investigan el rumor esparcido por Louise, la hija pequeña de Bob, de que en el restaurante servían carne humana proveniente del crematorio vecino con el único objetivo de superar a una compañera de clase que tiene un tío torero en España.",
-    "poster": "https://image.tmdb.org/t/p/w500/couFnWryh9JRmmfDyPU6hUyTKIa.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/lq1ULYphBfO5Bt2OHsO0nDZl9mq.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Comedia",
-      "Animación"
-    ],
-    "year": "2011",
-    "rating": "7.8",
-    "updated": "2026-09-10 11:57:05",
-    "type": "series"
-  },
-  {
-    "tmdb": 68006,
-    "title": "Venganza: Orígenes",
-    "plot": "La trama gira en torno a cómo un joven Bryan Mills es reclutado por la CIA tras salvar un tren lleno de pasajeros. Tras este suceso, donde pierde a alguien muy importante para él, decide comenzar a desarrollar sus habilidades para ser capaz de salvar todas las vidas inocentes que pueda.",
-    "poster": "https://image.tmdb.org/t/p/w500/5TgdridU2w1pVsbQB2pt1xvazBX.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/f3kPFcnHNFFIb0fVZpbiJHX5GYb.jpg",
-    "category": "Documental",
-    "genres": [
-      "Acción",
-      "Crimen",
-      "Documental",
-      "Drama"
-    ],
-    "year": "2017",
-    "rating": "6.5",
-    "updated": "2026-09-10 11:57:05",
-    "type": "series"
-  },
-  {
     "tmdb": 287238,
     "title": "Furious",
     "plot": "Alice Black, una agente del FBI, persigue a una misteriosa y metódica asesina en serie. Ambas recorren su propio camino hacia la justicia y, a medida que sus vidas comienzan a entrelazarse, la línea entre el bien y el mal empieza a difuminarse.",
     "poster": "https://image.tmdb.org/t/p/w500/yfcCHbWg1XtFvqcp6cWmEnYWA7r.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Crimen"
@@ -937,27 +555,12 @@
     "type": "series"
   },
   {
-    "tmdb": 2875,
-    "title": "MacGyver",
-    "plot": "La serie gira en torno a las misiones que realiza el personaje principal Angus MacGyver para distintas instituciones, sobre todo para la Fundación Phoenix. En la serie, MacGyver resuelve todos los problemas que se le plantean haciendo uso de su gran inteligencia, su conocimiento académico en ciencias e ingeniería y su habilidad para la construcción de herramientas con elementos cotidianos de su entorno.",
-    "poster": "https://image.tmdb.org/t/p/w500/7q4u6lXXQR2wcP2FnvH9PpZ7Qir.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/dW58Jn2Fi29P5tC0oSJ6YWhiV9E.jpg",
-    "category": "Retro",
-    "genres": [
-      "Acción"
-    ],
-    "year": "1985",
-    "rating": "7.7",
-    "updated": "2026-09-10 11:57:04",
-    "type": "series"
-  },
-  {
     "tmdb": 115502,
     "title": "Deudas",
     "plot": "Una viuda que pudo ser chica Almodóvar, un cantante venezolano muerto, un sobrino delincuente y una ambiciosa concejala que aspira a ser la alcaldesa de Madrid. Suma un Jesús Gil de barrio, una actriz porno, un exagente ruso y una vieja paralítica que tiene una ballesta y un gato que se llama Chiquetete.",
     "poster": "https://image.tmdb.org/t/p/w500/A3sfXTzFNn8i9Dk8PxmF3d1xP4q.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/zkSY6LgVJlFdKbFEkzhn7sV9Ixq.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Comedia",
       "Programa de TV"
@@ -973,7 +576,7 @@
     "plot": "Ambientada en la misteriosa escuela Crookhaven, jóvenes delincuentes de gran talento procedentes de todo el mundo son seleccionados en secreto para perfeccionar sus habilidades en disciplinas como el engaño, la «crimnastics», la falsificación y la infiltración, aprendiendo a utilizar sus habilidades para el bien y a hacer lo correcto a su manera.",
     "poster": "https://image.tmdb.org/t/p/w500/9mmJrXEBlLKtR7ccTl4Qnw99fci.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/iHlwHN03aLkgAQ2FHSueG16im6A.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Misterio",
@@ -985,61 +588,12 @@
     "type": "series"
   },
   {
-    "tmdb": 274556,
-    "title": "En Tierra Lejana",
-    "plot": "Una doctora que vive en Canadá cuya vida da un giro inesperado tras la repentina muerte de su esposo. Cuando regresa con su pequeño hijo al pueblo natal de su marido, Mardin, Turquía, para lo que pensaba sería una breve despedida, se ve arrastrada a un mundo gobernado por poderosas tradiciones, secretos enterrados y despiadadas rivalidades familiares.",
-    "poster": "https://image.tmdb.org/t/p/w500/q9cZuNKm7NV2Vbad4AhdMqY5kyo.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/3B6KkxzOj3P3zxfPExbbbVXtzeo.jpg",
-    "category": "General",
-    "genres": [
-      "Familia",
-      "Drama",
-      "Acción"
-    ],
-    "year": "2024",
-    "rating": "7.6",
-    "updated": "2026-09-10 11:56:53",
-    "type": "series"
-  },
-  {
-    "tmdb": 615,
-    "title": "Futurama",
-    "plot": "Serie de animación creada por Matt Groening (creador también de Los Simpson) y David X. Cohen (guionista también de Los Simpson).",
-    "poster": "https://image.tmdb.org/t/p/w500/sqQGouRucsrFV2FgIZEKKkP5fSb.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/pMCvRynXABgLBMKHYa2UXjTBMsU.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Comedia",
-      "Ciencia ficción"
-    ],
-    "year": "1999",
-    "rating": "8.4",
-    "updated": "2026-09-10 11:56:53",
-    "type": "series"
-  },
-  {
-    "tmdb": 113962,
-    "title": "Operaciones Especiales: Lioness",
-    "plot": "Cruz Manuelos, una joven infante de marina ruda pero apasionada, es reclutada para unirse al Equipo Lioness Engagement de la CIA para ayudar a acabar con una organización terrorista desde adentro. Joe, el jefe de estación del programa Lioness, tiene la tarea de capacitar, administrar y liderar a sus agentes encubiertos.",
-    "poster": "https://image.tmdb.org/t/p/w500/sb2bd5YoaB9v9sFQBVuA20CKNef.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/sa9vB0xb3OMU6iSMkig8RBbdESq.jpg",
-    "category": "General",
-    "genres": [
-      "Drama"
-    ],
-    "year": "2023",
-    "rating": "8.1",
-    "updated": "2026-09-10 11:56:53",
-    "type": "series"
-  },
-  {
     "tmdb": 236235,
     "title": "The Gentlemen: La serie",
     "plot": "Cuando Eddie hereda la finca de su aristocrática familia, descubre que alberga una enorme plantación de marihuana..",
     "poster": "https://image.tmdb.org/t/p/w500/tbDjST2OOauVEOm8jdokj3zTVp2.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/PqIW7PA74YBURz5slZkxc0K5Pl.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Comedia",
@@ -1051,12 +605,27 @@
     "type": "series"
   },
   {
+    "tmdb": 300388,
+    "title": "El Secreto",
+    "plot": "Serhat Tecer parece tenerlo todo: una esposa a la que ama y dos hijas, una vida que muchos envidiarían. Pero su mundo se derrumba cuando sale a la luz una verdad inesperada: Berrak, la mujer que ama, ha estado ocultando un secreto durante años.",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qwhs7xxf9LILllWLnxbSaCBNDf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/e2hpVdY2WVJDz3y0nEHszhtR24q.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2025",
+    "rating": "7.9",
+    "updated": "2026-09-10 11:56:53",
+    "type": "series"
+  },
+  {
     "tmdb": 95350,
     "title": "Linternas",
     "plot": "Sigue al nuevo recluta John Stewart y al legendario Linterna Hal Jordan, dos policías intergalácticos que se ven envueltos en un oscuro misterio terrestre mientras investigan un asesinato en el corazón de Estados Unidos. Esto les lleva a misterios y ajustes de cuentas más oscuros.",
     "poster": "https://image.tmdb.org/t/p/w500/onBO4v52N3ikLaajwzOZ6AbXlNJ.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/mdbWfpbWhvxgG3k5MHpo90UgAUe.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Ciencia ficción",
       "Drama",
@@ -1068,20 +637,34 @@
     "type": "series"
   },
   {
-    "tmdb": 285993,
-    "title": "BLACK TORCH",
-    "plot": "Jiro Azuma pertenece a una familia de ninjas capaz de hablar con los animales. ¡Junto al gato Rago, enfrenta a los mononoke!",
-    "poster": "https://image.tmdb.org/t/p/w500/qxPsSYAiNhFLETmFJZ0s5HWyYhr.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/goTFoBxSyLybVvlGa2Ke9uTchdF.jpg",
-    "category": "Anime",
+    "tmdb": 274556,
+    "title": "En Tierra Lejana",
+    "plot": "Una doctora que vive en Canadá cuya vida da un giro inesperado tras la repentina muerte de su esposo. Cuando regresa con su pequeño hijo al pueblo natal de su marido, Mardin, Turquía, para lo que pensaba sería una breve despedida, se ve arrastrada a un mundo gobernado por poderosas tradiciones, secretos enterrados y despiadadas rivalidades familiares.",
+    "poster": "https://image.tmdb.org/t/p/w500/q9cZuNKm7NV2Vbad4AhdMqY5kyo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/3B6KkxzOj3P3zxfPExbbbVXtzeo.jpg",
+    "category": "Serie",
     "genres": [
-      "Ciencia ficción",
-      "Misterio",
-      "Acción",
-      "Animación"
+      "Familia",
+      "Drama",
+      "Acción"
     ],
-    "year": "2026",
-    "rating": "7.0",
+    "year": "2024",
+    "rating": "7.6",
+    "updated": "2026-09-10 11:56:53",
+    "type": "series"
+  },
+  {
+    "tmdb": 113962,
+    "title": "Operaciones Especiales: Lioness",
+    "plot": "Cruz Manuelos, una joven infante de marina ruda pero apasionada, es reclutada para unirse al Equipo Lioness Engagement de la CIA para ayudar a acabar con una organización terrorista desde adentro. Joe, el jefe de estación del programa Lioness, tiene la tarea de capacitar, administrar y liderar a sus agentes encubiertos.",
+    "poster": "https://image.tmdb.org/t/p/w500/sb2bd5YoaB9v9sFQBVuA20CKNef.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/sa9vB0xb3OMU6iSMkig8RBbdESq.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2023",
+    "rating": "8.1",
     "updated": "2026-09-10 11:56:53",
     "type": "series"
   },
@@ -1091,7 +674,7 @@
     "plot": "Willow, el hechicero legendario, regresa en una nueva serie ambientada muchos años después de los eventos de la película original. Willow lidera un grupo de héroes inadaptados en una peligrosa misión de rescate a través de un mundo más allá de su imaginación más salvaje.",
     "poster": "https://image.tmdb.org/t/p/w500/sAq3tJOTj7UQUgV1Mz22BCQvh6S.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/93SxdkiR3gBcbG5FxIt0DCBttul.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Ciencia ficción",
       "Acción",
@@ -1103,94 +686,12 @@
     "type": "series"
   },
   {
-    "tmdb": 296756,
-    "title": "Presidente Curtis",
-    "plot": "El presidente Curtis sigue al Comandante en Jefe y su excéntrico equipo en investigaciones paranormales y fenómenos inexplicables.",
-    "poster": "https://image.tmdb.org/t/p/w500/fnbmOKHcO3W66rNE4ESfc4DjShi.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/yoTP91XZZjSvE2gZgGvwNxVW96w.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Comedia",
-      "Animación"
-    ],
-    "year": "2026",
-    "rating": "5.5",
-    "updated": "2026-09-10 11:56:53",
-    "type": "series"
-  },
-  {
-    "tmdb": 45125,
-    "title": "BTOOOM!",
-    "plot": "Sakamoto Ryuuta es un desempleado de 22 años de edad que vive con su madre. En el mundo real, puede que no tenga nada especial, pero online, es uno de los mejores jugadores del mundo del juego de combate 'BTOOOM'.",
-    "poster": "https://image.tmdb.org/t/p/w500/vBIlaUVq0lFIb6aguOe5QKmlKqh.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/xNNplu208Twucpf8MgnqHysYPg.jpg",
-    "category": "Anime",
-    "genres": [
-      "Animación",
-      "Acción",
-      "Ciencia ficción"
-    ],
-    "year": "2012",
-    "rating": "7.6",
-    "updated": "2026-09-10 11:56:53",
-    "type": "series"
-  },
-  {
-    "tmdb": 300388,
-    "title": "El Secreto",
-    "plot": "Serhat Tecer parece tenerlo todo: una esposa a la que ama y dos hijas, una vida que muchos envidiarían. Pero su mundo se derrumba cuando sale a la luz una verdad inesperada: Berrak, la mujer que ama, ha estado ocultando un secreto durante años.",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qwhs7xxf9LILllWLnxbSaCBNDf.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/e2hpVdY2WVJDz3y0nEHszhtR24q.jpg",
-    "category": "General",
-    "genres": [
-      "Drama"
-    ],
-    "year": "2025",
-    "rating": "7.9",
-    "updated": "2026-09-10 11:56:53",
-    "type": "series"
-  },
-  {
-    "tmdb": 456,
-    "title": "Los Simpson",
-    "plot": "El día a día de una peculiar familia formada por Homer, Marge, Bart, Maggie y Lisa Simpson y otros divertidos personajes de la localidad norteamericana de Springfield. Homer, el padre, es un desastroso inspector de seguridad de una central nuclear.",
-    "poster": "https://image.tmdb.org/t/p/w500/vH0Mghb0lNJ5k7EpDwI7iJV7qaO.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/pxeqQX4qFQ0cVxPt5SWZENV5BH3.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Comedia",
-      "Familia",
-      "Animación"
-    ],
-    "year": "1989",
-    "rating": "8.0",
-    "updated": "2026-09-08 17:51:32",
-    "type": "series"
-  },
-  {
-    "tmdb": 220102,
-    "title": "Spider-Noir",
-    "plot": "El detective privado Ben Reilly trabaja en un par de casos sencillos, hasta que unos mafiosos, unos monstruos y una misteriosa mujer fatal tejen una telaraña a su alrededor, obligándolo a enfrentarse a su antigua vida, cuando era La Araña, el único superhéroe de Nueva York.",
-    "poster": "https://image.tmdb.org/t/p/w500/4Pec5a1At5UMeADkgcxwf6nLqau.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/6t2FvBr9DS8MOq0m5FAwPBCdAW5.jpg",
-    "category": "General",
-    "genres": [
-      "Misterio",
-      "Crimen",
-      "Drama"
-    ],
-    "year": "2026",
-    "rating": "8.8",
-    "updated": "2026-09-08 17:51:32",
-    "type": "series"
-  },
-  {
     "tmdb": 106379,
     "title": "Fallout",
     "plot": "Basado en una de las sagas de videojuegos más importantes de todos los tiempos, Fallout es la historia de los que tienen y de los que no tienen en un mundo en el que prácticamente no queda nada para tener. 200 años después del apocalipsis, los apacibles habitantes de los refugios de lujo se ven obligados a regresar al infierno irradiado que dejaron sus antepasados - y se sorprenden al descubrir que les espera un universo increíblemente complejo, alegremente extraño y muy violento.",
     "poster": "https://image.tmdb.org/t/p/w500/uNctKf62RRL8RKPTrdyFrcttwT2.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/coaPCIqQBPUZsOnJcWZxhaORcDT.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Acción",
       "Ciencia ficción",
@@ -1202,12 +703,29 @@
     "type": "series"
   },
   {
+    "tmdb": 220102,
+    "title": "Spider-Noir",
+    "plot": "El detective privado Ben Reilly trabaja en un par de casos sencillos, hasta que unos mafiosos, unos monstruos y una misteriosa mujer fatal tejen una telaraña a su alrededor, obligándolo a enfrentarse a su antigua vida, cuando era La Araña, el único superhéroe de Nueva York.",
+    "poster": "https://image.tmdb.org/t/p/w500/4Pec5a1At5UMeADkgcxwf6nLqau.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/6t2FvBr9DS8MOq0m5FAwPBCdAW5.jpg",
+    "category": "Serie",
+    "genres": [
+      "Misterio",
+      "Crimen",
+      "Drama"
+    ],
+    "year": "2026",
+    "rating": "8.8",
+    "updated": "2026-09-08 17:51:32",
+    "type": "series"
+  },
+  {
     "tmdb": 79788,
     "title": "Watchmen",
     "plot": "Watchmen es una extensión de la historia original gráfica creada por Alan Moore y Dave Gibbons. La trama se sitúa en un universo alternativo donde los superhéroes son tratados como proscritos.",
     "poster": "https://image.tmdb.org/t/p/w500/m8rWq3j73ZGhDuSCZWMMoE9ePH1.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/fh2CStc3fKFYhkKOFyUHBGksRWj.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Ciencia ficción",
@@ -1225,7 +743,7 @@
     "plot": "Después de lanzarse a actuar por su cuenta, el excompañero de Batman se encuentra con una serie de jóvenes héroes con problemas que necesitan desesperadamente un mentor.",
     "poster": "https://image.tmdb.org/t/p/w500/t1wuU7nUxyAFpCep4epXIGP8dtJ.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/remQq0nfQoxY9fVglGGegHZjFxx.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Ciencia ficción",
@@ -1242,7 +760,7 @@
     "plot": "Un grupo disuelto de superhéroes se reúne después de que su padre adoptivo, quien los entrenó para salvar el mundo, muere.",
     "poster": "https://image.tmdb.org/t/p/w500/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/7sqFEDDmK1hG5m92upolcfQxy7R.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Acción",
       "Ciencia ficción",
@@ -1259,7 +777,7 @@
     "plot": "La nueva saga de 'Narcos' cuenta la historia real del ascenso al poder del cártel de Guadalajara y el inicio de las guerras de la droga en el México de los años 80.",
     "poster": "https://image.tmdb.org/t/p/w500/yCid4sQkaVzfa2y4yQWs5E0TES9.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/64jEzC7YeKEpnn1YwjCGRo9ZvOX.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Crimen"
@@ -1270,27 +788,12 @@
     "type": "series"
   },
   {
-    "tmdb": 60855,
-    "title": "Legends FBI",
-    "plot": "Mientras trabaja como agente de la División de Operaciones Encubiertas del FBI, Martin Odum es capaz de transformarse en una persona diferente -- en un extremista serbio, en un oficial de policía corrupto de Chicago, en un coronel de las fuerzas especiales británicas o en un legendario hacker. Cuando se da cuenta de que su vida podría ser una completa mentira, debe enfrentarse a los quehaceres de su trabajo y al deseo de resolver el misterio de su identidad.",
-    "poster": "https://image.tmdb.org/t/p/w500/gXZbSYN3i2DjHKJORZiBf8P9LDF.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/13fDtyzMCZXH1LgNYPB9utC696b.jpg",
-    "category": "General",
-    "genres": [
-      "Drama"
-    ],
-    "year": "2014",
-    "rating": "6.4",
-    "updated": "2026-09-08 17:51:19",
-    "type": "series"
-  },
-  {
     "tmdb": 262280,
     "title": "Leyendas",
     "plot": "Mientras las drogas arrasan Gran Bretaña en los años 90, un equipo de funcionarios infiltrados trata de destruir a los cárteles responsables. Inspirada en una historia real.",
     "poster": "https://image.tmdb.org/t/p/w500/1Em0VjO0IFSneoF9a8u7ibDGPK8.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/4CtOMphAmfHJ6cztlAYjkdStkHP.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Crimen",
       "Drama",
@@ -1307,7 +810,7 @@
     "plot": "La verdadera historia de los poderosos y violentos cárteles colombianos sirve de hilo conductor en esta serie dramática de mafiosos de gran realismo.",
     "poster": "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/go5LNIFH9IdoSwv8j9cNyTk2uPU.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Crimen"
@@ -1318,12 +821,27 @@
     "type": "series"
   },
   {
+    "tmdb": 60855,
+    "title": "Legends FBI",
+    "plot": "Mientras trabaja como agente de la División de Operaciones Encubiertas del FBI, Martin Odum es capaz de transformarse en una persona diferente -- en un extremista serbio, en un oficial de policía corrupto de Chicago, en un coronel de las fuerzas especiales británicas o en un legendario hacker. Cuando se da cuenta de que su vida podría ser una completa mentira, debe enfrentarse a los quehaceres de su trabajo y al deseo de resolver el misterio de su identidad.",
+    "poster": "https://image.tmdb.org/t/p/w500/gXZbSYN3i2DjHKJORZiBf8P9LDF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/13fDtyzMCZXH1LgNYPB9utC696b.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2014",
+    "rating": "6.4",
+    "updated": "2026-09-08 17:51:19",
+    "type": "series"
+  },
+  {
     "tmdb": 1412,
     "title": "Arrow",
     "plot": "Después de un violento naufragio y tras haber desaparecido y creído muerto durante cinco años, el multimillonario playboy Oliver Queen es rescatado con vida en una isla del Pacífico. De vuelta en casa en Starling City, es recibido por su madre, su hermana y su mejor amigo, quienes rápidamente notan que la terrible experiencia sufrida lo ha cambiado.",
     "poster": "https://image.tmdb.org/t/p/w500/gKG5QGz5Ngf8fgWpBsWtlg5L2SF.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/vNnLAKmoczRlNarxyGrrw0KSOeX.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Misterio",
       "Drama",
@@ -1336,27 +854,12 @@
     "type": "series"
   },
   {
-    "tmdb": 1398,
-    "title": "Los Soprano",
-    "plot": "Los Soprano (The Sopranos) es una serie de televisión estadounidense creada y producida por David Chase. La serie se estrenó en Estados Unidos el 10 de enero de 1999 por el canal de televisión por cable HBO, que la emitió ininterrumpidamente hasta su desenlace, el 10 de junio de 2007.",
-    "poster": "https://image.tmdb.org/t/p/w500/p7XPjx5jTFl32TGbbIW8exdY8QW.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg",
-    "category": "Retro",
-    "genres": [
-      "Drama"
-    ],
-    "year": "1999",
-    "rating": "8.6",
-    "updated": "2026-09-08 17:51:15",
-    "type": "series"
-  },
-  {
     "tmdb": 66732,
     "title": "Stranger Things",
     "plot": "A raíz de la desaparición de un niño, un pueblo desvela un misterio relacionado con experimentos secretos, fuerzas sobrenaturales aterradoras y una niña muy extraña.",
     "poster": "https://image.tmdb.org/t/p/w500/joCCbrgiXbVxcpnWOzrIwNz8tC6.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Ciencia ficción",
@@ -1373,7 +876,7 @@
     "plot": "Ocho años después de que un error imperdonable echara por tierra su prometedora carrera en el fútbol universitario, el quarterback de primera Russ Holliday busca revivir sus sueños disfrazándose de Chad Powers, un talentoso personaje que se une a unos South Georgia Catfish que luchan por subsistir.",
     "poster": "https://image.tmdb.org/t/p/w500/qcrNUBwihKpIa8OiT9GnFVCvOi6.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/lu4HO4kJx2aZzVgjoRcF9vYPaFI.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Comedia"
     ],
@@ -1388,7 +891,7 @@
     "plot": "Jane tiene la oportunidad de mudarse a una preciosa casa minimalista diseñada por un enigmático arquitecto, pero con una condición: debe cumplir la exigente lista de normas de su dueño.",
     "poster": "https://image.tmdb.org/t/p/w500/11FAvHhce6xrMqgumguAVZWmvSI.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/tvXebdBI5LTQ52brqkF15teS4W5.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama",
       "Misterio"
@@ -1404,7 +907,7 @@
     "plot": "Televisiva secuela de 'Lo que el viento se llevó'. Al día siguiente de ser rechazada por Rhett, Scarlett va a Charleston para intentar recuperarlo.",
     "poster": "https://image.tmdb.org/t/p/w500/jUtnwi73486eKxdVoLzKbCbRP7i.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/bLuWiVob02IESaGM4lRo4KBncIw.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Drama"
     ],
@@ -1419,7 +922,7 @@
     "plot": "Sheen interpreta a Charlie Goodson, un ex jugador de beisbol famoso por sus reacciones violentas y desmesuradas que, después de dejar el deporte, se ha pasado a psicoterapeuta y trata de ayudar a gente con problemas de ira. A su vez él mismo acude a terapia con una atractiva psicóloga con la intención de mantener bajo control sus impulsos.",
     "poster": "https://image.tmdb.org/t/p/w500/vfWOzdgf9eB7IjZ9VqgXiWbxJ65.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/n9JOYF83rMMeYdGWeqcm8bVF8XA.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Comedia"
     ],
@@ -1429,27 +932,12 @@
     "type": "series"
   },
   {
-    "tmdb": 274325,
-    "title": "Como el perro y el gato",
-    "plot": "Un cantante de boleros con acento mexicano regresa a España después de 40 años en los que se le había dado por fallecido para erigirse como el cabeza de familia, lo que le enfrentará con su hermano gemelo, que es ahora fraile.",
-    "poster": "https://image.tmdb.org/t/p/w500/cMw9Agv0JlpT6TpJg1hmKEuxshE.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/cMw9Agv0JlpT6TpJg1hmKEuxshE.jpg",
-    "category": "General",
-    "genres": [
-      "Comedia"
-    ],
-    "year": "2007",
-    "rating": "--/",
-    "updated": "2026-09-07 14:42:41",
-    "type": "series"
-  },
-  {
     "tmdb": 71223,
     "title": "Paco y Veva",
     "plot": "Paco (Hugo Silva) y Veva (Elena Ballesteros) son dos jóvenes enamorados que, por motivos de tipo social, sufren la negativa a su amor por parte de sus familiares y de sus amigos. Ellos luchan por su amor contra viento y marea, e intentan sobrevivir al enfrentamiento familiar que sus relaciones ha provocado.",
     "poster": "https://image.tmdb.org/t/p/w500/7uXDBK8fHhuhKb0b4OPS63kLWTr.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/tdDlONLay3W4tgx1NWsmRkbRqEo.jpg",
-    "category": "General",
+    "category": "Serie",
     "genres": [
       "Comedia"
     ],
@@ -1459,162 +947,653 @@
     "type": "series"
   },
   {
-    "tmdb": 4239,
-    "title": "Matrimonio Con Hijos",
-    "plot": "En 'Matrimonio con hijos' se parodiaba la familia norteamericana de los años 80: un marido al que poco le importaba su familia; la señora, una impulsiva compradora; la hija, que era el estereotipo de 'rubia sexy y tonta'; y el hijo, un perdedor que busca ser atractivo. Posteriormente se unirían a la familia Seven, un hijo adoptado.",
-    "poster": "https://image.tmdb.org/t/p/w500/qxdOgESOkBMmfcWUizL01mbdqzl.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/y6nEgbjMUpYLnVUwZDzX95wH5Vj.jpg",
-    "category": "Retro",
+    "tmdb": 274325,
+    "title": "Como el perro y el gato",
+    "plot": "Un cantante de boleros con acento mexicano regresa a España después de 40 años en los que se le había dado por fallecido para erigirse como el cabeza de familia, lo que le enfrentará con su hermano gemelo, que es ahora fraile.",
+    "poster": "https://image.tmdb.org/t/p/w500/cMw9Agv0JlpT6TpJg1hmKEuxshE.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/cMw9Agv0JlpT6TpJg1hmKEuxshE.jpg",
+    "category": "Serie",
     "genres": [
       "Comedia"
     ],
-    "year": "1987",
-    "rating": "7.7",
-    "updated": "2026-09-07 14:42:39",
+    "year": "2007",
+    "rating": "--/",
+    "updated": "2026-09-07 14:42:41",
     "type": "series"
   },
   {
-    "tmdb": 16145,
-    "title": "Topacio",
-    "plot": "Narra la vida de Topázio, una mujer ciega que se enamora de Jorge Luis, hijo de los dueños de una gran hacienda; sin embargo, ambos desconocían que habían sido intercambiados al nacer, ya que a Topázio se la había dado por muerta. Topázio tenía un amigo cercano, Sirilo, quien padecía problemas de salud mental.",
-    "poster": "https://image.tmdb.org/t/p/w500/rKyAQdXu9VQ7yr5EKGeIJo4oTHv.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/i77WkwYKVp6e8yQvTaw6rpMj7I1.jpg",
-    "category": "Novela",
+    "tmdb": 301626,
+    "title": "Historia de dos ciudades",
+    "plot": "Londres, 1782. La tensión es máxima en la guerra entre Francia e Inglaterra.",
+    "poster": "https://image.tmdb.org/t/p/w500/ht3OVVRBTrTeVtUVQiKSekjIFVH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/1erQOjm3PZP6PNVRIuxdNmesCBu.jpg",
+    "category": "Serie",
     "genres": [
-      "Telenovela"
+      "Drama",
+      "Misterio"
     ],
-    "year": "1984",
-    "rating": "6.9",
-    "updated": "2026-09-07 14:42:30",
+    "year": "2026",
+    "rating": "9.5",
+    "updated": "2026-09-07 14:42:19",
     "type": "series"
   },
   {
-    "tmdb": 70583,
-    "title": "No te vayas sin mí",
-    "plot": "Yiğit Kozan es un exitoso empresario que parece destrozado cuando su esposa İclal resulta gravemente herida en un accidente del que él mismo es responsable. Con su esposa en coma, su frío corazón se las arregla fingiendo que ella ya no existe.",
-    "poster": "https://image.tmdb.org/t/p/w500/hKAUTdLK6Y9f9giQ4AZv5fSMVKj.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/szIUon1Z7igz4u6UNuLBvM6uXTG.jpg",
-    "category": "Novela",
+    "tmdb": 207333,
+    "title": "Cien años de soledad",
+    "plot": "En el atemporal pueblo de Macondo, siete generaciones de la familia Buendía transitan entre el amor, el olvido, un pasado ineludible..",
+    "poster": "https://image.tmdb.org/t/p/w500/vYtbH9Q5DaCDqzkB483dmYjfkA3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/yI5tsqyHgMwZhI7bWde52ZKTjhY.jpg",
+    "category": "Serie",
+    "genres": [
+      "Familia",
+      "Ciencia ficción",
+      "Drama"
+    ],
+    "year": "2024",
+    "rating": "10.",
+    "updated": "2026-09-07 14:41:52",
+    "type": "series"
+  },
+  {
+    "tmdb": 243403,
+    "title": "Ready, Set, Love",
+    "plot": "En un universo paralelo, las niñas recién nacidas superan ampliamente a sus homólogos masculinos debido a una pandemia inexplicable. A medida que los hombres se vuelven más raros, son aclamados como 'tesoros nacionales' y las mujeres deben ganarse su afecto en una competencia patrocinada por el gobierno llamada 'Ready, Set, Love'.",
+    "poster": "https://image.tmdb.org/t/p/w500/OYbSWazDoq27F02ag7CmaNLdmw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/6k0Xo6HmRVsbqACKB9hU4TAocxY.jpg",
+    "category": "Serie",
+    "genres": [
+      "Comedia"
+    ],
+    "year": "2024",
+    "rating": "7.8",
+    "updated": "2026-09-07 14:41:52",
+    "type": "series"
+  },
+  {
+    "tmdb": 290234,
+    "title": "Mal de Amores",
+    "plot": "En plena Revolución mexicana, Emilia Sauri desafía las convenciones sociales para cumplir su sueño de ejercer la medicina y encontrar el amor, su lugar y la libertad.",
+    "poster": "https://image.tmdb.org/t/p/w500/ee6yRTxGSsFKcynzvSJDziBmclz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/avfnPYtyKXjgnhqtKAt1PZO2h5I.jpg",
+    "category": "Serie",
     "genres": [
       "Drama"
     ],
-    "year": "2015",
-    "rating": "7.1",
-    "updated": "2026-09-07 14:42:28",
+    "year": "2026",
+    "rating": "8.0",
+    "updated": "2026-09-07 14:41:52",
     "type": "series"
   },
   {
-    "tmdb": 277640,
-    "title": "Pompeii: Out of Time with Tom Hiddleston",
-    "plot": "Una exploración histórica sobre la erupción del Vesubio en el año 79 d.C.",
-    "poster": "https://image.tmdb.org/t/p/w500/qnOYQ6uqxj5HEuXtVf1vSZicok.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/pSFJys8tIv7mll6Fv1LqMbrWxLt.jpg",
-    "category": "Documental",
+    "tmdb": 156988,
+    "title": "The Undeclared War",
+    "plot": "En el mundo posterior a la pandemia de 2024, durante las próximas elecciones generales británicas en las que participará el primer ministro conservador negro del Reino Unido, un destacado equipo de analistas en el corazón de la agencia de espionaje del Reino Unido, al estilo de la NSA, GCHQ, intenta evitar un ataque cibernético en el sistema electoral del país.",
+    "poster": "https://image.tmdb.org/t/p/w500/k1BGSW4mvpnXYM34OqiCtyZQhEC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/eDIUxUSrcVAZT29kK6BU5lRFdQz.jpg",
+    "category": "Serie",
+    "genres": [
+      "Bélica",
+      "Drama",
+      "Ciencia ficción"
+    ],
+    "year": "2022",
+    "rating": "6.5",
+    "updated": "2026-09-07 14:41:52",
+    "type": "series"
+  },
+  {
+    "tmdb": 32708,
+    "title": "El cuerpo del delito",
+    "plot": "La doctora Megan Hunt (Dana Delany) era una brillante neurocirujana en un hospital universitario de Philadelphia, pero un accidente de coche echa por tierra su carrera profesional y su vida familiar. Reciclada como forense, Hunt no se rinde nunca hasta que averigua la causa de la muerte de sus pacientes.",
+    "poster": "https://image.tmdb.org/t/p/w500/nZaJymzkQeJPsqv3vm7Ok7iRenr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/14aJrAGtZvAgCwIhZOfVMTqIjtp.jpg",
+    "category": "Serie",
+    "genres": [
+      "Misterio",
+      "Drama",
+      "Crimen",
+      "Comedia"
+    ],
+    "year": "2011",
+    "rating": "7.0",
+    "updated": "2026-09-07 14:41:51",
+    "type": "series"
+  },
+  {
+    "tmdb": 137127,
+    "title": "Dalgliesh",
+    "plot": "Un viudo reciente y poeta aclamado, el enigmático inspector Adam Dalgliesh emplea su excepcional empatía y perspicacia para sondear las profundidades más oscuras de la psique humana mientras investiga crímenes complejos en la Inglaterra de los años setenta.",
+    "poster": "https://image.tmdb.org/t/p/w500/zHy5dCpwDaS2i0G1C1jR7AfzVfV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/AdfZ3W15jYvZLwVUcVGqOd1g0CE.jpg",
+    "category": "Serie",
+    "genres": [
+      "Crimen",
+      "Drama",
+      "Misterio"
+    ],
+    "year": "2021",
+    "rating": "6.6",
+    "updated": "2026-09-07 14:41:51",
+    "type": "series"
+  },
+  {
+    "tmdb": 229560,
+    "title": "Eclipse",
+    "plot": "En un aislado pueblo de la meseta de Aubrac, los vecinos se preparan para presenciar un fenómeno extraordinario: un eclipse total de Sol. Pero lo que debía ser un momento de asombro colectivo se convierte en el inicio de una pesadilla.",
+    "poster": "https://image.tmdb.org/t/p/w500/cFWWBZvZ5tSDqCYsbjT1A3f4VyW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/6eqslGBJss1GHHGW7QZxteWqIdi.jpg",
+    "category": "Serie",
+    "genres": [
+      "Crimen"
+    ],
+    "year": "2024",
+    "rating": "6.6",
+    "updated": "2026-09-07 14:41:50",
+    "type": "series"
+  },
+  {
+    "tmdb": 215072,
+    "title": "Una tienda para asesinos",
+    "plot": "El único adulto que cuida de Jian es su tío. Tras su repentina muerte, Jian se entera de que ha dejado un sospechoso centro comercial.",
+    "poster": "https://image.tmdb.org/t/p/w500/bAduH6ZG3EetGgl8cdpMmDkoi5B.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/z5v9pz0h5R2rzmk9HuboODMhzQp.jpg",
+    "category": "Serie",
     "genres": [
       "Drama",
-      "Documental"
+      "Misterio",
+      "Crimen",
+      "Acción"
+    ],
+    "year": "2024",
+    "rating": "8.0",
+    "updated": "2026-09-07 14:41:49",
+    "type": "series"
+  },
+  {
+    "tmdb": 295780,
+    "title": "Vida, Larry David y la búsqueda de la infelicidad",
+    "plot": "Una parodia de distintos momentos de la historia de Estados Unidos y que cuenta con un invitado: Barack Obama. Llega a HBO Max con motivo del 250 aniversario de Estados Unidos.",
+    "poster": "https://image.tmdb.org/t/p/w500/38wXYoG0s3lVFKptEMzTbXVvG89.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/6Fbrrf2jaYJ8s3nnnuhhvvDjTZN.jpg",
+    "category": "Serie",
+    "genres": [
+      "Comedia"
     ],
     "year": "2026",
-    "rating": "0",
-    "updated": "2026-09-07 14:42:25",
+    "rating": "5.0",
+    "updated": "2026-09-07 14:41:49",
     "type": "series"
   },
   {
-    "tmdb": 73536,
-    "title": "Dinotopía: El País de los Dinosaurios",
-    "plot": "Los hermanos, Karl y David Scott, están en un vuelo con su padre en su avión privado cuando Karl toma los controles, para que su padre pueda dormirse. Después de volar hacia una tormenta, tras un error del piloto, se estrellan en al costa de una isla perdida.",
-    "poster": "https://image.tmdb.org/t/p/w500/tN12WsVmCDtTUAqh4gSZX62IXw3.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/vQzJ9KvRzM1lJeUufBXcf9h7HDO.jpg",
-    "category": "Dibujo",
+    "tmdb": 100757,
+    "title": "Outer Banks",
+    "plot": "En una isla de ricos y pobres, un grupo de adolescentes formado por John B, JJ, Pope y Kiara, encuentran un misterioso barco hundido tras un huracán, y se adentran en una peligrosa aventura para buscar un legendario tesoro vinculado a la desaparición del padre de John B.",
+    "poster": "https://image.tmdb.org/t/p/w500/oNIyXnqSwkjVv2SmkgzTtaCsVBV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/5O7CEMnV5bgJEj5pxf6XlhjqatC.jpg",
+    "category": "Serie",
     "genres": [
       "Acción",
-      "Ciencia ficción",
-      "Familia"
+      "Misterio",
+      "Drama"
     ],
-    "year": "2002",
-    "rating": "6.5",
-    "updated": "2026-09-07 14:42:25",
+    "year": "2020",
+    "rating": "8.4",
+    "updated": "2026-09-07 14:41:49",
     "type": "series"
   },
   {
-    "tmdb": 283396,
-    "title": "Juan Gabriel: Debo, puedo y quiero",
-    "plot": "Videos raros y entrevistas exclusivas revelan el genio, los sacrificios y la dualidad entre la vida pública y privada del icónico cantautor Juan Gabriel.",
-    "poster": "https://image.tmdb.org/t/p/w500/4dAz7FEdZssyTDfriK6mnMLo3VG.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/y4R1rIYJAxYxTQakuB9XySWSlvv.jpg",
-    "category": "Documental",
+    "tmdb": 286709,
+    "title": "Los del lado oeste",
+    "plot": "Nueva York, principios de los años ochenta. Dos hombres que se conocen desde la infancia toman caminos distintos en la vida: uno se convierte en policía y el otro, en miembro de la banda criminal de los Westies.",
+    "poster": "https://image.tmdb.org/t/p/w500/oYctSXDHjJKvB9PtAAFL5cpJEEb.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/tT2MwxaST3Fx1Dg4u9v82sDrIu.jpg",
+    "category": "Serie",
     "genres": [
-      "Documental"
+      "Crimen",
+      "Drama"
+    ],
+    "year": "2026",
+    "rating": "5.9",
+    "updated": "2026-09-07 14:41:49",
+    "type": "series"
+  },
+  {
+    "tmdb": 219971,
+    "title": "La agencia",
+    "plot": "El agente encubierto de la CIA, Martian, recibe la orden de abandonar su vida encubierta y regresar a la estación de Londres. Cuando el amor que dejó atrás reaparece inesperadamente, su romance se reaviva, enfrentando su carrera, su verdadera identidad y su misión contra su corazón, mientras ambos se ven envueltos en un juego mortal de intriga y espionaje internacional.",
+    "poster": "https://image.tmdb.org/t/p/w500/fWGQaZ9BntXIDT1WKHrbSAVuShk.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/dD2X3iqtF4Dz3FpnYNSWud3LOrj.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama",
+      "Misterio"
+    ],
+    "year": "2024",
+    "rating": "7.3",
+    "updated": "2026-09-07 14:41:49",
+    "type": "series"
+  },
+  {
+    "tmdb": 197235,
+    "title": "Shards of Her",
+    "plot": "Al despertar de un coma, una consumada cazadora de talentos se encuentra en una realidad alternativa donde tiene que revisitar un insoportable trauma infantil.",
+    "poster": "https://image.tmdb.org/t/p/w500/5ElJK6FzxqpCVIFblighIMwNNlQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rYXKPouvunsNDChsp7DSRBXokZj.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama",
+      "Misterio"
+    ],
+    "year": "2022",
+    "rating": "7.8",
+    "updated": "2026-09-07 14:41:49",
+    "type": "series"
+  },
+  {
+    "tmdb": 303351,
+    "title": "Sacrificio de sangre",
+    "plot": "Es verano en Estocolmo, cuando la oscuridad nunca llega a instalarse del todo. Se recibe una llamada al 911 en la que se denuncia un allanamiento de morada.",
+    "poster": "https://image.tmdb.org/t/p/w500/8iFUWLKBAWDrJ9rOunscgIDrGQ1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/aUAhtuSho2OJMO0xrTDJ4vPCx9C.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama",
+      "Crimen",
+      "Misterio"
+    ],
+    "year": "2026",
+    "rating": "3.0",
+    "updated": "2026-09-07 14:41:48",
+    "type": "series"
+  },
+  {
+    "tmdb": 258415,
+    "title": "El segundo atentado",
+    "plot": "Serie de TV (2025-). Alexander Jaromin, que lleva 20 años bajo el programa de protección de testigos tras el asesinato de su familia, se embarca en una peligrosa misión para desvelar la verdad, lo que le hace poner en peligro su vida.",
+    "poster": "https://image.tmdb.org/t/p/w500/whKk1dmLV7nRPWzuoqKkiG5OD16.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/iItRDY2qXVN7RhgE05M7mb4CCL0.jpg",
+    "category": "Serie",
+    "genres": [
+      "Bélica",
+      "Drama",
+      "Crimen"
     ],
     "year": "2025",
-    "rating": "0",
-    "updated": "2026-09-07 14:42:25",
+    "rating": "5.0",
+    "updated": "2026-09-07 14:41:48",
     "type": "series"
   },
   {
-    "tmdb": 330320,
-    "title": "Conversations with a Killer: The Charles Manson Tapes",
-    "plot": "Rastreando el ascenso de Charles Manson como líder de una secta, los asesinatos de 1969 y su juicio, utilizando grabaciones de prisión, entrevistas y material de archivo inéditos.",
-    "poster": "https://image.tmdb.org/t/p/w500/8yyWUZjItJEO5dpKyCE8IghET9i.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/yRuUGw1zFd3IyayCwHv8gInDVeT.jpg",
-    "category": "Documental",
+    "tmdb": 286617,
+    "title": "Tip Toe",
+    "plot": "Leo, propietario de un bar en Canal Street, y su vecino Clive, electricista con hijos adolescentes, ven cómo sus vidas se desmoronan en su barrio de Mánchester, donde desacuerdos menores se tornan peligrosos.",
+    "poster": "https://image.tmdb.org/t/p/w500/2V9V7dxNCNFFYpMsvID6PcZQ7Ia.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/dhj0rYeB81LGCBuERlHK51XPiod.jpg",
+    "category": "Serie",
     "genres": [
-      "Documental"
+      "Drama"
+    ],
+    "year": "2026",
+    "rating": "5.6",
+    "updated": "2026-09-07 14:41:48",
+    "type": "series"
+  },
+  {
+    "tmdb": 212762,
+    "title": "El patíbulo",
+    "plot": "Con el telón de fondo de la revolución industrial que se avecina en el Yorkshire del siglo XVIII, el drama sigue a David Hartley mientras reúne a una pandilla de tejedores y trabajadores agrícolas para embarcarse en una empresa criminal revolucionaria que hará zozobrar la economía y se convertirá en el mayor fraude de la historia británica. .",
+    "poster": "https://image.tmdb.org/t/p/w500/5xykfquymUERH7hKiZGCzSJucQ3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bpFwwdOQCgLAvOcG9NiqrWPk8yh.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama",
+      "Crimen"
+    ],
+    "year": "2023",
+    "rating": "5.7",
+    "updated": "2026-09-07 14:41:48",
+    "type": "series"
+  },
+  {
+    "tmdb": 231751,
+    "title": "Los Hardacre",
+    "plot": "Basada en las novelas de CL Skelton, la serie narra la historia desde la miseria a la opulencia de una familia de clase obrera en la Yorkshire de 1890. Cuando un accidente laboral deja a Sam y Mary Hardacre, junto a sus tres hijos y la madre de Mary, en la miseria, deciden apostar por una arriesgada aventura comercial.",
+    "poster": "https://image.tmdb.org/t/p/w500/bXU6y9rniyKTHme53U4ze8Ehveq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pg9GKiaVtBUS7KjRwJWi57zBU5K.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2024",
+    "rating": "6.2",
+    "updated": "2026-09-07 14:41:48",
+    "type": "series"
+  },
+  {
+    "tmdb": 15114,
+    "title": "John Adams",
+    "plot": "Vida de John Adams, uno de los padres fundadores de los Estados Unidos. El mandato de Adams como segundo presidente de E.",
+    "poster": "https://image.tmdb.org/t/p/w500/34qRIcLKkTpmM9x9gzm9nKvo5pW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/tKuGJ901086U6VRLAxFM9IpHjxn.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2008",
+    "rating": "7.7",
+    "updated": "2026-09-07 14:41:47",
+    "type": "series"
+  },
+  {
+    "tmdb": 237508,
+    "title": "The Midnight Romance in Hagwon",
+    "plot": "Seo Hye Jin ha trabajado como profesora de coreano en un instituto educativo privado en el barrio Daechi de Gangnam durante los últimos 14 años. El vecindario es conocido como el área de educación privada más competitiva del país.",
+    "poster": "https://image.tmdb.org/t/p/w500/2bVVy1R2rchcqyPjiQtFsJwfOYB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qbkfizeVMmxtZJYyXR1tXY1KhQ6.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2024",
+    "rating": "7.1",
+    "updated": "2026-09-07 14:41:46",
+    "type": "series"
+  },
+  {
+    "tmdb": 322428,
+    "title": "Moria",
+    "plot": "Moria Casán celebra su 80 cumpleaños y abre las puertas a una versión ficcionalizada de sí misma, como la titiritera de su propia historia. Tres grandes actrices —Sofía Gala Castiglione, Griselda Siciliani y Cecilia Roth— la interpretan en distintas etapas de su vida.",
+    "poster": "https://image.tmdb.org/t/p/w500/sbgnRVTa1ovATE2rH1TZXrb4dLH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/wCqQrj4536IkhFlxDSytf4p3H09.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
     ],
     "year": "2026",
     "rating": "--/",
-    "updated": "2026-09-07 14:42:25",
+    "updated": "2026-09-07 14:41:46",
     "type": "series"
   },
   {
-    "tmdb": 62318,
-    "title": "Las nuevas aventuras de Lucky Luke",
-    "plot": "Las nuevas aventuras del cowboy solitario Lucky Luke, que se enfrenta a los malvados bandidos del Oeste.",
-    "poster": "https://image.tmdb.org/t/p/w500/wx0h7jK2XKGPMKyTZbQk7ZBhsWD.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/qtvs1zdPxbIPFbuOtaa0kY2WB5K.jpg",
-    "category": "Dibujo",
+    "tmdb": 331650,
+    "title": "El peso de la ley",
+    "plot": "Una joven fiscal muy competente se ve envuelta en una brutal organización criminal carcelaria liderada por el hermano al que creía perdido, lo que la obliga a elegir entre la justicia y la familia, la ley y la supervivencia, la verdad y la traición.",
+    "poster": "https://image.tmdb.org/t/p/w500/xzpYlmAdRCpFT5BVaqAmdMn9Q5O.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/t0NbIFM9auI6Hk2D3S1SzAhmxs1.jpg",
+    "category": "Serie",
     "genres": [
+      "Drama",
+      "Crimen"
+    ],
+    "year": "2026",
+    "rating": "0",
+    "updated": "2026-09-07 14:41:45",
+    "type": "series"
+  },
+  {
+    "tmdb": 237964,
+    "title": "Muertos S.L.",
+    "plot": "Cuando fallece Gonzalo Torregrosa, propietario y fundador de Funeraria Torregrosa, Dámaso Carrillo, su mano derecha en la empresa, no duda en que lo mejor para la continuidad del negocio es que él asuma el mando. Pero, contra todo pronóstico Nieves, la septuagenaria viuda, decide ponerse al frente de la empresa familiar, ayudada por su inútil y entusiasta yerno, Chemi, experto en márquetin, y en contra de los planes de sus hijas de cerrar y montar un gimnasio.",
+    "poster": "https://image.tmdb.org/t/p/w500/rNl0aYYA7w17dAd6AzyBVgCRJxt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/w0WT4opEOeldCegD2eAYSspVieg.jpg",
+    "category": "Serie",
+    "genres": [
+      "Comedia"
+    ],
+    "year": "2024",
+    "rating": "7.3",
+    "updated": "2026-09-07 14:41:45",
+    "type": "series"
+  },
+  {
+    "tmdb": 271855,
+    "title": "Sandokan",
+    "plot": "Sandokán es un pirata malayo que, junto con su amigo Yáñez y su tripulación, ataca a las fuerzas británicas desde su isla de Mompracem. Durante sus aventuras, se enamora de Lady Marianna Guillonk, una aristócrata italo-inglesa.",
+    "poster": "https://image.tmdb.org/t/p/w500/knEfDIVlJpoYAFQYlbOr78uDIqq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/1AA5xIVt1PTrbLxCCBxRyvjdpqO.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama",
       "Acción",
-      "Comedia",
-      "Animación",
-      "Western"
+      "Bélica"
+    ],
+    "year": "2025",
+    "rating": "7.6",
+    "updated": "2026-09-07 14:41:45",
+    "type": "series"
+  },
+  {
+    "tmdb": 247522,
+    "title": "Sobre ruedas",
+    "plot": "En el taller de su padre, un gerente desventurado intenta mejorar el servicio al cliente y aumentar las ganancias mientras mantiene a raya a su problemático primo.",
+    "poster": "https://image.tmdb.org/t/p/w500/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/t8MVcvnhfyDvuxJe4oCb0YkgU2W.jpg",
+    "category": "Serie",
+    "genres": [
+      "Comedia"
+    ],
+    "year": "2024",
+    "rating": "6.4",
+    "updated": "2026-09-07 14:41:44",
+    "type": "series"
+  },
+  {
+    "tmdb": 203744,
+    "title": "Sugar",
+    "plot": "Un enigmático detective privado lucha contra sus demonios personales mientras investiga la desaparición de la querida nieta de un productor de Hollywood.",
+    "poster": "https://image.tmdb.org/t/p/w500/dNrk52Rt13MxwahLneTZJezM6qD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/7sV0OgNkPiY9XPzr0f3rATFrGje.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2024",
+    "rating": "7.4",
+    "updated": "2026-09-07 14:41:44",
+    "type": "series"
+  },
+  {
+    "tmdb": 3796,
+    "title": "Trailer Park Boys",
+    "plot": "Trailer Park Boys es una serie de televisión falso documental comedia canadiense creada y dirigida por Mike Clattenburg que se centra en las desventuras de un grupo de residentes del parque de caravanas, algunos de los cuales son ex convictos, viviendo en el ficticio Sunnyvale Trailer Park en Dartmouth, Nueva Escocia. La serie de televisión es una continuación de la película del mismo nombre de Clattenburg 1999 y se estrenó en la cadena de televisión Showcase en 2001.",
+    "poster": "https://image.tmdb.org/t/p/w500/uNrEDgNw2PNkuJuYfDPfjberstf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/4RttvRiea7C5BaD1YJXpny6nGSx.jpg",
+    "category": "Serie",
+    "genres": [
+      "Comedia"
     ],
     "year": "2001",
-    "rating": "7.2",
-    "updated": "2026-09-07 14:42:24",
+    "rating": "7.7",
+    "updated": "2026-09-07 14:41:44",
     "type": "series"
   },
   {
-    "tmdb": 251460,
-    "title": "Furiki Wheels",
-    "plot": "Un joven perezoso hiperactivo y con mucha energía quiere ver mundo, por lo que va a Racer School para aprender a conducir rápido.",
-    "poster": "https://image.tmdb.org/t/p/w500/8FFdCNEI5PZUThh5fVeprV3SQGT.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/2pRIXaPw5zxBpUYNpKxaWvPPfUl.jpg",
-    "category": "Dibujo",
+    "tmdb": 284022,
+    "title": "Dos semanas en agosto",
+    "plot": "Miniserie de TV (2026). Zoe lleva toda la vida siendo “la buena”: la que cuida, la que cede, la que sostiene emocionalmente a los demás.",
+    "poster": "https://image.tmdb.org/t/p/w500/xjkR648bH8FzQVKG9RvQtNCVVDa.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/lZwwE5GjEOobKhKpLn9j5UxIZ8E.jpg",
+    "category": "Serie",
     "genres": [
-      "Animación",
-      "Acción"
+      "Drama"
     ],
-    "year": "2018",
+    "year": "2026",
+    "rating": "4.7",
+    "updated": "2026-09-07 14:41:44",
+    "type": "series"
+  },
+  {
+    "tmdb": 284753,
+    "title": "Operación Safed Sagar",
+    "plot": "Un escuadrón de pilotos de la Fuerza Aérea india supera sus límites en una audaz y peligrosa misión.",
+    "poster": "https://image.tmdb.org/t/p/w500/f56PHAGbUFPmHMRippWWNpRgSao.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bKvEIOHJ2UpK6NhF86n36dOmfBY.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2026",
     "rating": "0",
-    "updated": "2026-09-07 14:42:22",
+    "updated": "2026-09-07 14:41:44",
     "type": "series"
   },
   {
-    "tmdb": 123542,
-    "title": "Link Click",
-    "plot": "Se dice que una imagen vale más que mil palabras. En este caso, guarda una cantidad infinita de secretos.",
-    "poster": "https://image.tmdb.org/t/p/w500/gNeI4fA172iKOals4zP7e5Lqy6J.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/hXQCqScrJ7OvH0al484FW9R7VGk.jpg",
-    "category": "Anime",
+    "tmdb": 291496,
+    "title": "Acaramelados",
+    "plot": "Una fiscal ambiciosa pierde la memoria y acaba conviviendo con un entrenador de boxeo que asegura ser su novio. ¿Puede el amor verdadero nacer de una mentira?",
+    "poster": "https://image.tmdb.org/t/p/w500/ny8zYj40mWGTgKJi1a8hjNFUj9n.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/mp2AFsWsuyxCzenJh3DTKw7z4jG.jpg",
+    "category": "Serie",
     "genres": [
-      "Ciencia ficción",
-      "Misterio",
-      "Animación"
+      "Comedia",
+      "Drama"
     ],
-    "year": "2021",
-    "rating": "8.1",
-    "updated": "2026-09-07 14:42:22",
+    "year": "2026",
+    "rating": "6.0",
+    "updated": "2026-09-07 14:41:44",
+    "type": "series"
+  },
+  {
+    "tmdb": 329394,
+    "title": "El Otro Padre",
+    "plot": "Sigue a Julieta que, durante su fiesta de graduación, sufre una crisis de salud que pone en peligro su vida y obliga a su madre, Maca, a enfrentarse a secretos del pasado.",
+    "poster": "https://image.tmdb.org/t/p/w500/mAHdy86elM3VunTnLiBtGlLOFtD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bXfrQ8Vy6rMR5KTP1cYXbiYG2aM.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2026",
+    "rating": "0",
+    "updated": "2026-09-07 14:41:44",
+    "type": "series"
+  },
+  {
+    "tmdb": 4057,
+    "title": "Mentes criminales",
+    "plot": "Mentes criminales (Criminal Minds) es una serie de drama criminológico. Se estrenó el 22 de septiembre de 2005 en el canal de televisión estadounidense, CBS.",
+    "poster": "https://image.tmdb.org/t/p/w500/3UyUgPfcs7ByA9hxbhWSW98xdpg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/j2oWA1fFCQy1SwqCK3ODsgy9yUt.jpg",
+    "category": "Serie",
+    "genres": [
+      "Crimen",
+      "Misterio",
+      "Drama"
+    ],
+    "year": "2005",
+    "rating": "8.3",
+    "updated": "2026-09-07 14:41:44",
+    "type": "series"
+  },
+  {
+    "tmdb": 245026,
+    "title": "Vuelven los magos de Waverly Place",
+    "plot": "Han pasado algunos años y Justin Russo ha renunciado a todos sus poderes mágicos. Lleva una vida mortal con su esposa Giada y sus dos hijos Milo y Roman.",
+    "poster": "https://image.tmdb.org/t/p/w500/egnT9JzHHW4bhS5BBu4UUeYVkal.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/A8i2pdx6iZkGyOj1yU9QHgDzB33.jpg",
+    "category": "Serie",
+    "genres": [
+      "Familia",
+      "Comedia",
+      "Ciencia ficción"
+    ],
+    "year": "2024",
+    "rating": "9.0",
+    "updated": "2026-09-07 14:41:44",
+    "type": "series"
+  },
+  {
+    "tmdb": 210865,
+    "title": "Una nueva vida",
+    "plot": "Halis Korhan, desesperado por enderezar el rumbo de su nieto Ferit, decide casarlo para poner fin a su comportamiento irresponsable. Sin embargo, los planes toman un giro inesperado cuando Ferit se enamora de Seyran.",
+    "poster": "https://image.tmdb.org/t/p/w500/9eAwXKhkNUgz1HceyYITi0uREGU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vDqCoaMU5FUAuUs0EvL4OAUCxJk.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama",
+      "Familia"
+    ],
+    "year": "2022",
+    "rating": "8.3",
+    "updated": "2026-09-07 14:41:44",
+    "type": "series"
+  },
+  {
+    "tmdb": 309798,
+    "title": "Mi brillante carrera",
+    "plot": "En la Australia de 1900, una obstinada joven campesina sueña con escribir, mientras las expectativas sociales y familiares chocan con su feroz deseo de independencia y libertad creativa.",
+    "poster": "https://image.tmdb.org/t/p/w500/fwZSe7xoeRux9NUsjT5j4yM2NOo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/5ErhLuuVrxlNa2JiRzXfo0U10uZ.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama",
+      "Familia"
+    ],
+    "year": "2026",
+    "rating": "1.0",
+    "updated": "2026-09-07 14:41:44",
+    "type": "series"
+  },
+  {
+    "tmdb": 327814,
+    "title": "Proyecto Final",
+    "plot": "Nuevo centro, nuevos comienzos..",
+    "poster": "https://image.tmdb.org/t/p/w500/11rCh2E4SmdT06Qr9HsBrIftoHQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rc3Jy6sWFt7PDVGFqLjvo7tle13.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama"
+    ],
+    "year": "2026",
+    "rating": "9.4",
+    "updated": "2026-09-07 14:41:44",
+    "type": "series"
+  },
+  {
+    "tmdb": 39331,
+    "title": "Apartamento 23",
+    "plot": "Una chica joven e ingenua se muda a Nueva York para perseguir sus sueños, que en apenas un instante se ven esfumados. June se ve en la calle sin saber qué hacer.",
+    "poster": "https://image.tmdb.org/t/p/w500/jVGpWScsXb704lBnHfYmzWpc0fy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/l3xAsPkZiIMeA9mGMFwMtUYaMbT.jpg",
+    "category": "Serie",
+    "genres": [
+      "Comedia"
+    ],
+    "year": "2012",
+    "rating": "6.8",
+    "updated": "2026-09-07 14:41:43",
+    "type": "series"
+  },
+  {
+    "tmdb": 292533,
+    "title": "Furioso",
+    "plot": "Un hombre herido y amnésico encuentra refugio en un entrenador de MMA. Atrapado entre la esperanza de un nuevo futuro y el tormento de un pasado peligroso, empieza a luchar.",
+    "poster": "https://image.tmdb.org/t/p/w500/up9kAhzfN3wtnFi1D8AloWeHGDo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/kZ77s94jLBliHXDXXPegi6ZbbtN.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama",
+      "Crimen"
+    ],
+    "year": "2026",
+    "rating": "5.7",
+    "updated": "2026-09-07 14:41:42",
+    "type": "series"
+  },
+  {
+    "tmdb": 100548,
+    "title": "El viajero",
+    "plot": "Cada año hay 310 asesinatos en Francia que no se resuelven, dejando a las familias de las víctimas en un estado de luto que no termina. El sistema judicial francés es implacable: no hay suficiente dinero para investigar casos que no van a ninguna parte.",
+    "poster": "https://image.tmdb.org/t/p/w500/7OI6537Lmkdna4eXcXV0xULJKrK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pvYIuOFqGt1LsFdASSpu7TSeKuT.jpg",
+    "category": "Serie",
+    "genres": [
+      "Drama",
+      "Crimen"
+    ],
+    "year": "2019",
+    "rating": "7.0",
+    "updated": "2026-09-07 14:41:42",
     "type": "series"
   }
 ]

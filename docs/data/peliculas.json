@@ -1,83 +1,49 @@
 [
   {
-    "tmdb": 1324762,
-    "title": "Robbie Williams: Live at the Pinkpop Festival 2023",
-    "plot": "Robbie Williams actuará en el legendario festival Pinkpop en los Países Bajos el 18 de junio de 2023.",
-    "poster": "https://image.tmdb.org/t/p/w500/hDXNlm1Kh9C37Ri0Crl9Ystoa1Q.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/g0CkC4KuPjgeexNXutj5L7Fwb0T.jpg",
-    "category": "Música",
-    "genres": [
-      "Música"
-    ],
-    "year": "2023",
-    "rating": "0",
-    "updated": "2026-09-13 07:47:38",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1440098,
-    "title": "Enfrentados : Marfil",
-    "plot": "Marfil Cortés, la hija de un poderoso empresario español, ve como su perfecta vida en Nueva York da un vuelco cuando es repentinamente secuestrada y liberada sin aparente explicación. Su padre decide entonces contratar al enigmático Sebastián Moore como guardaespaldas.",
-    "poster": "https://image.tmdb.org/t/p/w500/umlft1ztFbUcnHf960pXJocjpdv.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/i65y7cMae36K0giN0GRaMjAHUru.jpg",
+    "tmdb": 74,
+    "title": "La guerra de los mundos",
+    "plot": "Ray Ferrier es un descargador de muelle, divorciado y padre nada modélico. Poco después de que su ex mujer y su nuevo marido se vayan después de dejar a Robbie, su hijo adolescente, y a su pequeña hija Rachel para una de sus contadas visitas, estalla una tremenda e inesperada tormenta eléctrica.",
+    "poster": "https://image.tmdb.org/t/p/w500/ahcOViJGgwGojoncRVDMq5R7WDN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/nH6hPhJq3EEv9CnBZgXU3IQnpJo.jpg",
     "category": "Película",
     "genres": [
-      "Drama",
+      "Ciencia ficción",
       "Suspense",
-      "Romance"
+      "Aventura"
     ],
-    "year": "2026",
-    "rating": "7.1",
+    "year": "2005",
+    "rating": "6.5",
     "updated": "2026-09-13 07:47:37",
     "type": "movie"
   },
   {
-    "tmdb": 4911,
-    "title": "Dark Blue",
-    "plot": "En 1992, días antes de conocerse el veredicto del caso Rodney King -contra 4 agentes de policía blancos- y los posteriores disturbios en Los Ángeles, dos oficiales de policía son asignados a la investigación de un caso de cuádruple homicidio con componentes raciales. Los agentes son el detective veterano Eldon Perry (Kurt Russell) y el novato Bobby Keough (Scott Speedman).",
-    "poster": "https://image.tmdb.org/t/p/w500/ekW39lKhQ3L3rdOgzyF3d0CoPLV.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/bl4OXajniUiTkgCgWbvXq7L5F2s.jpg",
+    "tmdb": 696822,
+    "title": "Bloody Hell",
+    "plot": "Un hombre con un pasado misterioso huye del país para escapar de su propio infierno personal ..",
+    "poster": "https://image.tmdb.org/t/p/w500/73I98oHHWEaAmp6UwTdE3tJkHCq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vTc8XTjCvmAv0cL3UrLT2SajvjY.jpg",
     "category": "Película",
     "genres": [
-      "Suspense",
-      "Crimen"
+      "Comedia",
+      "Terror"
     ],
-    "year": "2002",
-    "rating": "6.2",
+    "year": "2020",
+    "rating": "6.5",
     "updated": "2026-09-13 07:47:37",
     "type": "movie"
   },
   {
-    "tmdb": 277,
-    "title": "Underworld",
-    "plot": "Durante siglos, dos razas han ido evolucionando en las profundidades de la Tierra: los aristocráticos y sofisticados vampiros y los brutales hombres-lobo (Lycans), cuya existencia siempre había formado parte del mundo de los mitos y las leyendas. Estas razas nocturnas son enemigas mortales y están condenadas a vivir en perpetua guerra hasta que sólo una de ellas sobreviva.",
-    "poster": "https://image.tmdb.org/t/p/w500/6mq3OSMsmcTtoRLXiYOp8VZGOdw.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/pvVkWJZYsUoCgnvpkd62pgnet7r.jpg",
+    "tmdb": 1386128,
+    "title": "La fianza",
+    "plot": "Tras celebrar el sexto cumpleaños de su hija, Ana recibe la inoportuna visita de Walter, un extraño hombre que pregunta por Ricardo, el marido de Ana, con el que tiene negocios pendientes. Lo que comienza como una visita incómoda para Ana, termina convirtiéndose en una inquietante situación en la que descubre las constantes mentiras e infidelidades de Ricardo, así como la verdadera razón por la que Walter se encuentra en su casa: retenerlas a ella y a su hija a manera de fianza mientras Ricardo cierra un negocio con la peligrosa organización narco para la que trabaja Walter.",
+    "poster": "https://image.tmdb.org/t/p/w500/3CknYu11R1wZslUQ07G1hNcPUUJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vAtVOFVkBehvuNEKxh869VMFHpY.jpg",
     "category": "Película",
     "genres": [
-      "Suspense",
-      "Fantasía",
-      "Acción"
+      "Suspense"
     ],
-    "year": "2003",
-    "rating": "6.8",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 463821,
-    "title": "La casa del reloj en la pared",
-    "plot": "La historia cuenta el mágico y escalofriante relato de Lewis (Owen Vaccaro), un niño de 10 años quien, tras quedar huérfano, se muda a la vieja y rechinante casa de su tío, la cual tiene un misterioso reloj. Pronto, la aburrida y tranquila vida de su nuevo pueblo se ve interrumpida cuando accidentalmente, Lewis despierta a magos y brujas de un mundo secreto.",
-    "poster": "https://image.tmdb.org/t/p/w500/7pOLjpoCvZapa1SvWgKAc46W04p.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/dIufisifucT5lodcV5wRiN92x09.jpg",
-    "category": "Película",
-    "genres": [
-      "Fantasía",
-      "Familia",
-      "Comedia"
-    ],
-    "year": "2018",
-    "rating": "6.2",
+    "year": "2024",
+    "rating": "5.5",
     "updated": "2026-09-13 07:47:37",
     "type": "movie"
   },
@@ -99,240 +65,19 @@
     "type": "movie"
   },
   {
-    "tmdb": 1185806,
-    "title": "La Patrulla Canina: La dino película",
-    "plot": "Cuando una fuerte tormenta deja a la patrulla canina varada en una isla inexplorada llena de dinosaurios vivos, los cachorros deben unirse a su nuevo aliado, Rex, para detener al alcalde Humdinger antes de que la codicia de este provoque una catastrófica erupción volcánica.",
-    "poster": "https://image.tmdb.org/t/p/w500/fcBc0yfACuTU9oX9cm54IrFJzEW.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Aventura",
-      "Comedia",
-      "Familia",
-      "Fantasía",
-      "Animación"
-    ],
-    "year": "2026",
-    "rating": "7.0",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1340206,
-    "title": "Un talento único",
-    "plot": "Las meticulosas habilidades de un talentoso afinador de pianos le llevan a descubrir una inesperada aptitud para abrir cajas fuertes, lo que pone su vida patas arriba.",
-    "poster": "https://image.tmdb.org/t/p/w500/xIRryl8bWHFaMDssKFcPAXhfrRB.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/2f5Viug0j2jskSmeyhd89QYhqmS.jpg",
+    "tmdb": 1662,
+    "title": "El clan de los irlandeses",
+    "plot": "Hell's Kitchen, Nueva York. Terry Noonan vuelve a casa después de diez años de ausencia.",
+    "poster": "https://image.tmdb.org/t/p/w500/mR53mDy3SVa4ucKSxya4dXlJWVz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/v2IW5huWYKEkko2GcKwjvhq6pfL.jpg",
     "category": "Película",
     "genres": [
       "Suspense",
       "Crimen",
       "Drama"
     ],
-    "year": "2026",
-    "rating": "7.6",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 12437,
-    "title": "Underworld: La rebelión de los licántropos",
-    "plot": "Una enemistad a muerte de siglos estalla entre dos tribus inmortales en Underworld: La rebelión de los Licántropos. La tercera película de la saga épica de Underworld retrocede en el tiempo y cuenta el origen del conflicto entre los aristocráticos vampiros, conocidos como los “Death Dealers”, y los salvajes licántropos, una línea de feroces hombres lobos.",
-    "poster": "https://image.tmdb.org/t/p/w500/lvzqDNt7YWKVEGdHFKyJHz5aeR8.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/w0QuQDa9OGLqBt15pX825cqLit7.jpg",
-    "category": "Película",
-    "genres": [
-      "Fantasía",
-      "Suspense",
-      "Acción"
-    ],
-    "year": "2009",
-    "rating": "6.5",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1731694,
-    "title": "LEGO Star Wars: The Mandalorian",
-    "plot": "El cazarrecompensas y el Niño vuelven a encontrarse.",
-    "poster": "https://image.tmdb.org/t/p/w500/6sUsn029xHGQxO8VAJXfYcHmKB7.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/upecGaCuQOIbSpdz85mrJ395UMg.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
-      "Animación",
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-    ],
-    "year": "2026",
-    "rating": "7.5",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1558568,
-    "title": "Gracias, equipo",
-    "plot": "Nos contará la historia de la empresa Tío Mochales, antaño reina indiscutible del queso español. Hoy es una empresa un poco oxidada pero empeñada en mantener la imagen.",
-    "poster": "https://image.tmdb.org/t/p/w500/aVGaBCt8g0Q990jKW85wTJKotev.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/1hwrvoeqSe6oM59BHR8zFO082kF.jpg",
-    "category": "Película",
-    "genres": [
-      "Comedia"
-    ],
-    "year": "2026",
-    "rating": "--/",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 696822,
-    "title": "Bloody Hell",
-    "plot": "Un hombre con un pasado misterioso huye del país para escapar de su propio infierno personal ..",
-    "poster": "https://image.tmdb.org/t/p/w500/73I98oHHWEaAmp6UwTdE3tJkHCq.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/vTc8XTjCvmAv0cL3UrLT2SajvjY.jpg",
-    "category": "Película",
-    "genres": [
-      "Comedia",
-      "Terror"
-    ],
-    "year": "2020",
-    "rating": "6.5",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 74,
-    "title": "La guerra de los mundos",
-    "plot": "Ray Ferrier es un descargador de muelle, divorciado y padre nada modélico. Poco después de que su ex mujer y su nuevo marido se vayan después de dejar a Robbie, su hijo adolescente, y a su pequeña hija Rachel para una de sus contadas visitas, estalla una tremenda e inesperada tormenta eléctrica.",
-    "poster": "https://image.tmdb.org/t/p/w500/ahcOViJGgwGojoncRVDMq5R7WDN.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/nH6hPhJq3EEv9CnBZgXU3IQnpJo.jpg",
-    "category": "Película",
-    "genres": [
-      "Ciencia ficción",
-      "Suspense",
-      "Aventura"
-    ],
-    "year": "2005",
-    "rating": "6.5",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1205229,
-    "title": "Una noche en Zoopolis",
-    "plot": "Una noche, un meteorito se estrella en el zoo de Colepepper desatando un virus que transforma a los animales en extraños y divertidísimos mutantes zombis babosos. Gracie, una joven loba estrafalaria, forma equipo con un rudo y temible puma para encontrar la forma de volver con su manada.",
-    "poster": "https://image.tmdb.org/t/p/w500/49s9HB9bXMjHkdw0asNs7m1rO5E.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/h2SEtzuABKmcZAnKBJ1za3kETTY.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Familia",
-      "Ciencia ficción",
-      "Terror",
-      "Comedia",
-      "Aventura"
-    ],
-    "year": "2025",
-    "rating": "6.7",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1186830,
-    "title": "La isla de la belladona",
-    "plot": "En un futuro próximo..",
-    "poster": "https://image.tmdb.org/t/p/w500/qzpL1MEG4y4rdOvgmQMwfcX624X.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/3W4SZHPcnSCavBzdAFOWkJITKsv.jpg",
-    "category": "Película",
-    "genres": [
-      "Comedia",
-      "Drama"
-    ],
-    "year": "2025",
-    "rating": "6.2",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 467905,
-    "title": "Jugada Maestra",
-    "plot": "Becket, un potencial heredero de una fortuna millonaria, solo tiene un pequeño problema: que es el octavo en la línea de sucesión. Lo cual, por supuesto, tiene una fácil solución: matarlos a todos hasta que solo quede él.",
-    "poster": "https://image.tmdb.org/t/p/w500/xMZkXK0j2HqUplyTXotXOr2SHGx.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/bkUa5ZDqjQPx6rkxs0hM87vaWVa.jpg",
-    "category": "Película",
-    "genres": [
-      "Comedia",
-      "Suspense"
-    ],
-    "year": "2026",
+    "year": "1990",
     "rating": "6.9",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1292695,
-    "title": "Te van a matar",
-    "plot": "Una mujer acepta un trabajo como ama de llaves en un rascacielos de Nueva York, sin conocer el historial de desapariciones del edificio. Pronto se da cuenta de que la comunidad está rodeada de misterio.",
-    "poster": "https://image.tmdb.org/t/p/w500/4nMIuF7AnBCA2kEOdZ4t7f2GF10.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/qnTdOizsXBzYu3uIbfhHSfE29TE.jpg",
-    "category": "Película",
-    "genres": [
-      "Acción",
-      "Comedia",
-      "Terror"
-    ],
-    "year": "2026",
-    "rating": "6.5",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1107166,
-    "title": "Psycho Killer",
-    "plot": "Una agente de policía sigue la pista de un asesino después de que su marido, un patrullero de carretera, se convierta en una de sus víctimas.",
-    "poster": "https://image.tmdb.org/t/p/w500/5xgxxmLivJXL8aF0HdZfpx8aAIo.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/gMC4KIdHsj37w3kPI7mRUJLC57Q.jpg",
-    "category": "Película",
-    "genres": [
-      "Terror",
-      "Misterio",
-      "Crimen"
-    ],
-    "year": "2026",
-    "rating": "6.1",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 777831,
-    "title": "9 Balas",
-    "plot": "Una exbailarina de burlesque convertida en autora (Lena Headey) descubre una segunda oportunidad en la vida y la redención cuando arriesga todo para rescatar a su joven vecino después de que presencia el asesinato de sus padres. Ahora, huyendo del jefe del crimen local (Sam Worthington), quien resulta ser su ex de toda la vida, hace un intento desesperado por poner al niño a salvo.",
-    "poster": "https://image.tmdb.org/t/p/w500/hNaLkaWYN5eeNwnxHnhGgQPr2aT.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/o31kGDH9GbAZjVLwPYno8XvQGV2.jpg",
-    "category": "Película",
-    "genres": [
-      "Suspense",
-      "Acción"
-    ],
-    "year": "2022",
-    "rating": "5.4",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 417384,
-    "title": "Historias de miedo para contar en la oscuridad",
-    "plot": "Mill Valley, Pennsylvania, noche de Halloween, 1968. Después de gastar una broma a un matón de la escuela, Sarah y sus amigos deciden colarse en una casa supuestamente embrujada que una vez perteneció a la poderosa familia Bellows, desatando fuerzas oscuras que no podrán controlar.",
-    "poster": "https://image.tmdb.org/t/p/w500/2o2thWyv4q1s5CLkc1ffxyVFkti.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/snll1zUi2oxIah9qifXOvbfjcrG.jpg",
-    "category": "Película",
-    "genres": [
-      "Terror",
-      "Suspense"
-    ],
-    "year": "2019",
-    "rating": "6.5",
     "updated": "2026-09-13 07:47:37",
     "type": "movie"
   },
@@ -370,6 +115,107 @@
     "type": "movie"
   },
   {
+    "tmdb": 277,
+    "title": "Underworld",
+    "plot": "Durante siglos, dos razas han ido evolucionando en las profundidades de la Tierra: los aristocráticos y sofisticados vampiros y los brutales hombres-lobo (Lycans), cuya existencia siempre había formado parte del mundo de los mitos y las leyendas. Estas razas nocturnas son enemigas mortales y están condenadas a vivir en perpetua guerra hasta que sólo una de ellas sobreviva.",
+    "poster": "https://image.tmdb.org/t/p/w500/6mq3OSMsmcTtoRLXiYOp8VZGOdw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pvVkWJZYsUoCgnvpkd62pgnet7r.jpg",
+    "category": "Película",
+    "genres": [
+      "Suspense",
+      "Fantasía",
+      "Acción"
+    ],
+    "year": "2003",
+    "rating": "6.8",
+    "updated": "2026-09-13 07:47:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1292695,
+    "title": "Te van a matar",
+    "plot": "Una mujer acepta un trabajo como ama de llaves en un rascacielos de Nueva York, sin conocer el historial de desapariciones del edificio. Pronto se da cuenta de que la comunidad está rodeada de misterio.",
+    "poster": "https://image.tmdb.org/t/p/w500/4nMIuF7AnBCA2kEOdZ4t7f2GF10.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qnTdOizsXBzYu3uIbfhHSfE29TE.jpg",
+    "category": "Película",
+    "genres": [
+      "Acción",
+      "Comedia",
+      "Terror"
+    ],
+    "year": "2026",
+    "rating": "6.5",
+    "updated": "2026-09-13 07:47:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1340206,
+    "title": "Un talento único",
+    "plot": "Las meticulosas habilidades de un talentoso afinador de pianos le llevan a descubrir una inesperada aptitud para abrir cajas fuertes, lo que pone su vida patas arriba.",
+    "poster": "https://image.tmdb.org/t/p/w500/xIRryl8bWHFaMDssKFcPAXhfrRB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/2f5Viug0j2jskSmeyhd89QYhqmS.jpg",
+    "category": "Película",
+    "genres": [
+      "Suspense",
+      "Crimen",
+      "Drama"
+    ],
+    "year": "2026",
+    "rating": "7.6",
+    "updated": "2026-09-13 07:47:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 467905,
+    "title": "Jugada Maestra",
+    "plot": "Becket, un potencial heredero de una fortuna millonaria, solo tiene un pequeño problema: que es el octavo en la línea de sucesión. Lo cual, por supuesto, tiene una fácil solución: matarlos a todos hasta que solo quede él.",
+    "poster": "https://image.tmdb.org/t/p/w500/xMZkXK0j2HqUplyTXotXOr2SHGx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bkUa5ZDqjQPx6rkxs0hM87vaWVa.jpg",
+    "category": "Película",
+    "genres": [
+      "Comedia",
+      "Suspense"
+    ],
+    "year": "2026",
+    "rating": "6.9",
+    "updated": "2026-09-13 07:47:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 463821,
+    "title": "La casa del reloj en la pared",
+    "plot": "La historia cuenta el mágico y escalofriante relato de Lewis (Owen Vaccaro), un niño de 10 años quien, tras quedar huérfano, se muda a la vieja y rechinante casa de su tío, la cual tiene un misterioso reloj. Pronto, la aburrida y tranquila vida de su nuevo pueblo se ve interrumpida cuando accidentalmente, Lewis despierta a magos y brujas de un mundo secreto.",
+    "poster": "https://image.tmdb.org/t/p/w500/7pOLjpoCvZapa1SvWgKAc46W04p.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/dIufisifucT5lodcV5wRiN92x09.jpg",
+    "category": "Película",
+    "genres": [
+      "Fantasía",
+      "Familia",
+      "Comedia"
+    ],
+    "year": "2018",
+    "rating": "6.2",
+    "updated": "2026-09-13 07:47:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1440098,
+    "title": "Enfrentados : Marfil",
+    "plot": "Marfil Cortés, la hija de un poderoso empresario español, ve como su perfecta vida en Nueva York da un vuelco cuando es repentinamente secuestrada y liberada sin aparente explicación. Su padre decide entonces contratar al enigmático Sebastián Moore como guardaespaldas.",
+    "poster": "https://image.tmdb.org/t/p/w500/umlft1ztFbUcnHf960pXJocjpdv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/i65y7cMae36K0giN0GRaMjAHUru.jpg",
+    "category": "Película",
+    "genres": [
+      "Drama",
+      "Suspense",
+      "Romance"
+    ],
+    "year": "2026",
+    "rating": "7.1",
+    "updated": "2026-09-13 07:47:37",
+    "type": "movie"
+  },
+  {
     "tmdb": 1506560,
     "title": "Furia de los Thunderman",
     "plot": "Chloe, la hermana pequeña, desarrolla de repente un poder energético impredecible, y la Liga de Héroes exige enviarla a un internado de alta seguridad. La familia se divide: unos quieren entregarla por seguridad y otros deciden esconderla.",
@@ -389,18 +235,84 @@
     "type": "movie"
   },
   {
-    "tmdb": 1292415,
-    "title": "Beast (La bestia)",
-    "plot": "Con la ayuda de su antiguo entrenador, un campeón de MMA retirado e invicto regresa a la jaula para vengar la muerte de su hermano y resolver sus problemas financieros.",
-    "poster": "https://image.tmdb.org/t/p/w500/3S32pzyZMoOJ3ADrnT2GbV4tiX4.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/vmdt6nUXYX4mM0Ahcvh4bgHOjUt.jpg",
+    "tmdb": 777831,
+    "title": "9 Balas",
+    "plot": "Una exbailarina de burlesque convertida en autora (Lena Headey) descubre una segunda oportunidad en la vida y la redención cuando arriesga todo para rescatar a su joven vecino después de que presencia el asesinato de sus padres. Ahora, huyendo del jefe del crimen local (Sam Worthington), quien resulta ser su ex de toda la vida, hace un intento desesperado por poner al niño a salvo.",
+    "poster": "https://image.tmdb.org/t/p/w500/hNaLkaWYN5eeNwnxHnhGgQPr2aT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/o31kGDH9GbAZjVLwPYno8XvQGV2.jpg",
     "category": "Película",
     "genres": [
-      "Acción",
-      "Drama"
+      "Suspense",
+      "Acción"
+    ],
+    "year": "2022",
+    "rating": "5.4",
+    "updated": "2026-09-13 07:47:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 12437,
+    "title": "Underworld: La rebelión de los licántropos",
+    "plot": "Una enemistad a muerte de siglos estalla entre dos tribus inmortales en Underworld: La rebelión de los Licántropos. La tercera película de la saga épica de Underworld retrocede en el tiempo y cuenta el origen del conflicto entre los aristocráticos vampiros, conocidos como los “Death Dealers”, y los salvajes licántropos, una línea de feroces hombres lobos.",
+    "poster": "https://image.tmdb.org/t/p/w500/lvzqDNt7YWKVEGdHFKyJHz5aeR8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/w0QuQDa9OGLqBt15pX825cqLit7.jpg",
+    "category": "Película",
+    "genres": [
+      "Fantasía",
+      "Suspense",
+      "Acción"
+    ],
+    "year": "2009",
+    "rating": "6.5",
+    "updated": "2026-09-13 07:47:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 417384,
+    "title": "Historias de miedo para contar en la oscuridad",
+    "plot": "Mill Valley, Pennsylvania, noche de Halloween, 1968. Después de gastar una broma a un matón de la escuela, Sarah y sus amigos deciden colarse en una casa supuestamente embrujada que una vez perteneció a la poderosa familia Bellows, desatando fuerzas oscuras que no podrán controlar.",
+    "poster": "https://image.tmdb.org/t/p/w500/2o2thWyv4q1s5CLkc1ffxyVFkti.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/snll1zUi2oxIah9qifXOvbfjcrG.jpg",
+    "category": "Película",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "year": "2019",
+    "rating": "6.5",
+    "updated": "2026-09-13 07:47:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1107166,
+    "title": "Psycho Killer",
+    "plot": "Una agente de policía sigue la pista de un asesino después de que su marido, un patrullero de carretera, se convierta en una de sus víctimas.",
+    "poster": "https://image.tmdb.org/t/p/w500/5xgxxmLivJXL8aF0HdZfpx8aAIo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/gMC4KIdHsj37w3kPI7mRUJLC57Q.jpg",
+    "category": "Película",
+    "genres": [
+      "Terror",
+      "Misterio",
+      "Crimen"
     ],
     "year": "2026",
-    "rating": "7.5",
+    "rating": "6.1",
+    "updated": "2026-09-13 07:47:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1186830,
+    "title": "La isla de la belladona",
+    "plot": "En un futuro próximo..",
+    "poster": "https://image.tmdb.org/t/p/w500/qzpL1MEG4y4rdOvgmQMwfcX624X.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/3W4SZHPcnSCavBzdAFOWkJITKsv.jpg",
+    "category": "Película",
+    "genres": [
+      "Comedia",
+      "Drama"
+    ],
+    "year": "2025",
+    "rating": "6.2",
     "updated": "2026-09-13 07:47:37",
     "type": "movie"
   },
@@ -423,34 +335,49 @@
     "type": "movie"
   },
   {
-    "tmdb": 1662,
-    "title": "El clan de los irlandeses",
-    "plot": "Hell's Kitchen, Nueva York. Terry Noonan vuelve a casa después de diez años de ausencia.",
-    "poster": "https://image.tmdb.org/t/p/w500/mR53mDy3SVa4ucKSxya4dXlJWVz.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/v2IW5huWYKEkko2GcKwjvhq6pfL.jpg",
+    "tmdb": 4911,
+    "title": "Dark Blue",
+    "plot": "En 1992, días antes de conocerse el veredicto del caso Rodney King -contra 4 agentes de policía blancos- y los posteriores disturbios en Los Ángeles, dos oficiales de policía son asignados a la investigación de un caso de cuádruple homicidio con componentes raciales. Los agentes son el detective veterano Eldon Perry (Kurt Russell) y el novato Bobby Keough (Scott Speedman).",
+    "poster": "https://image.tmdb.org/t/p/w500/ekW39lKhQ3L3rdOgzyF3d0CoPLV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bl4OXajniUiTkgCgWbvXq7L5F2s.jpg",
     "category": "Película",
     "genres": [
       "Suspense",
-      "Crimen",
-      "Drama"
+      "Crimen"
     ],
-    "year": "1990",
-    "rating": "6.9",
+    "year": "2002",
+    "rating": "6.2",
     "updated": "2026-09-13 07:47:37",
     "type": "movie"
   },
   {
-    "tmdb": 1386128,
-    "title": "La fianza",
-    "plot": "Tras celebrar el sexto cumpleaños de su hija, Ana recibe la inoportuna visita de Walter, un extraño hombre que pregunta por Ricardo, el marido de Ana, con el que tiene negocios pendientes. Lo que comienza como una visita incómoda para Ana, termina convirtiéndose en una inquietante situación en la que descubre las constantes mentiras e infidelidades de Ricardo, así como la verdadera razón por la que Walter se encuentra en su casa: retenerlas a ella y a su hija a manera de fianza mientras Ricardo cierra un negocio con la peligrosa organización narco para la que trabaja Walter.",
-    "poster": "https://image.tmdb.org/t/p/w500/3CknYu11R1wZslUQ07G1hNcPUUJ.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/vAtVOFVkBehvuNEKxh869VMFHpY.jpg",
+    "tmdb": 1292415,
+    "title": "Beast (La bestia)",
+    "plot": "Con la ayuda de su antiguo entrenador, un campeón de MMA retirado e invicto regresa a la jaula para vengar la muerte de su hermano y resolver sus problemas financieros.",
+    "poster": "https://image.tmdb.org/t/p/w500/3S32pzyZMoOJ3ADrnT2GbV4tiX4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vmdt6nUXYX4mM0Ahcvh4bgHOjUt.jpg",
     "category": "Película",
     "genres": [
-      "Suspense"
+      "Acción",
+      "Drama"
     ],
-    "year": "2024",
-    "rating": "5.5",
+    "year": "2026",
+    "rating": "7.5",
+    "updated": "2026-09-13 07:47:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1558568,
+    "title": "Gracias, equipo",
+    "plot": "Nos contará la historia de la empresa Tío Mochales, antaño reina indiscutible del queso español. Hoy es una empresa un poco oxidada pero empeñada en mantener la imagen.",
+    "poster": "https://image.tmdb.org/t/p/w500/aVGaBCt8g0Q990jKW85wTJKotev.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/1hwrvoeqSe6oM59BHR8zFO082kF.jpg",
+    "category": "Película",
+    "genres": [
+      "Comedia"
+    ],
+    "year": "2026",
+    "rating": "--/",
     "updated": "2026-09-13 07:47:37",
     "type": "movie"
   },
@@ -466,58 +393,6 @@
     ],
     "year": "1989",
     "rating": "10.",
-    "updated": "2026-09-13 07:47:34",
-    "type": "movie"
-  },
-  {
-    "tmdb": 774370,
-    "title": "Policán",
-    "plot": "Un perro y un agente de policía resultan heridos juntos en el trabajo. Una operación quirúrgica que les salva la vida cambia el curso de la historia cuando nace Policán.",
-    "poster": "https://image.tmdb.org/t/p/w500/cUzwACFxvpbsD8kBr1IUI4JtXz0.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/w1SjvuBifhtFwe3BSssXXFyV6bk.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
-      "Comedia",
-      "Aventura",
-      "Animación"
-    ],
-    "year": "2025",
-    "rating": "7.8",
-    "updated": "2026-09-13 07:47:34",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1081003,
-    "title": "Supergirl",
-    "plot": "Kara Zor-El es una heroína errabunda que decide aliarse a regañadientes con un compañero improbable para comenzar un viaje épico e interestelar de venganza y justicia, en el cual deberá decidir si su fuerza sirve para destruir o para proteger.",
-    "poster": "https://image.tmdb.org/t/p/w500/sbPxtcrj3fPp3CH4CZgSj9Or7Yr.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/4X2YSe8PaYbsBqX3TDmmIU4vOju.jpg",
-    "category": "Película",
-    "genres": [
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-    ],
-    "year": "2026",
-    "rating": "6.8",
-    "updated": "2026-09-13 07:47:34",
-    "type": "movie"
-  },
-  {
-    "tmdb": 6538,
-    "title": "La guerra de Charlie Wilson",
-    "plot": "Un drama basado en las relaciones encubiertas en Afganistán del miembro del congreso de Texas Charlie Wilson, y de sus esfuerzos para ayudar a los rebeldes en su guerra contra los soviéticos, que tienen algunos efectos imprevistos y de largo alcance.",
-    "poster": "https://image.tmdb.org/t/p/w500/nOg0axtt1u1HlMuKPkpYJGCtbo8.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/lenFpoDZMlMvBWml8CF682x9NTQ.jpg",
-    "category": "Película",
-    "genres": [
-      "Comedia",
-      "Drama",
-      "Historia"
-    ],
-    "year": "2007",
-    "rating": "6.5",
     "updated": "2026-09-13 07:47:34",
     "type": "movie"
   },
@@ -539,6 +414,40 @@
     "type": "movie"
   },
   {
+    "tmdb": 6538,
+    "title": "La guerra de Charlie Wilson",
+    "plot": "Un drama basado en las relaciones encubiertas en Afganistán del miembro del congreso de Texas Charlie Wilson, y de sus esfuerzos para ayudar a los rebeldes en su guerra contra los soviéticos, que tienen algunos efectos imprevistos y de largo alcance.",
+    "poster": "https://image.tmdb.org/t/p/w500/nOg0axtt1u1HlMuKPkpYJGCtbo8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/lenFpoDZMlMvBWml8CF682x9NTQ.jpg",
+    "category": "Película",
+    "genres": [
+      "Comedia",
+      "Drama",
+      "Historia"
+    ],
+    "year": "2007",
+    "rating": "6.5",
+    "updated": "2026-09-13 07:47:34",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1081003,
+    "title": "Supergirl",
+    "plot": "Kara Zor-El es una heroína errabunda que decide aliarse a regañadientes con un compañero improbable para comenzar un viaje épico e interestelar de venganza y justicia, en el cual deberá decidir si su fuerza sirve para destruir o para proteger.",
+    "poster": "https://image.tmdb.org/t/p/w500/sbPxtcrj3fPp3CH4CZgSj9Or7Yr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/4X2YSe8PaYbsBqX3TDmmIU4vOju.jpg",
+    "category": "Película",
+    "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+    ],
+    "year": "2026",
+    "rating": "6.8",
+    "updated": "2026-09-13 07:47:34",
+    "type": "movie"
+  },
+  {
     "tmdb": 11649,
     "title": "Masters del universo",
     "plot": "Basada en la famosa serie animada. He-man y sus amigos deben viajar a la Tierra del siglo XX para rescatar una llave cósmica que les permita derrotar a Skeletor, que se ha apoderado del castillo de Grayskull y que mantiene prisionera a Sorceress.",
@@ -554,25 +463,6 @@
     ],
     "year": "1987",
     "rating": "5.7",
-    "updated": "2026-09-13 07:47:34",
-    "type": "movie"
-  },
-  {
-    "tmdb": 8983,
-    "title": "Francis el detectigato",
-    "plot": "Francis es un simpático e inteligente gato que acaba de mudarse de casa. Sin embargo, al poco tiempo de llegar a su nuevo barrio, el nuevo inquilino descubre que se trata de un lugar sumamente peligroso: un enigmático asunto está acabando con todos los gatos del vecindario.",
-    "poster": "https://image.tmdb.org/t/p/w500/hAOPO1qvPrNnLVQDBCImABRa1C1.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/vq5EcmEK3Bqsqq9cPINELCtnAUc.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Terror",
-      "Suspense",
-      "Misterio",
-      "Animación",
-      "Fantasía"
-    ],
-    "year": "1994",
-    "rating": "6.6",
     "updated": "2026-09-13 07:47:34",
     "type": "movie"
   },
@@ -626,23 +516,6 @@
     "type": "movie"
   },
   {
-    "tmdb": 244114,
-    "title": "Firestorm: fuego cruzado",
-    "plot": "Hong Kong. Cuando Cao Nan y su grupo de ladrones asaltan un furgón blindado a plena luz del día, no dudan en asesinar a inocentes en su huida.",
-    "poster": "https://image.tmdb.org/t/p/w500/izFXMyiP1HNZMu35xxM6z3LBGy2.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/LL8GyzFYcFDPRd562N9J3faZQE.jpg",
-    "category": "Película",
-    "genres": [
-      "Drama",
-      "Suspense",
-      "Acción"
-    ],
-    "year": "2013",
-    "rating": "6.1",
-    "updated": "2026-09-11 17:01:15",
-    "type": "movie"
-  },
-  {
     "tmdb": 332349,
     "title": "El pequeño gángster",
     "plot": "Rik Boskamp, el hijo de un contador, no soporta seguir siendo acosado por los matones en la escuela, así que, tras haber visto una película sobre la mafia, se le ocurre una brillante idea para hacerse respetar.",
@@ -661,36 +534,20 @@
     "type": "movie"
   },
   {
-    "tmdb": 143184,
-    "title": "Un Cargamento Potente",
-    "plot": "Se contrata a un agente de la mafia para recuperar un envío de Viagra que salió mal.",
-    "poster": "https://image.tmdb.org/t/p/w500/biHosn1OjWRF0k9ah0ac4esYC93.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/p6EfY6bKAsPiFcyWyIuHLdGtlmm.jpg",
+    "tmdb": 244114,
+    "title": "Firestorm: fuego cruzado",
+    "plot": "Hong Kong. Cuando Cao Nan y su grupo de ladrones asaltan un furgón blindado a plena luz del día, no dudan en asesinar a inocentes en su huida.",
+    "poster": "https://image.tmdb.org/t/p/w500/izFXMyiP1HNZMu35xxM6z3LBGy2.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/LL8GyzFYcFDPRd562N9J3faZQE.jpg",
     "category": "Película",
     "genres": [
-      "Comedia",
-      "Crimen"
+      "Drama",
+      "Suspense",
+      "Acción"
     ],
-    "year": "2001",
-    "rating": "5.1",
-    "updated": "2026-09-11 17:01:14",
-    "type": "movie"
-  },
-  {
-    "tmdb": 121,
-    "title": "El señor de los anillos: Las dos torres",
-    "plot": "La Compañía del Anillo se ha disuelto. El portador del anillo Frodo y su fiel amigo Sam se dirigen hacia Mordor para destruir el Anillo Único y acabar con el poder de Sauron.",
-    "poster": "https://image.tmdb.org/t/p/w500/up6gIHZlfEQZkHIfQwcOOaGOzOt.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/zcc0My3G4SYR72VuEYHNcUWkkW0.jpg",
-    "category": "Película",
-    "genres": [
-      "Fantasía",
-      "Acción",
-      "Aventura"
-    ],
-    "year": "2002",
-    "rating": "8.4",
-    "updated": "2026-09-11 17:01:14",
+    "year": "2013",
+    "rating": "6.1",
+    "updated": "2026-09-11 17:01:15",
     "type": "movie"
   },
   {
@@ -727,19 +584,36 @@
     "type": "movie"
   },
   {
-    "tmdb": 1516698,
-    "title": "Sunrise. El último amanecer",
-    "plot": "Basada en la aclamada novela, SUNRISE. El último amanecer presenta a Ry, una estudiante con una enfermedad crónica durante un verano en Mallorca con su madre.",
-    "poster": "https://image.tmdb.org/t/p/w500/xf85WDNB5ICqlOqRAHxIdMi3jdZ.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/tvY4QPyopLVaRkPVOQb3Y1dyy7f.jpg",
+    "tmdb": 121,
+    "title": "El señor de los anillos: Las dos torres",
+    "plot": "La Compañía del Anillo se ha disuelto. El portador del anillo Frodo y su fiel amigo Sam se dirigen hacia Mordor para destruir el Anillo Único y acabar con el poder de Sauron.",
+    "poster": "https://image.tmdb.org/t/p/w500/up6gIHZlfEQZkHIfQwcOOaGOzOt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/zcc0My3G4SYR72VuEYHNcUWkkW0.jpg",
     "category": "Película",
     "genres": [
-      "Drama",
-      "Romance"
+      "Fantasía",
+      "Acción",
+      "Aventura"
     ],
-    "year": "2026",
-    "rating": "10.",
-    "updated": "2026-09-11 17:01:13",
+    "year": "2002",
+    "rating": "8.4",
+    "updated": "2026-09-11 17:01:14",
+    "type": "movie"
+  },
+  {
+    "tmdb": 143184,
+    "title": "Un Cargamento Potente",
+    "plot": "Se contrata a un agente de la mafia para recuperar un envío de Viagra que salió mal.",
+    "poster": "https://image.tmdb.org/t/p/w500/biHosn1OjWRF0k9ah0ac4esYC93.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/p6EfY6bKAsPiFcyWyIuHLdGtlmm.jpg",
+    "category": "Película",
+    "genres": [
+      "Comedia",
+      "Crimen"
+    ],
+    "year": "2001",
+    "rating": "5.1",
+    "updated": "2026-09-11 17:01:14",
     "type": "movie"
   },
   {
@@ -761,18 +635,19 @@
     "type": "movie"
   },
   {
-    "tmdb": 513902,
-    "title": "Eva, limpia como los chorros del oro",
-    "plot": "Una familia de pueblo llega a Madrid ilusionada con la vida mejor y más cómoda de la capital. Las colocaciones están mal y, además, sólo saben hacer las faenas del campo.",
-    "poster": "https://image.tmdb.org/t/p/w500/lMNCvTDzUrQMLzLaX8txUeY1XXX.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/t6cghHACnQKhrSOfQeGcmMTh4D0.jpg",
+    "tmdb": 1516698,
+    "title": "Sunrise. El último amanecer",
+    "plot": "Basada en la aclamada novela, SUNRISE. El último amanecer presenta a Ry, una estudiante con una enfermedad crónica durante un verano en Mallorca con su madre.",
+    "poster": "https://image.tmdb.org/t/p/w500/xf85WDNB5ICqlOqRAHxIdMi3jdZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/tvY4QPyopLVaRkPVOQb3Y1dyy7f.jpg",
     "category": "Película",
     "genres": [
-      "Comedia"
+      "Drama",
+      "Romance"
     ],
-    "year": "1977",
-    "rating": "2.0",
-    "updated": "2026-09-11 17:01:11",
+    "year": "2026",
+    "rating": "10.",
+    "updated": "2026-09-11 17:01:13",
     "type": "movie"
   },
   {
@@ -791,19 +666,17 @@
     "type": "movie"
   },
   {
-    "tmdb": 406759,
-    "title": "Moonfall",
-    "plot": "El mundo se enfrenta a la posibilidad de la extinción porque una fuerza desconocida empuja a la luna de su órbita rumbo a la Tierra. Un equipo de astronautas asume la misión de evitar el apocalipsis.",
-    "poster": "https://image.tmdb.org/t/p/w500/nRUN5ywlehfB8opryZkXwfYSGAl.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/8QpzqK3nPGxpqpKqhe6QasTGBWQ.jpg",
+    "tmdb": 513902,
+    "title": "Eva, limpia como los chorros del oro",
+    "plot": "Una familia de pueblo llega a Madrid ilusionada con la vida mejor y más cómoda de la capital. Las colocaciones están mal y, además, sólo saben hacer las faenas del campo.",
+    "poster": "https://image.tmdb.org/t/p/w500/lMNCvTDzUrQMLzLaX8txUeY1XXX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/t6cghHACnQKhrSOfQeGcmMTh4D0.jpg",
     "category": "Película",
     "genres": [
-      "Ciencia ficción",
-      "Aventura",
-      "Acción"
+      "Comedia"
     ],
-    "year": "2022",
-    "rating": "6.3",
+    "year": "1977",
+    "rating": "2.0",
     "updated": "2026-09-11 17:01:11",
     "type": "movie"
   },
@@ -819,6 +692,23 @@
     ],
     "year": "1982",
     "rating": "4.4",
+    "updated": "2026-09-11 17:01:11",
+    "type": "movie"
+  },
+  {
+    "tmdb": 406759,
+    "title": "Moonfall",
+    "plot": "El mundo se enfrenta a la posibilidad de la extinción porque una fuerza desconocida empuja a la luna de su órbita rumbo a la Tierra. Un equipo de astronautas asume la misión de evitar el apocalipsis.",
+    "poster": "https://image.tmdb.org/t/p/w500/nRUN5ywlehfB8opryZkXwfYSGAl.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/8QpzqK3nPGxpqpKqhe6QasTGBWQ.jpg",
+    "category": "Película",
+    "genres": [
+      "Ciencia ficción",
+      "Aventura",
+      "Acción"
+    ],
+    "year": "2022",
+    "rating": "6.3",
     "updated": "2026-09-11 17:01:11",
     "type": "movie"
   },
@@ -888,21 +778,6 @@
     "type": "movie"
   },
   {
-    "tmdb": 721328,
-    "title": "Los secretos de La Roja – Campeones del mundo",
-    "plot": "Documental que narra el camino hacia la victoria de la selección española en el Mundial de Sudáfrica 2010. El film revela en primera persona los secretos más íntimos de sus protagonistas, desde que Vicente del Bosque anunciara a los jugadores seleccionados, el documental hace un repaso del paso de la selección por el campeonato, destacando sus momentos clave, como el épico partido contra Paraguay, la semifinal contra Alemania, y la apoteósica final contra Holanda, que proclamó a España como Campeona del Mundo por primera vez en su historia.",
-    "poster": "https://image.tmdb.org/t/p/w500/9cpcSgEon3BOkYHH8RMdU1SBSj4.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/y9mtyQ8fiBPE9gOz8nXkLd5Ytl5.jpg",
-    "category": "Documental",
-    "genres": [
-      "Documental"
-    ],
-    "year": "2020",
-    "rating": "6.1",
-    "updated": "2026-09-11 17:01:09",
-    "type": "movie"
-  },
-  {
     "tmdb": 25676,
     "title": "Dos ladrones y medio",
     "plot": "Fong (Jackie Chan) es un ladrón sin suerte. Con habilidades excepcionales para el robo, Fong siempre pierde todo lo ganado en sus golpes en las apuestas.",
@@ -920,24 +795,20 @@
     "type": "movie"
   },
   {
-    "tmdb": 1059572,
-    "title": "Shin Chan: El Superhéroe",
-    "plot": "Shin chan está jugando en casa cuando una misteriosa luz cae del cielo y se precipita sobre él, concediéndole extraños superpoderes sin que él lo sepa. Al mismo tiempo, una luz oscura alcanza a un chico algo gafe con el que se había encontrado Hiroshi en la calle.",
-    "poster": "https://image.tmdb.org/t/p/w500/Ar48rRwrisAapCWhbxuX5TRnKS5.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/gjEiHrj8dSsgL25XbIxT9o5qO3u.jpg",
-    "category": "Anime",
+    "tmdb": 9823,
+    "title": "Mortal Kombat: Aniquilación",
+    "plot": "Estamos en el universo del Emperador Shao-Khan, donde las reglas no existen y la vida es una continua batalla. Los esbirros del maquiavélico Khan han sido adiestrados para matar y están dispuestos a cumplir las órdenes de su amo, conseguir el control de la Tierra para iniciar su aniquilación total.",
+    "poster": "https://image.tmdb.org/t/p/w500/pM2SztHPR6yDg1Xnrm0dbjMdA3b.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/19EpgKZDkLIwY1TI1pjBJtQ5qdr.jpg",
+    "category": "Película",
     "genres": [
-      "Familia",
-      "Comedia",
-      "Animación",
-      "Aventura",
       "Acción",
       "Fantasía",
       "Ciencia ficción"
     ],
-    "year": "2023",
-    "rating": "6.9",
-    "updated": "2026-09-11 17:01:09",
+    "year": "1997",
+    "rating": "4.5",
+    "updated": "2026-09-11 17:01:06",
     "type": "movie"
   },
   {
@@ -959,23 +830,6 @@
     "type": "movie"
   },
   {
-    "tmdb": 1198994,
-    "title": "SEND HELP (Enviad ayuda)",
-    "plot": "Después de que un accidente de avión deje varados en una isla remota a una competente empleada y a su insoportable jefe, ella deberá utilizar sus habilidades de supervivencia para mantenerlos a ambos con vida, a pesar de su difícil relación.",
-    "poster": "https://image.tmdb.org/t/p/w500/qXZZtyzuTX3KMfSLssCR6J0mODd.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/gCmfeKmEAZBP5gcXpiqb0gii9rS.jpg",
-    "category": "Película",
-    "genres": [
-      "Terror",
-      "Suspense",
-      "Comedia"
-    ],
-    "year": "2026",
-    "rating": "7.0",
-    "updated": "2026-09-11 17:01:06",
-    "type": "movie"
-  },
-  {
     "tmdb": 1236153,
     "title": "Sin piedad",
     "plot": "Tras ser acusado de un crimen, un detective deberá demostrar su inocencia.",
@@ -993,23 +847,6 @@
     "type": "movie"
   },
   {
-    "tmdb": 9823,
-    "title": "Mortal Kombat: Aniquilación",
-    "plot": "Estamos en el universo del Emperador Shao-Khan, donde las reglas no existen y la vida es una continua batalla. Los esbirros del maquiavélico Khan han sido adiestrados para matar y están dispuestos a cumplir las órdenes de su amo, conseguir el control de la Tierra para iniciar su aniquilación total.",
-    "poster": "https://image.tmdb.org/t/p/w500/pM2SztHPR6yDg1Xnrm0dbjMdA3b.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/19EpgKZDkLIwY1TI1pjBJtQ5qdr.jpg",
-    "category": "Película",
-    "genres": [
-      "Acción",
-      "Fantasía",
-      "Ciencia ficción"
-    ],
-    "year": "1997",
-    "rating": "4.5",
-    "updated": "2026-09-11 17:01:06",
-    "type": "movie"
-  },
-  {
     "tmdb": 244267,
     "title": "Orígenes",
     "plot": "Ian Gray, un estudiante de biología molecular especializado en la evolución del ojo humano, conoce a una misteriosa mujer cuyo iris es multicolor. Años después, su investigación lo conduce a un descubrimiento asombroso, que podría cambiar la forma en que percibimos nuestra existencia.",
@@ -1023,6 +860,40 @@
     "year": "2014",
     "rating": "7.6",
     "updated": "2026-09-11 17:01:06",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1198994,
+    "title": "SEND HELP (Enviad ayuda)",
+    "plot": "Después de que un accidente de avión deje varados en una isla remota a una competente empleada y a su insoportable jefe, ella deberá utilizar sus habilidades de supervivencia para mantenerlos a ambos con vida, a pesar de su difícil relación.",
+    "poster": "https://image.tmdb.org/t/p/w500/qXZZtyzuTX3KMfSLssCR6J0mODd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/gCmfeKmEAZBP5gcXpiqb0gii9rS.jpg",
+    "category": "Película",
+    "genres": [
+      "Terror",
+      "Suspense",
+      "Comedia"
+    ],
+    "year": "2026",
+    "rating": "7.0",
+    "updated": "2026-09-11 17:01:06",
+    "type": "movie"
+  },
+  {
+    "tmdb": 120,
+    "title": "El señor de los anillos: La comunidad del anillo",
+    "plot": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales.",
+    "poster": "https://image.tmdb.org/t/p/w500/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/x2RS3uTcsJJ9IfjNPcgDmukoEcQ.jpg",
+    "category": "Película",
+    "genres": [
+      "Fantasía",
+      "Acción",
+      "Aventura"
+    ],
+    "year": "2001",
+    "rating": "8.4",
+    "updated": "2026-09-11 17:01:04",
     "type": "movie"
   },
   {
@@ -1056,40 +927,6 @@
     "type": "movie"
   },
   {
-    "tmdb": 1297842,
-    "title": "GOAT: Como cabras",
-    "plot": "Will es una pequeña cabra con grandes sueños que recibe una oportunidad única en la vida para unirse a los profesionales y jugar al rugebol, un deporte de alta intensidad, mixto y de contacto total dominado por los animales más rápidos y feroces del mundo. A los nuevos compañeros de equipo de Will no les entusiasma tener a una cabrita en su plantilla, pero Will está decidido a revolucionar el deporte y demostrar de una vez por todas que «¡los pequeños saben jugar!».",
-    "poster": "https://image.tmdb.org/t/p/w500/l8Y8o3RpFg54gmQQ8GVaxVroFmY.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
-      "Animación",
-      "Comedia"
-    ],
-    "year": "2026",
-    "rating": "7.5",
-    "updated": "2026-09-11 17:01:04",
-    "type": "movie"
-  },
-  {
-    "tmdb": 120,
-    "title": "El señor de los anillos: La comunidad del anillo",
-    "plot": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales.",
-    "poster": "https://image.tmdb.org/t/p/w500/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/x2RS3uTcsJJ9IfjNPcgDmukoEcQ.jpg",
-    "category": "Película",
-    "genres": [
-      "Fantasía",
-      "Acción",
-      "Aventura"
-    ],
-    "year": "2001",
-    "rating": "8.4",
-    "updated": "2026-09-11 17:01:04",
-    "type": "movie"
-  },
-  {
     "tmdb": 17813,
     "title": "Alex y Emma",
     "plot": "Un joven novelista adicto al juego (Luke Wilson) hace una apuesta con su editor: en compensación por un anticipo de 50.000 dólares, acabará su última novela en 30 días.",
@@ -1106,35 +943,19 @@
     "type": "movie"
   },
   {
-    "tmdb": 1583875,
-    "title": "Los mejores años de nuestra vida",
-    "plot": "Un retrato íntimo y emocional del grupo de rock Hombres G, uno de los más míticos de la historia de la música española, por su 40 aniversario.",
-    "poster": "https://image.tmdb.org/t/p/w500/dSyseZXNnObOCSRmC4BQo1w1RMU.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/kaiKhrrXnU7zRLz6qKAifdASsJB.jpg",
-    "category": "Documental",
+    "tmdb": 1365884,
+    "title": "Llama a mi agente: La Pelicula",
+    "plot": "Una directora novata debe buscar a su antiguo equipo de representantes artísticos cuando el protagonista de su película abandona el proyecto a pocos días de comenzar el rodaje.",
+    "poster": "https://image.tmdb.org/t/p/w500/s0NJyZcmuG91MgFwflfGyQFeg41.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/blh99dDTXa0Gpiuws2BoVyas8Pp.jpg",
+    "category": "Película",
     "genres": [
-      "Música",
-      "Documental"
+      "Comedia",
+      "Drama"
     ],
     "year": "2026",
-    "rating": "10.",
-    "updated": "2026-09-10 16:52:49",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1676963,
-    "title": "Isabel II del Reino Unido",
-    "plot": "Documental que recorre la vida y el largo reinado de Isabel II, desde los últimos años del Imperio británico hasta la era de las nuevas tecnologías. A través de los grandes acontecimientos históricos y de su relación con la vida pública y la cultura popular, figuras como Helen Mirren, Barack Obama y Kirsty Young analizan su legado y el profundo cambio social y cultural experimentado por el Reino Unido durante casi un siglo.",
-    "poster": "https://image.tmdb.org/t/p/w500/a0YX5g1aFH89VJbq7daDu7Orgr7.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/tIwMVUXMA6tcjWxhZvHkliqG0ZZ.jpg",
-    "category": "Documental",
-    "genres": [
-      "Documental",
-      "Historia"
-    ],
-    "year": "2026",
-    "rating": "0",
-    "updated": "2026-09-10 16:52:49",
+    "rating": "--/",
+    "updated": "2026-09-10 16:52:48",
     "type": "movie"
   },
   {
@@ -1155,19 +976,20 @@
     "type": "movie"
   },
   {
-    "tmdb": 1365884,
-    "title": "Llama a mi agente: La Pelicula",
-    "plot": "Una directora novata debe buscar a su antiguo equipo de representantes artísticos cuando el protagonista de su película abandona el proyecto a pocos días de comenzar el rodaje.",
-    "poster": "https://image.tmdb.org/t/p/w500/s0NJyZcmuG91MgFwflfGyQFeg41.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/blh99dDTXa0Gpiuws2BoVyas8Pp.jpg",
+    "tmdb": 299054,
+    "title": "Los mercenarios 4",
+    "plot": "Cuarta entrega de la saga Los Mercenarios. El veterano mercenario Barney “Esquizo” Ross (Sylvester Stallone) y su equipo de estrellas, formado por los hombres más duros (Jason Statham, Dolph Lundgren, 50 Cent, Megan Fox…), afrontan un nuevo desafío, en una trama cargada de acción.",
+    "poster": "https://image.tmdb.org/t/p/w500/2qxRrkayxSYiib4JCYRM3sasQe0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
     "category": "Película",
     "genres": [
-      "Comedia",
-      "Drama"
+      "Aventura",
+      "Acción",
+      "Suspense"
     ],
-    "year": "2026",
-    "rating": "--/",
-    "updated": "2026-09-10 16:52:48",
+    "year": "2023",
+    "rating": "6.2",
+    "updated": "2026-09-10 16:52:43",
     "type": "movie"
   },
   {
@@ -1183,23 +1005,6 @@
       "Acción"
     ],
     "year": "2010",
-    "rating": "6.2",
-    "updated": "2026-09-10 16:52:43",
-    "type": "movie"
-  },
-  {
-    "tmdb": 299054,
-    "title": "Los mercenarios 4",
-    "plot": "Cuarta entrega de la saga Los Mercenarios. El veterano mercenario Barney “Esquizo” Ross (Sylvester Stallone) y su equipo de estrellas, formado por los hombres más duros (Jason Statham, Dolph Lundgren, 50 Cent, Megan Fox…), afrontan un nuevo desafío, en una trama cargada de acción.",
-    "poster": "https://image.tmdb.org/t/p/w500/2qxRrkayxSYiib4JCYRM3sasQe0.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
-    "category": "Película",
-    "genres": [
-      "Aventura",
-      "Acción",
-      "Suspense"
-    ],
-    "year": "2023",
     "rating": "6.2",
     "updated": "2026-09-10 16:52:43",
     "type": "movie"
@@ -1255,22 +1060,6 @@
     "type": "movie"
   },
   {
-    "tmdb": 3682,
-    "title": "54 (Studio 54)",
-    "plot": "Nueva York, 1979. Shane O'Shea, un chico de 19 años, guapo y que lleva una vida monótona y anodina, sueña con poder entrar una noche en la discoteca Studio 54 de Manhattan.",
-    "poster": "https://image.tmdb.org/t/p/w500/54IqhUALFHnNYiuHCYbldZSNJuM.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/rizXmQUDYaaLBoRRs90QHiQsTSy.jpg",
-    "category": "Película",
-    "genres": [
-      "Música",
-      "Drama"
-    ],
-    "year": "1998",
-    "rating": "5.8",
-    "updated": "2026-09-10 16:52:41",
-    "type": "movie"
-  },
-  {
     "tmdb": 744,
     "title": "Top Gun: Ídolos del aire",
     "plot": "La Marina de los Estados Unidos ha creado una escuela de élite para pilotos con el fin de sacar una promoción de expertos en técnicas de combate. En la academia, más conocida como Top Gun, a los mejores se les entrena para ser intrépidos y fríos al mismo tiempo, capaces de no perder los nervios en situaciones extremas y de no inmutarse al romper la barrera del sonido a los mandos de un F-14.",
@@ -1284,6 +1073,22 @@
     ],
     "year": "1986",
     "rating": "7.1",
+    "updated": "2026-09-10 16:52:41",
+    "type": "movie"
+  },
+  {
+    "tmdb": 3682,
+    "title": "54 (Studio 54)",
+    "plot": "Nueva York, 1979. Shane O'Shea, un chico de 19 años, guapo y que lleva una vida monótona y anodina, sueña con poder entrar una noche en la discoteca Studio 54 de Manhattan.",
+    "poster": "https://image.tmdb.org/t/p/w500/54IqhUALFHnNYiuHCYbldZSNJuM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rizXmQUDYaaLBoRRs90QHiQsTSy.jpg",
+    "category": "Película",
+    "genres": [
+      "Música",
+      "Drama"
+    ],
+    "year": "1998",
+    "rating": "5.8",
     "updated": "2026-09-10 16:52:41",
     "type": "movie"
   },
@@ -1337,36 +1142,6 @@
     "type": "movie"
   },
   {
-    "tmdb": 1446301,
-    "title": "Yo no moriré de amor",
-    "plot": "A sus 18 años, Claudia no quiere ser la heroína de su familia. La enfermedad de su madre irrumpe en su casa como una tormenta silenciosa.",
-    "poster": "https://image.tmdb.org/t/p/w500/f5O7hMhzug2qOCFIDwRCro4NqFL.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/uFb6uM9QqUTExBF0RpYFtWMqX5d.jpg",
-    "category": "Película",
-    "genres": [
-      "Drama"
-    ],
-    "year": "2026",
-    "rating": "8.0",
-    "updated": "2026-09-10 16:52:35",
-    "type": "movie"
-  },
-  {
-    "tmdb": 996569,
-    "title": "Brother",
-    "plot": "Dos hermanos canadienses de origen jamaicano se enfrentan al racismo, la violencia callejera y la masculinidad, mientras tratan de encontrar su propia identidad y reconciliarse con sus sueños y expectativas en el Toronto de la década de 1990. Michael y Francis.",
-    "poster": "https://image.tmdb.org/t/p/w500/yqd1CmwaXQkLXVLsO2cqiExplb1.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/6eh7pKQvz8G2oJCLbaJajeV8k8Q.jpg",
-    "category": "Película",
-    "genres": [
-      "Drama"
-    ],
-    "year": "2023",
-    "rating": "5.8",
-    "updated": "2026-09-10 16:52:35",
-    "type": "movie"
-  },
-  {
     "tmdb": 16515,
     "title": "Capitanes intrépidos",
     "plot": "Harvey, el hijo arrogante y malcriado de un padre poco cariñoso, cae por la borda de un barco de vapor transatlántico y es rescatado por un barco de pesca en el Gran Banco de Terranova. Harvey trata de convencerles para que lo lleven a tierra alardeando de su riqueza ante la tripulación, aunque nadie le toma en serio.",
@@ -1384,19 +1159,17 @@
     "type": "movie"
   },
   {
-    "tmdb": 13754,
-    "title": "TekkonKinkreet",
-    "plot": "En Treasure Town, donde la luna sonríe y los chicos pueden volar, la vida puede ser tan maravillosa como terrible. Kuro y Shiro, dos huérfanos que se buscan la vida como pueden, otean la ciudad como halcones y no paran de meterse en líos.",
-    "poster": "https://image.tmdb.org/t/p/w500/4sFl4dAHLN5gmXPmIQBdYlRJbST.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/1aPpu4fApN5ZTMTuHPW6a0wnSnH.jpg",
-    "category": "Anime",
+    "tmdb": 996569,
+    "title": "Brother",
+    "plot": "Dos hermanos canadienses de origen jamaicano se enfrentan al racismo, la violencia callejera y la masculinidad, mientras tratan de encontrar su propia identidad y reconciliarse con sus sueños y expectativas en el Toronto de la década de 1990. Michael y Francis.",
+    "poster": "https://image.tmdb.org/t/p/w500/yqd1CmwaXQkLXVLsO2cqiExplb1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/6eh7pKQvz8G2oJCLbaJajeV8k8Q.jpg",
+    "category": "Película",
     "genres": [
-      "Animación",
-      "Crimen",
-      "Suspense"
+      "Drama"
     ],
-    "year": "2006",
-    "rating": "7.4",
+    "year": "2023",
+    "rating": "5.8",
     "updated": "2026-09-10 16:52:35",
     "type": "movie"
   },
@@ -1434,34 +1207,18 @@
     "type": "movie"
   },
   {
-    "tmdb": 1739206,
-    "title": "Untold Mr. T: I Pity the Fool",
-    "plot": "Antes de las cadenas de oro, el mohawk y la fama de Hollywood de The A-Team y Rocky III, estaba Laurence Tureaud. Esta es la extraordinaria historia del origen detrás de uno de los íconos del entretenimiento más improbables y queridos: el Sr.",
-    "poster": "https://image.tmdb.org/t/p/w500/bUWHsZqPiYl8GwxhXA1nCdKRZbn.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/tCxXRtEn4nQVtxQzaH32ZUjoX3C.jpg",
-    "category": "Documental",
+    "tmdb": 1446301,
+    "title": "Yo no moriré de amor",
+    "plot": "A sus 18 años, Claudia no quiere ser la heroína de su familia. La enfermedad de su madre irrumpe en su casa como una tormenta silenciosa.",
+    "poster": "https://image.tmdb.org/t/p/w500/f5O7hMhzug2qOCFIDwRCro4NqFL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/uFb6uM9QqUTExBF0RpYFtWMqX5d.jpg",
+    "category": "Película",
     "genres": [
-      "Documental"
+      "Drama"
     ],
     "year": "2026",
-    "rating": "7.9",
-    "updated": "2026-09-10 12:02:03",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1702450,
-    "title": "Latidos en la lluvia",
-    "plot": "Cinco supervivientes de cáncer se enfrentan al reto de cruzar Costa Rica del Pacífico al Caribe. A través de ciclismo, trekking y rafting, desafían una naturaleza implacable en un emotivo documental sobre la resiliencia tras la enfermedad",
-    "poster": "https://image.tmdb.org/t/p/w500/yHnWOaf4FZ3qROPXooxUbTelK0Y.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/irHupEIkhVmXJ34PIPz5ECMxAkQ.jpg",
-    "category": "Documental",
-    "genres": [
-      "Aventura",
-      "Documental"
-    ],
-    "year": "2026",
-    "rating": "0",
-    "updated": "2026-09-10 12:02:02",
+    "rating": "8.0",
+    "updated": "2026-09-10 16:52:35",
     "type": "movie"
   },
   {
@@ -1480,17 +1237,18 @@
     "type": "movie"
   },
   {
-    "tmdb": 114619,
-    "title": "El demonio de Ludlow",
-    "plot": "Un demonio asesino acecha dentro de un piano antiguo en una pintoresca ciudad costera.",
-    "poster": "https://image.tmdb.org/t/p/w500/oYdckkPeQqvEBe3GOzmiHMrJFHP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/w4pLk9v0WethpX3Pz8ExSGkCtYE.jpg",
+    "tmdb": 35101,
+    "title": "El último vuelo del Arca de Noé",
+    "plot": "Para escapar de sus acreedores, Noah acepta un trato que consiste en transportar un viejo bombardero cargado de animales a una isla del Pacífico. Además, tiene que llevar a una joven directora de orfanato, que se encargará de educar a los nativos de la isla, y a dos niños del mismo centro que se cuelan en el avión como polizones.",
+    "poster": "https://image.tmdb.org/t/p/w500/n4hNT3HobCj23Uw7IIZZ1ZpzQMP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/q9AjUl2DRCyC7TOxheLElRTCtuH.jpg",
     "category": "Película",
     "genres": [
-      "Terror"
+      "Aventura",
+      "Familia"
     ],
-    "year": "1983",
-    "rating": "3.8",
+    "year": "1980",
+    "rating": "5.6",
     "updated": "2026-09-10 11:57:18",
     "type": "movie"
   },
@@ -1506,6 +1264,38 @@
     ],
     "year": "2016",
     "rating": "6.3",
+    "updated": "2026-09-10 11:57:18",
+    "type": "movie"
+  },
+  {
+    "tmdb": 114619,
+    "title": "El demonio de Ludlow",
+    "plot": "Un demonio asesino acecha dentro de un piano antiguo en una pintoresca ciudad costera.",
+    "poster": "https://image.tmdb.org/t/p/w500/oYdckkPeQqvEBe3GOzmiHMrJFHP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/w4pLk9v0WethpX3Pz8ExSGkCtYE.jpg",
+    "category": "Película",
+    "genres": [
+      "Terror"
+    ],
+    "year": "1983",
+    "rating": "3.8",
+    "updated": "2026-09-10 11:57:18",
+    "type": "movie"
+  },
+  {
+    "tmdb": 11665,
+    "title": "Super Agente 86",
+    "plot": "Adaptación de la serie de televisión de los años 60 'Superagente 86' interpretada por Don Adams y Barbara Feldon. Steve Carell interpreta al despistado y atolondrado Superagente 86 de la agencia de inteligencia gubernamental CONTROL, que lucha contra las fuerzas del mal encarnadas en KAOS, la agencia rival.",
+    "poster": "https://image.tmdb.org/t/p/w500/lKSOh8Sm0iFLeT5zmf2HyhBwfiF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/u0yaNgikY92zkI0t3fiEGZP3UWq.jpg",
+    "category": "Película",
+    "genres": [
+      "Acción",
+      "Comedia",
+      "Suspense"
+    ],
+    "year": "2008",
+    "rating": "6.2",
     "updated": "2026-09-10 11:57:18",
     "type": "movie"
   },
@@ -1542,36 +1332,18 @@
     "type": "movie"
   },
   {
-    "tmdb": 11665,
-    "title": "Super Agente 86",
-    "plot": "Adaptación de la serie de televisión de los años 60 'Superagente 86' interpretada por Don Adams y Barbara Feldon. Steve Carell interpreta al despistado y atolondrado Superagente 86 de la agencia de inteligencia gubernamental CONTROL, que lucha contra las fuerzas del mal encarnadas en KAOS, la agencia rival.",
-    "poster": "https://image.tmdb.org/t/p/w500/lKSOh8Sm0iFLeT5zmf2HyhBwfiF.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/u0yaNgikY92zkI0t3fiEGZP3UWq.jpg",
+    "tmdb": 820707,
+    "title": "La isla roja",
+    "plot": "Comienzos años 70. El pequeño Thomas vive bajo el colonialismo francés en Madagascar en una de las bases aéreas del ejército francés, donde las familias de los militares viven los últimos coletazos del colonialismo.",
+    "poster": "https://image.tmdb.org/t/p/w500/l7jjl4x5strYpqhJpGg0KSyfoFW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/f8EANme8qkDYHeTvAogY0GMX7kb.jpg",
     "category": "Película",
     "genres": [
-      "Acción",
-      "Comedia",
-      "Suspense"
+      "Drama"
     ],
-    "year": "2008",
-    "rating": "6.2",
-    "updated": "2026-09-10 11:57:18",
-    "type": "movie"
-  },
-  {
-    "tmdb": 35101,
-    "title": "El último vuelo del Arca de Noé",
-    "plot": "Para escapar de sus acreedores, Noah acepta un trato que consiste en transportar un viejo bombardero cargado de animales a una isla del Pacífico. Además, tiene que llevar a una joven directora de orfanato, que se encargará de educar a los nativos de la isla, y a dos niños del mismo centro que se cuelan en el avión como polizones.",
-    "poster": "https://image.tmdb.org/t/p/w500/n4hNT3HobCj23Uw7IIZZ1ZpzQMP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/q9AjUl2DRCyC7TOxheLElRTCtuH.jpg",
-    "category": "Película",
-    "genres": [
-      "Aventura",
-      "Familia"
-    ],
-    "year": "1980",
-    "rating": "5.6",
-    "updated": "2026-09-10 11:57:18",
+    "year": "2023",
+    "rating": "5.4",
+    "updated": "2026-09-10 11:57:13",
     "type": "movie"
   },
   {
@@ -1586,6 +1358,22 @@
     ],
     "year": "2005",
     "rating": "5.1",
+    "updated": "2026-09-10 11:57:13",
+    "type": "movie"
+  },
+  {
+    "tmdb": 187915,
+    "title": "Lázaro de Tormes",
+    "plot": "Traslación a la gran pantalla del monólogo teatral que escribió Fernando Fernán Gómez inspirándose en la novela picaresca el 'Lazarillo de Tormes' (1554). Un maduro Lázaro de Tormes (Rafael Álvarez 'el Brujo) se ve obligado a demostrar ante la Justicia que su forma de vida, a lo largo de treinta años, se debió más a la necesidad de escapar del hambre que a su deseo de cometer delitos.",
+    "poster": "https://image.tmdb.org/t/p/w500/1oHyDLQFtWWEnrYNuewbNmV6feN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/1oHyDLQFtWWEnrYNuewbNmV6feN.jpg",
+    "category": "Película",
+    "genres": [
+      "Comedia",
+      "Drama"
+    ],
+    "year": "2001",
+    "rating": "5.5",
     "updated": "2026-09-10 11:57:13",
     "type": "movie"
   },
@@ -1606,51 +1394,256 @@
     "type": "movie"
   },
   {
-    "tmdb": 1358305,
-    "title": "Los guardianes del diente mágico",
-    "plot": "Un hada de los dientes rebelde, un troll adorable y una brillante científica goblin se unen para salvar sus mundos mágicos de unas arañas amenazantes.",
-    "poster": "https://image.tmdb.org/t/p/w500/dBWw71ndGxWZvRZDyuOdbvGOkjp.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/b3RGeMU6IdVFvKitGtXtUh2iuZN.jpg",
-    "category": "Dibujo",
+    "tmdb": 40549,
+    "title": "El innombrable",
+    "plot": "Allá por el año 1800, una joven da a luz a una criatura extremadamente horrible. Dada la naturaleza del monstruo, decide no ponerle ningún nombre y distinguirlo como 'el innombrable'.",
+    "poster": "https://image.tmdb.org/t/p/w500/4TTwsHtLgSfPjFI6BQHOnED2hwI.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ecZN1pCJeWAhYHrn0Oa5WGEIhjc.jpg",
+    "category": "Película",
     "genres": [
-      "Animación",
-      "Familia",
-      "Fantasía"
+      "Terror"
+    ],
+    "year": "1988",
+    "rating": "4.7",
+    "updated": "2026-09-10 11:57:11",
+    "type": "movie"
+  },
+  {
+    "tmdb": 69045,
+    "title": "Conserje para todo",
+    "plot": "Tras leer el anuncio en un periódico, Ursulo corre a solicitar el empleo. Se trata del puesto de conserje de un lujoso edificio de apartamentos habitada por la gente más heterogénea: la modelo profesional, la espiritista, los hippies y todos recurren a él para resolver sus problemas.",
+    "poster": "https://image.tmdb.org/t/p/w500/uKTInBBXjUApfzEqXRMfFvIyftP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/dHIydzl0dyNGOT6MPf4llHZT8PT.jpg",
+    "category": "Película",
+    "genres": [
+      "Comedia"
+    ],
+    "year": "1974",
+    "rating": "5.7",
+    "updated": "2026-09-10 11:57:10",
+    "type": "movie"
+  },
+  {
+    "tmdb": 13012,
+    "title": "Criminal",
+    "plot": "Un encantador hombre de familia con un prometedor futuro, Wade Porter de repente lo pierde todo cuando accidentalmente mata a un ladrón que se coló en su casa. Detenido por homicidio involuntario, Wade es condenado a pasar tres años en un centro penitenciario de máxima seguridad en el que las reglas de la sociedad no se aplican.",
+    "poster": "https://image.tmdb.org/t/p/w500/stZ0Are6wNP5WJPk5WPvdiRLJva.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/jFjQSLuDNgweOgBezN87BW5WjP5.jpg",
+    "category": "Película",
+    "genres": [
+      "Drama",
+      "Suspense",
+      "Crimen"
+    ],
+    "year": "2008",
+    "rating": "7.2",
+    "updated": "2026-09-10 11:57:10",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1246049,
+    "title": "Drácula",
+    "plot": "Tras la muerte de su esposa, un príncipe del siglo XV renuncia a Dios y se convierte en vampiro. Siglos más tarde, en el Londres del siglo XIX, ve a una mujer parecida a su difunta esposa y la persigue, sellando así su propio destino.",
+    "poster": "https://image.tmdb.org/t/p/w500/ff7fyDdtXM2wu9jsm9gOMYtpvOl.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/be5SIsRGMckO8tU9lrLcIik70Dy.jpg",
+    "category": "Película",
+    "genres": [
+      "Romance",
+      "Fantasía",
+      "Terror"
     ],
     "year": "2025",
-    "rating": "8.6",
-    "updated": "2026-09-10 11:57:13",
+    "rating": "7.1",
+    "updated": "2026-09-10 11:57:10",
     "type": "movie"
   },
   {
-    "tmdb": 1567798,
-    "title": "Farruquito A Flamenco Dynasty",
-    "plot": "SERÁS FARRUQUITO cuenta la historia del ascenso, caída y redención del para muchos el mejor bailaor de flamenco de todos los tiempos, que pertenece a una dinastía familiar marcada por acontecimientos trágicos. Un viaje hacia el espíritu turbulento y mágico del baile a través de un icono del flamenco.",
-    "poster": "https://image.tmdb.org/t/p/w500/gvngLSMaawqZY5NcRqHz5pwr2n3.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/gvngLSMaawqZY5NcRqHz5pwr2n3.jpg",
-    "category": "Documental",
-    "genres": [
-      "Documental"
-    ],
-    "year": "2026",
-    "rating": "0",
-    "updated": "2026-09-10 11:57:13",
-    "type": "movie"
-  },
-  {
-    "tmdb": 187915,
-    "title": "Lázaro de Tormes",
-    "plot": "Traslación a la gran pantalla del monólogo teatral que escribió Fernando Fernán Gómez inspirándose en la novela picaresca el 'Lazarillo de Tormes' (1554). Un maduro Lázaro de Tormes (Rafael Álvarez 'el Brujo) se ve obligado a demostrar ante la Justicia que su forma de vida, a lo largo de treinta años, se debió más a la necesidad de escapar del hambre que a su deseo de cometer delitos.",
-    "poster": "https://image.tmdb.org/t/p/w500/1oHyDLQFtWWEnrYNuewbNmV6feN.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/1oHyDLQFtWWEnrYNuewbNmV6feN.jpg",
+    "tmdb": 9282,
+    "title": "11:14 - Destino fatal",
+    "plot": "Es una noche tranquila en Middleton, un barrio de clase media. Pero a medida que la noche se aproxima a la fatídica hora de las 11:14 p.",
+    "poster": "https://image.tmdb.org/t/p/w500/h3IO8Dj4DoWF2Tcb3J97xlgwAS6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/72jbXJIXiGdLzrqfbKynVhtnl5b.jpg",
     "category": "Película",
     "genres": [
       "Comedia",
+      "Suspense",
+      "Drama",
+      "Misterio",
+      "Crimen"
+    ],
+    "year": "2003",
+    "rating": "6.8",
+    "updated": "2026-09-10 11:57:10",
+    "type": "movie"
+  },
+  {
+    "tmdb": 55238,
+    "title": "Al filo de la oscuridad",
+    "plot": "Dos años después de la invasion de Noruega por los nazis, los habitantes de un pequeño pueblo pesquero esperan la llegada de armas para iniciar la revuelta contra los alemanes. Karen Stensgard, la hija del médico del pueblo, y Gunnar Brogge, un pescador que pensaba combatir a los nazis desde Inglaterra, serán los jefes de la sublevación.",
+    "poster": "https://image.tmdb.org/t/p/w500/rrU1iSfLb9wv1imllBA6BkhzaVm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/1EsRUY5lcFtqp7iZzFXMtCuGhr8.jpg",
+    "category": "Película",
+    "genres": [
+      "Bélica",
       "Drama"
     ],
+    "year": "1943",
+    "rating": "6.3",
+    "updated": "2026-09-10 11:57:10",
+    "type": "movie"
+  },
+  {
+    "tmdb": 187,
+    "title": "Sin City: Ciudad del pecado",
+    "plot": "Bienvenidos a Sin City, ciudad de policías corruptos, atractivas damas y vigilantes desesperados. Unos buscan venganza, otros redención, y algunos, buscan ambas cosas.",
+    "poster": "https://image.tmdb.org/t/p/w500/6zjDEjbXBLkgJ4qUGc2IBn4uJvR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/lt1rGQSqhk2T2T4lHo6CTQYvoWP.jpg",
+    "category": "Película",
+    "genres": [
+      "Acción",
+      "Crimen",
+      "Suspense"
+    ],
+    "year": "2005",
+    "rating": "7.5",
+    "updated": "2026-09-10 11:57:05",
+    "type": "movie"
+  },
+  {
+    "tmdb": 189,
+    "title": "Sin City: Una dama por la que matar",
+    "plot": "En las sórdidas calles de Sin City, un hombre busca su venganza. Dwight trata de ajustar cuentas con la misteriosa Ava Lord, la letal mujer que le traicionó.",
+    "poster": "https://image.tmdb.org/t/p/w500/o8jDwu5EGpgyqmH219CUdA2LFYS.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/f4KiaxSD5B8bcg5VLsvrDhaZlFu.jpg",
+    "category": "Película",
+    "genres": [
+      "Suspense",
+      "Crimen",
+      "Acción"
+    ],
+    "year": "2014",
+    "rating": "6.4",
+    "updated": "2026-09-10 11:57:05",
+    "type": "movie"
+  },
+  {
+    "tmdb": 607,
+    "title": "Men in Black (Hombres de negro)",
+    "plot": "Un agente de policía se une a una organización secreta que controla y monitoriza la actividad extraterrestre en la Tierra.",
+    "poster": "https://image.tmdb.org/t/p/w500/gkcT1QmvspJ34rKgFUvv0ho0VrD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/1GJvBE7UWU1WOVi0XREl4JQc7f8.jpg",
+    "category": "Película",
+    "genres": [
+      "Comedia",
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+    ],
+    "year": "1997",
+    "rating": "7.2",
+    "updated": "2026-09-10 11:57:05",
+    "type": "movie"
+  },
+  {
+    "tmdb": 396535,
+    "title": "Train to Busan",
+    "plot": "Un virus letal se expande por Corea del Sur, provocando violentos altercados. Los pasajeros de un tren KTX que viaja de Seúl a Busan tendrán que luchar por su supervivencia.",
+    "poster": "https://image.tmdb.org/t/p/w500/anomz7b3GQtHPFH34SODDBBIUad.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/brnfCYyz8EMbBrHgmh8sCwBi5i1.jpg",
+    "category": "Película",
+    "genres": [
+      "Terror",
+      "Suspense",
+      "Acción",
+      "Aventura"
+    ],
+    "year": "2016",
+    "rating": "7.8",
+    "updated": "2026-09-10 11:57:05",
+    "type": "movie"
+  },
+  {
+    "tmdb": 550,
+    "title": "El club de la lucha",
+    "plot": "Un joven sin ilusiones lucha contra su insomnio, consecuencia quizás de su hastío por su gris y rutinaria vida. En un viaje en avión conoce a Tyler Durden, un carismático vendedor de jabón que sostiene una filosofía muy particular: el perfeccionismo es cosa de gentes débiles; en cambio, la autodestrucción es lo único que hace que realmente la vida merezca la pena.",
+    "poster": "https://image.tmdb.org/t/p/w500/sgTAWJFaB2kBvdQxRGabYFiQqEK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+    "category": "Película",
+    "genres": [
+      "Drama"
+    ],
+    "year": "1999",
+    "rating": "8.4",
+    "updated": "2026-09-10 11:57:05",
+    "type": "movie"
+  },
+  {
+    "tmdb": 106646,
+    "title": "El lobo de Wall Street",
+    "plot": "Película basada en hechos reales del corredor de bolsa neoyorquino Jordan Belfort. A mediados de los años 80, Belfort era un joven honrado que perseguía el sueño americano, pero pronto en la agencia de valores aprendió que lo más importante no era hacer ganar a sus clientes, sino ser ambicioso y ganar una buena comisión.",
+    "poster": "https://image.tmdb.org/t/p/w500/jTlIYjvS16XOpsfvYCTmtEHV10K.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/2P0toWq3feNvFAzf28j7vNc1IuZ.jpg",
+    "category": "Película",
+    "genres": [
+      "Crimen",
+      "Drama",
+      "Comedia"
+    ],
+    "year": "2013",
+    "rating": "8.0",
+    "updated": "2026-09-10 11:57:05",
+    "type": "movie"
+  },
+  {
+    "tmdb": 580489,
+    "title": "Venom: habrá matanza",
+    "plot": "Eddie Brock  y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.",
+    "poster": "https://image.tmdb.org/t/p/w500/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg",
+    "category": "Película",
+    "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+    ],
+    "year": "2021",
+    "rating": "6.8",
+    "updated": "2026-09-10 11:57:05",
+    "type": "movie"
+  },
+  {
+    "tmdb": 581392,
+    "title": "Península",
+    "plot": "Cuatro años después de la epidemia zombie, Corea sigue infestada de monstruos y el soldado Jung-seok, que escapó del país, se ve obligado a regresar a Seúl para recuperar un objeto valioso. Allí descubre que hay, todavía, personas sanas en la ciudad.",
+    "poster": "https://image.tmdb.org/t/p/w500/qvqYLT9VUVMG2PNk5DrvlaXLSxj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/gEjNlhZhyHeto6Fy5wWy5Uk3A9D.jpg",
+    "category": "Película",
+    "genres": [
+      "Terror",
+      "Aventura",
+      "Acción",
+      "Suspense"
+    ],
+    "year": "2020",
+    "rating": "6.8",
+    "updated": "2026-09-10 11:57:05",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1933,
+    "title": "Los otros",
+    "plot": "Grace educa sola a sus hijos en un aislado caserón victoriano bajo estrictas normas religiosas. Los tres nuevos sirvientes deben aprender una regla vital, la casa estará siempre en penumbra y nunca se abrirá una puerta si no se ha cerrado la anterior  porque los niños sufren una extraña alergia a la luz del día.",
+    "poster": "https://image.tmdb.org/t/p/w500/w6L1ciqLE0V9Q4l2N24lchXIYR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/y5hbHJbERDFurustaqcVamN84Y0.jpg",
+    "category": "Película",
+    "genres": [
+      "Terror",
+      "Misterio",
+      "Suspense"
+    ],
     "year": "2001",
-    "rating": "5.5",
-    "updated": "2026-09-10 11:57:13",
+    "rating": "7.6",
+    "updated": "2026-09-10 11:57:05",
     "type": "movie"
   }
 ]

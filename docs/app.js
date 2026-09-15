@@ -15,9 +15,12 @@ const elements = {
   modalClose: document.getElementById('modal-close'),
   statMovies: document.getElementById('stat-movies'),
   statSeries: document.getElementById('stat-series'),
+  statDocu: document.getElementById('stat-docu'),
+  statCartoons: document.getElementById('stat-cartoons'),
   statAnime: document.getElementById('stat-anime'),
+  statMusic: document.getElementById('stat-music'),
+  statRetro: document.getElementById('stat-retro'),
   statLinks: document.getElementById('stat-links'),
-  statUpdated: document.getElementById('stat-updated'),
 };
 
 // Imagen por defecto si un poster falla o no existe
@@ -29,13 +32,14 @@ async function loadStats() {
     const res = await fetch('data/stats.json');
     if (!res.ok) return;
     const data = await res.json();
-    if (elements.statMovies) elements.statMovies.textContent = Number(data.total_movies || 0).toLocaleString();
-    if (elements.statSeries) elements.statSeries.textContent = Number(data.total_series || 0).toLocaleString();
-    if (elements.statAnime) elements.statAnime.textContent = Number(data.total_anime || 0).toLocaleString();
+    if (elements.statMovies) elements.statMovies.textContent = Number(data.movies || 0).toLocaleString();
+    if (elements.statSeries) elements.statSeries.textContent = Number(data.series || 0).toLocaleString();
+    if (elements.statDocu) elements.statDocu.textContent = Number(data.documentaries || 0).toLocaleString();
+    if (elements.statCartoons) elements.statCartoons.textContent = Number(data.cartoons || 0).toLocaleString();
+    if (elements.statAnime) elements.statAnime.textContent = Number(data.anime || 0).toLocaleString();
+    if (elements.statMusic) elements.statMusic.textContent = Number(data.music || 0).toLocaleString();
+    if (elements.statRetro) elements.statRetro.textContent = Number(data.retro || 0).toLocaleString();
     if (elements.statLinks) elements.statLinks.textContent = Number(data.total_links || 0).toLocaleString();
-    if (elements.statUpdated && data.last_update) {
-      elements.statUpdated.textContent = data.last_update.split(' ')[0];
-    }
   } catch (err) {
     console.warn('No se pudieron cargar las estadísticas:', err);
   }

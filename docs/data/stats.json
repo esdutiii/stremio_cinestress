@@ -1,7 +1,11 @@
 {
-  "total_movies": 29217,
-  "total_series": 8821,
-  "total_anime": 5237,
+  "movies": 24220,
+  "series": 4327,
+  "anime": 2617,
+  "cartoons": 2617,
+  "documentaries": 3025,
+  "music": 428,
+  "retro": 801,
   "total_links": 1053888,
   "last_update": "2026-09-13 07:47:38"
 }

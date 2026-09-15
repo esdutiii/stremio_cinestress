@@ -1,63 +1,5 @@
 [
   {
-    "tmdb": 1185806,
-    "title": "La Patrulla Canina: La dino película",
-    "plot": "Cuando una fuerte tormenta deja a la patrulla canina varada en una isla inexplorada llena de dinosaurios vivos, los cachorros deben unirse a su nuevo aliado, Rex, para detener al alcalde Humdinger antes de que la codicia de este provoque una catastrófica erupción volcánica.",
-    "poster": "https://image.tmdb.org/t/p/w500/fcBc0yfACuTU9oX9cm54IrFJzEW.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Aventura",
-      "Comedia",
-      "Familia",
-      "Fantasía",
-      "Animación"
-    ],
-    "year": "2026",
-    "rating": "7.0",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1731694,
-    "title": "LEGO Star Wars: The Mandalorian",
-    "plot": "El cazarrecompensas y el Niño vuelven a encontrarse.",
-    "poster": "https://image.tmdb.org/t/p/w500/6sUsn029xHGQxO8VAJXfYcHmKB7.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/upecGaCuQOIbSpdz85mrJ395UMg.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
-      "Animación",
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-    ],
-    "year": "2026",
-    "rating": "7.5",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1205229,
-    "title": "Una noche en Zoopolis",
-    "plot": "Una noche, un meteorito se estrella en el zoo de Colepepper desatando un virus que transforma a los animales en extraños y divertidísimos mutantes zombis babosos. Gracie, una joven loba estrafalaria, forma equipo con un rudo y temible puma para encontrar la forma de volver con su manada.",
-    "poster": "https://image.tmdb.org/t/p/w500/49s9HB9bXMjHkdw0asNs7m1rO5E.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/h2SEtzuABKmcZAnKBJ1za3kETTY.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Familia",
-      "Ciencia ficción",
-      "Terror",
-      "Comedia",
-      "Aventura"
-    ],
-    "year": "2025",
-    "rating": "6.7",
-    "updated": "2026-09-13 07:47:37",
-    "type": "movie"
-  },
-  {
     "tmdb": 35790,
     "title": "Sakura, cazadora de cartas",
     "plot": "La obra narra las aventuras de Sakura Kinomoto, una pequeña niña de diez años que accidentalmente libera un conjunto de cartas que se encontraban dentro de un libro, el cual había descubierto en la biblioteca de su padre. Tras esto, Kero —el guardián del libro— emerge y, al enterarse de que la mayoría de las cartas conocidas como las «cartas Clow» se habían esparcido por todas partes, le dice a Sakura que ahora es su responsabilidad convertirse en una «cardcaptor» e ir en busca de ellas para evitar que ocurra una «catástrofe» en el mundo.",
@@ -73,43 +15,6 @@
     "rating": "8.6",
     "updated": "2026-09-13 07:47:36",
     "type": "series"
-  },
-  {
-    "tmdb": 774370,
-    "title": "Policán",
-    "plot": "Un perro y un agente de policía resultan heridos juntos en el trabajo. Una operación quirúrgica que les salva la vida cambia el curso de la historia cuando nace Policán.",
-    "poster": "https://image.tmdb.org/t/p/w500/cUzwACFxvpbsD8kBr1IUI4JtXz0.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/w1SjvuBifhtFwe3BSssXXFyV6bk.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
-      "Comedia",
-      "Aventura",
-      "Animación"
-    ],
-    "year": "2025",
-    "rating": "7.8",
-    "updated": "2026-09-13 07:47:34",
-    "type": "movie"
-  },
-  {
-    "tmdb": 8983,
-    "title": "Francis el detectigato",
-    "plot": "Francis es un simpático e inteligente gato que acaba de mudarse de casa. Sin embargo, al poco tiempo de llegar a su nuevo barrio, el nuevo inquilino descubre que se trata de un lugar sumamente peligroso: un enigmático asunto está acabando con todos los gatos del vecindario.",
-    "poster": "https://image.tmdb.org/t/p/w500/hAOPO1qvPrNnLVQDBCImABRa1C1.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/vq5EcmEK3Bqsqq9cPINELCtnAUc.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Terror",
-      "Suspense",
-      "Misterio",
-      "Animación",
-      "Fantasía"
-    ],
-    "year": "1994",
-    "rating": "6.6",
-    "updated": "2026-09-13 07:47:34",
-    "type": "movie"
   },
   {
     "tmdb": 9103,
@@ -146,21 +51,6 @@
     "type": "series"
   },
   {
-    "tmdb": 212171,
-    "title": "Interstellar Ella",
-    "plot": "El año es 3021. El lugar es la Vía Láctea, donde Ella, de ocho años, sale alegremente con sus amigos en emocionantes aventuras de descubrimiento.",
-    "poster": "https://image.tmdb.org/t/p/w500/ts78UV7RyAKVsHxNnX597gbcGuM.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/rtbfEuctRg4VOhg0viQhtytnrHd.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación"
-    ],
-    "year": "2022",
-    "rating": "5.0",
-    "updated": "2026-09-11 17:01:17",
-    "type": "series"
-  },
-  {
     "tmdb": 1059572,
     "title": "Shin Chan: El Superhéroe",
     "plot": "Shin chan está jugando en casa cuando una misteriosa luz cae del cielo y se precipita sobre él, concediéndole extraños superpoderes sin que él lo sepa. Al mismo tiempo, una luz oscura alcanza a un chico algo gafe con el que se había encontrado Hiroshi en la calle.",
@@ -182,23 +72,6 @@
     "type": "movie"
   },
   {
-    "tmdb": 1297842,
-    "title": "GOAT: Como cabras",
-    "plot": "Will es una pequeña cabra con grandes sueños que recibe una oportunidad única en la vida para unirse a los profesionales y jugar al rugebol, un deporte de alta intensidad, mixto y de contacto total dominado por los animales más rápidos y feroces del mundo. A los nuevos compañeros de equipo de Will no les entusiasma tener a una cabrita en su plantilla, pero Will está decidido a revolucionar el deporte y demostrar de una vez por todas que «¡los pequeños saben jugar!».",
-    "poster": "https://image.tmdb.org/t/p/w500/l8Y8o3RpFg54gmQQ8GVaxVroFmY.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
-      "Animación",
-      "Comedia"
-    ],
-    "year": "2026",
-    "rating": "7.5",
-    "updated": "2026-09-11 17:01:04",
-    "type": "movie"
-  },
-  {
     "tmdb": 278635,
     "title": "Backstabbed in a Backwater Dungeon",
     "plot": "Cuando Light es expulsado de la Concordia de las Tribus, sus antiguos camaradas se vuelven contra él al instante. Light escapa por los pelos de esta diabólica traición.",
@@ -214,24 +87,6 @@
     "year": "2025",
     "rating": "8.2",
     "updated": "2026-09-11 17:00:57",
-    "type": "series"
-  },
-  {
-    "tmdb": 4335,
-    "title": "Oban Star-Racers",
-    "plot": "Una vez cada 10000 años los más grandes pilotos del universo se encuentran en Oban, un legendario mundo localizado en el centro de la galaxia. Allí se lleva a cabo la mayor carrera que se ha visto.",
-    "poster": "https://image.tmdb.org/t/p/w500/oVDayjVhJRQUBOwVBrwCtwAEywr.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/jUhdXLgj2FZtxAXQI7FIsImkpR0.jpg",
-    "category": "Anime",
-    "genres": [
-      "Animación",
-      "Ciencia ficción",
-      "Drama",
-      "Acción"
-    ],
-    "year": "2006",
-    "rating": "7.8",
-    "updated": "2026-09-10 16:52:45",
     "type": "series"
   },
   {
@@ -253,18 +108,20 @@
     "type": "series"
   },
   {
-    "tmdb": 115515,
-    "title": "Masha´s Songs",
-    "plot": "Masha junto a sus amigos del bosque viajan por todo el mundo para traer una nueva y apasionante temporada musical.",
-    "poster": "https://image.tmdb.org/t/p/w500/noJ7bh12Cq1uJsBHjKrNjE2OeT8.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/3CD6AYIhMyqwk7oBWT4X5Vx6J5Q.jpg",
-    "category": "Dibujo",
+    "tmdb": 4335,
+    "title": "Oban Star-Racers",
+    "plot": "Una vez cada 10000 años los más grandes pilotos del universo se encuentran en Oban, un legendario mundo localizado en el centro de la galaxia. Allí se lleva a cabo la mayor carrera que se ha visto.",
+    "poster": "https://image.tmdb.org/t/p/w500/oVDayjVhJRQUBOwVBrwCtwAEywr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/jUhdXLgj2FZtxAXQI7FIsImkpR0.jpg",
+    "category": "Anime",
     "genres": [
       "Animación",
-      "Peques"
+      "Ciencia ficción",
+      "Drama",
+      "Acción"
     ],
-    "year": "2020",
-    "rating": "5.5",
+    "year": "2006",
+    "rating": "7.8",
     "updated": "2026-09-10 16:52:45",
     "type": "series"
   },
@@ -304,88 +161,21 @@
     "type": "movie"
   },
   {
-    "tmdb": 314478,
-    "title": "DANG!",
-    "plot": "Sigue a un hermano y una hermana cuyas divertidas y desordenadas vidas en la ciudad de Nueva York se ven interrumpidas cuando su peor pesadilla se hace realidad: su hermana mayor, de alto rendimiento, aparece y quiere pasar el rato con ellos.",
-    "poster": "https://image.tmdb.org/t/p/w500/wSDM4tIC5praLH9GxZisiIBIkz.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/xcjvlbVkVvGodPdfv3c6NzknMIB.jpg",
-    "category": "Dibujo",
+    "tmdb": 45125,
+    "title": "BTOOOM!",
+    "plot": "Sakamoto Ryuuta es un desempleado de 22 años de edad que vive con su madre. En el mundo real, puede que no tenga nada especial, pero online, es uno de los mejores jugadores del mundo del juego de combate 'BTOOOM'.",
+    "poster": "https://image.tmdb.org/t/p/w500/vBIlaUVq0lFIb6aguOe5QKmlKqh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/xNNplu208Twucpf8MgnqHysYPg.jpg",
+    "category": "Anime",
     "genres": [
-      "Comedia",
-      "Animación"
+      "Animación",
+      "Acción",
+      "Ciencia ficción"
     ],
-    "year": "2026",
-    "rating": "8.3",
-    "updated": "2026-09-10 12:02:06",
+    "year": "2012",
+    "rating": "7.6",
+    "updated": "2026-09-10 11:56:53",
     "type": "series"
-  },
-  {
-    "tmdb": 1358305,
-    "title": "Los guardianes del diente mágico",
-    "plot": "Un hada de los dientes rebelde, un troll adorable y una brillante científica goblin se unen para salvar sus mundos mágicos de unas arañas amenazantes.",
-    "poster": "https://image.tmdb.org/t/p/w500/dBWw71ndGxWZvRZDyuOdbvGOkjp.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/b3RGeMU6IdVFvKitGtXtUh2iuZN.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Familia",
-      "Fantasía"
-    ],
-    "year": "2025",
-    "rating": "8.6",
-    "updated": "2026-09-10 11:57:13",
-    "type": "movie"
-  },
-  {
-    "tmdb": 32726,
-    "title": "Bob´s Burgers",
-    "plot": "Bob’s Burgers narra la historia de los Belcher, una familia disfuncional que regenta una hamburguesería situada entre un crematorio y la sede de organización que lucha por los derechos de los animales. En el día de su gran reapertura reciben la visita de unos inspectores de sanidad que investigan el rumor esparcido por Louise, la hija pequeña de Bob, de que en el restaurante servían carne humana proveniente del crematorio vecino con el único objetivo de superar a una compañera de clase que tiene un tío torero en España.",
-    "poster": "https://image.tmdb.org/t/p/w500/couFnWryh9JRmmfDyPU6hUyTKIa.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/lq1ULYphBfO5Bt2OHsO0nDZl9mq.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Comedia",
-      "Animación"
-    ],
-    "year": "2011",
-    "rating": "7.8",
-    "updated": "2026-09-10 11:57:05",
-    "type": "series"
-  },
-  {
-    "tmdb": 999160,
-    "title": "Angelo en el bosque misterioso",
-    "plot": "Angelo es un niño de diez años que sueña con convertirse en explorador y zoólogo. Cuando va a visitar a su abuela, sus padres lo dejan en una área de descanso, y él decide atravesar el bosque en busca de ellos.",
-    "poster": "https://image.tmdb.org/t/p/w500/6nyR0gxATfjEYpKm6yQlQVCrx5k.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/xusMjLyXKjsFZeig9s8joGYtnhy.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
-      "Animación",
-      "Aventura"
-    ],
-    "year": "2024",
-    "rating": "6.2",
-    "updated": "2026-09-10 11:56:58",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1215532,
-    "title": "Polloliebre y el secreto de la marmota",
-    "plot": "Chickenhare se embarca en una búsqueda épica, una misteriosa marmota con el poder de revertir el tiempo y salvar a su especie. Su aventura da un giro peligroso cuando su grupo descubre que no son los únicos que buscan este antiguo poder.",
-    "poster": "https://image.tmdb.org/t/p/w500/tTkWVM2kLyBvwvKrZqTrZufaQdI.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/fnuJV4WwxGM8w784lGV7j32JVsG.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Aventura",
-      "Familia",
-      "Comedia"
-    ],
-    "year": "2025",
-    "rating": "7.4",
-    "updated": "2026-09-10 11:56:58",
-    "type": "movie"
   },
   {
     "tmdb": 285993,
@@ -406,73 +196,6 @@
     "type": "series"
   },
   {
-    "tmdb": 296756,
-    "title": "Presidente Curtis",
-    "plot": "El presidente Curtis sigue al Comandante en Jefe y su excéntrico equipo en investigaciones paranormales y fenómenos inexplicables.",
-    "poster": "https://image.tmdb.org/t/p/w500/fnbmOKHcO3W66rNE4ESfc4DjShi.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/yoTP91XZZjSvE2gZgGvwNxVW96w.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Comedia",
-      "Animación"
-    ],
-    "year": "2026",
-    "rating": "5.5",
-    "updated": "2026-09-10 11:56:53",
-    "type": "series"
-  },
-  {
-    "tmdb": 615,
-    "title": "Futurama",
-    "plot": "Serie de animación creada por Matt Groening (creador también de Los Simpson) y David X. Cohen (guionista también de Los Simpson).",
-    "poster": "https://image.tmdb.org/t/p/w500/sqQGouRucsrFV2FgIZEKKkP5fSb.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/pMCvRynXABgLBMKHYa2UXjTBMsU.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Comedia",
-      "Ciencia ficción"
-    ],
-    "year": "1999",
-    "rating": "8.4",
-    "updated": "2026-09-10 11:56:53",
-    "type": "series"
-  },
-  {
-    "tmdb": 45125,
-    "title": "BTOOOM!",
-    "plot": "Sakamoto Ryuuta es un desempleado de 22 años de edad que vive con su madre. En el mundo real, puede que no tenga nada especial, pero online, es uno de los mejores jugadores del mundo del juego de combate 'BTOOOM'.",
-    "poster": "https://image.tmdb.org/t/p/w500/vBIlaUVq0lFIb6aguOe5QKmlKqh.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/xNNplu208Twucpf8MgnqHysYPg.jpg",
-    "category": "Anime",
-    "genres": [
-      "Animación",
-      "Acción",
-      "Ciencia ficción"
-    ],
-    "year": "2012",
-    "rating": "7.6",
-    "updated": "2026-09-10 11:56:53",
-    "type": "series"
-  },
-  {
-    "tmdb": 456,
-    "title": "Los Simpson",
-    "plot": "El día a día de una peculiar familia formada por Homer, Marge, Bart, Maggie y Lisa Simpson y otros divertidos personajes de la localidad norteamericana de Springfield. Homer, el padre, es un desastroso inspector de seguridad de una central nuclear.",
-    "poster": "https://image.tmdb.org/t/p/w500/vH0Mghb0lNJ5k7EpDwI7iJV7qaO.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/pxeqQX4qFQ0cVxPt5SWZENV5BH3.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Comedia",
-      "Familia",
-      "Animación"
-    ],
-    "year": "1989",
-    "rating": "8.0",
-    "updated": "2026-09-08 17:51:32",
-    "type": "series"
-  },
-  {
     "tmdb": 1507724,
     "title": "Labyrinth",
     "plot": "Shiori es una chica normal de instituto que ansía alcanzar la fama viral en las redes sociales. Un día, tras romperse la pantalla de su smartphone, su yo real es sustituido por su homóloga digital, 'SHIORI', que emerge del mundo de los smartphones.",
@@ -487,57 +210,6 @@
     "rating": "6.6",
     "updated": "2026-09-07 18:13:05",
     "type": "movie"
-  },
-  {
-    "tmdb": 62318,
-    "title": "Las nuevas aventuras de Lucky Luke",
-    "plot": "Las nuevas aventuras del cowboy solitario Lucky Luke, que se enfrenta a los malvados bandidos del Oeste.",
-    "poster": "https://image.tmdb.org/t/p/w500/wx0h7jK2XKGPMKyTZbQk7ZBhsWD.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/qtvs1zdPxbIPFbuOtaa0kY2WB5K.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Acción",
-      "Comedia",
-      "Animación",
-      "Western"
-    ],
-    "year": "2001",
-    "rating": "7.2",
-    "updated": "2026-09-07 14:42:24",
-    "type": "series"
-  },
-  {
-    "tmdb": 251460,
-    "title": "Furiki Wheels",
-    "plot": "Un joven perezoso hiperactivo y con mucha energía quiere ver mundo, por lo que va a Racer School para aprender a conducir rápido.",
-    "poster": "https://image.tmdb.org/t/p/w500/8FFdCNEI5PZUThh5fVeprV3SQGT.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/2pRIXaPw5zxBpUYNpKxaWvPPfUl.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Acción"
-    ],
-    "year": "2018",
-    "rating": "0",
-    "updated": "2026-09-07 14:42:22",
-    "type": "series"
-  },
-  {
-    "tmdb": 235995,
-    "title": "Hot Wheels, ¡a correr!",
-    "plot": "Seis chavales van al campamento del Garaje Definitivo con el objetivo de aprender todo lo necesario para convertirse en la próxima generación de pilotos de Hot Wheels.",
-    "poster": "https://image.tmdb.org/t/p/w500/6XMAEjJXTeEoJDcxv67Au1OH6Aa.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/3J4eXIMNUOOM7d32P800mYCnYND.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Peques",
-      "Animación",
-      "Acción"
-    ],
-    "year": "2024",
-    "rating": "8.4",
-    "updated": "2026-09-07 14:42:22",
-    "type": "series"
   },
   {
     "tmdb": 123542,
@@ -555,39 +227,6 @@
     "rating": "8.1",
     "updated": "2026-09-07 14:42:22",
     "type": "series"
-  },
-  {
-    "tmdb": 195407,
-    "title": "Detectives Animales",
-    "plot": "Los agentes especiales Sam y Kit recorren el mundo para resolver los misterios del reino animal con su talento detectivesco, datos científicos y fantásticos artilugios.",
-    "poster": "https://image.tmdb.org/t/p/w500/tFi3nx53Dfwa5YOd4J2VnIXpqBk.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/nVvn89XVd5IRLbcra5BcYcWbH9I.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Peques"
-    ],
-    "year": "2022",
-    "rating": "7.6",
-    "updated": "2026-09-07 14:42:22",
-    "type": "series"
-  },
-  {
-    "tmdb": 42994,
-    "title": "Memories",
-    "plot": "Tres historias de animación manga, basadas en tres historias gráficas cortas del maestro Katsuhiro Ôtomo, creador de 'Akira':  - Rosa Magnética (dirigida por Koji Morimoto) está basada en un manga de Otomo, en el que dos astronautas, siguiendo una señal de auxilio, son arrastrados al mundo fantástico creado por los recuerdos de una mujer.  - Bomba Fétida (dirigida por Tensai Okamura) es la historia de un joven químico que se transforma por accidente en un arma biológica imparable que se encamina directamente a Tokyo.",
-    "poster": "https://image.tmdb.org/t/p/w500/wzlB8hz2FKTsPvZdx7dsyIgi1UA.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/5eHsU7ZhDiiWaeSRWojqsaqaq7n.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Fantasía",
-      "Animación",
-      "Ciencia ficción"
-    ],
-    "year": "1995",
-    "rating": "7.4",
-    "updated": "2026-09-07 14:42:21",
-    "type": "movie"
   },
   {
     "tmdb": 400136,
@@ -609,18 +248,19 @@
     "type": "movie"
   },
   {
-    "tmdb": 72016,
-    "title": "Fatal Fury 2: La nueva batalla",
-    "plot": "Después de vencer a Geese Howard, el legendario luchador Terry Bogard se enfrenta al guerrero alemán Wolfgang Krauser, sufriendo una humillante derrota. Deprimido por la derrota, Terry vagabundea por todo el país, desperdiciando su vida en la bebida.",
-    "poster": "https://image.tmdb.org/t/p/w500/iuL7S7km0MShxUIb4nztjuVrNzM.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/gBDWpXYeufgagYafYE5Qq5LNk5r.jpg",
+    "tmdb": 28697,
+    "title": "Fatal Fury: La Película",
+    "plot": "Película basada en el videojuego Fatal Fury Special. La historia comienza seis meses después de la derrota de Krauser.",
+    "poster": "https://image.tmdb.org/t/p/w500/3Ufwb0W9a0Ol2HcFUTO3Pu6rpNe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/i5De1yRYk2F8BwrqEaVZamNKc26.jpg",
     "category": "Anime",
     "genres": [
       "Acción",
-      "Animación"
+      "Animación",
+      "Fantasía"
     ],
-    "year": "1993",
-    "rating": "6.3",
+    "year": "1994",
+    "rating": "7.5",
     "updated": "2026-09-07 14:42:19",
     "type": "movie"
   },
@@ -637,6 +277,22 @@
     ],
     "year": "1992",
     "rating": "5.6",
+    "updated": "2026-09-07 14:42:19",
+    "type": "movie"
+  },
+  {
+    "tmdb": 72016,
+    "title": "Fatal Fury 2: La nueva batalla",
+    "plot": "Después de vencer a Geese Howard, el legendario luchador Terry Bogard se enfrenta al guerrero alemán Wolfgang Krauser, sufriendo una humillante derrota. Deprimido por la derrota, Terry vagabundea por todo el país, desperdiciando su vida en la bebida.",
+    "poster": "https://image.tmdb.org/t/p/w500/iuL7S7km0MShxUIb4nztjuVrNzM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/gBDWpXYeufgagYafYE5Qq5LNk5r.jpg",
+    "category": "Anime",
+    "genres": [
+      "Acción",
+      "Animación"
+    ],
+    "year": "1993",
+    "rating": "6.3",
     "updated": "2026-09-07 14:42:19",
     "type": "movie"
   },
@@ -659,42 +315,6 @@
     "type": "movie"
   },
   {
-    "tmdb": 28697,
-    "title": "Fatal Fury: La Película",
-    "plot": "Película basada en el videojuego Fatal Fury Special. La historia comienza seis meses después de la derrota de Krauser.",
-    "poster": "https://image.tmdb.org/t/p/w500/3Ufwb0W9a0Ol2HcFUTO3Pu6rpNe.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/i5De1yRYk2F8BwrqEaVZamNKc26.jpg",
-    "category": "Anime",
-    "genres": [
-      "Acción",
-      "Animación",
-      "Fantasía"
-    ],
-    "year": "1994",
-    "rating": "7.5",
-    "updated": "2026-09-07 14:42:19",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1315772,
-    "title": "Minions & Monsters",
-    "plot": "Narra la historia de cómo los minions conquistaron la industria de Hollywood, se convirtieron en estrellas de cine, lo perdieron todo, desataron monstruos en el mundo y luego se unieron para intentar salvar al planeta del caos que acababan de crear.",
-    "poster": "https://image.tmdb.org/t/p/w500/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Fantasía",
-      "Animación",
-      "Comedia",
-      "Familia",
-      "Aventura"
-    ],
-    "year": "2026",
-    "rating": "7.5",
-    "updated": "2026-09-07 14:41:36",
-    "type": "movie"
-  },
-  {
     "tmdb": 312949,
     "title": "Chainsmoker Cat",
     "plot": "Yani es una chica gato con un hábito de fumar realmente terrible. Fuma tanto que su apartamento huele a ceniza y está lleno de colillas de cigarrillos… ¡y de mucha otra basura! Cada vez que intenta dejarlo, sucumbe a las ganas y cede casi al instante.",
@@ -710,23 +330,6 @@
     "rating": "8.5",
     "updated": "2026-09-07 14:41:36",
     "type": "series"
-  },
-  {
-    "tmdb": 1167307,
-    "title": "David",
-    "plot": "En un reino gobernado por el miedo, un joven pastor se atreve a enfrentarse a un gigante y a la oscuridad que se oculta tras él. Su valor despertará a una nación y demostrará que la verdadera fuerza proviene de la confianza, no del poder.",
-    "poster": "https://image.tmdb.org/t/p/w500/7lFG1WrCwAxBfyGK8ahlBVzXno7.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/d10VuEOMroY7ngQi2FUhJH72k0e.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Familia",
-      "Drama"
-    ],
-    "year": "2025",
-    "rating": "7.8",
-    "updated": "2026-09-05 08:55:37",
-    "type": "movie"
   },
   {
     "tmdb": 902,
@@ -797,78 +400,6 @@
     "type": "series"
   },
   {
-    "tmdb": 333667,
-    "title": "Rock Dog: el poder de la música",
-    "plot": "Cuando una radio cae del cielo y va a parar las manos de un mastín tibetano, abandonará su hogar para perseguir su sueño de convertirse en un músico. Claro que esto desencadenará una serie de eventos imprevistos.",
-    "poster": "https://image.tmdb.org/t/p/w500/1ShOoqt6ccYvflVYXmuAGHxnQhf.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/vHiTIgoIoF1rjnjeC4n3qYaZ7Ua.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
-      "Música",
-      "Comedia",
-      "Animación",
-      "Aventura"
-    ],
-    "year": "2016",
-    "rating": "6.2",
-    "updated": "2026-09-02 17:07:01",
-    "type": "movie"
-  },
-  {
-    "tmdb": 261579,
-    "title": "El Nivel Secreto",
-    "plot": "Nivel Secreto es una nueva serie de antología de animación para adultos que presenta historias originales ambientadas en los mundos de algunos de los video juegos más queridos del mundo. De las mentes creativas detrás de LOVE, DEATH + ROBOTS, cada uno de los 15 episodios son una celebración de los juegos y sus jugadores.",
-    "poster": "https://image.tmdb.org/t/p/w500/vp1136OQ2mEp2KsEJrZDlXPMk8j.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/95Ggx5yxZtdoR31SFRQGy9fGNxW.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Acción",
-      "Ciencia ficción"
-    ],
-    "year": "2024",
-    "rating": "8.2",
-    "updated": "2026-09-02 10:28:23",
-    "type": "series"
-  },
-  {
-    "tmdb": 288018,
-    "title": "La chica cabra",
-    "plot": "Gigi es una adolescente que ha crecido entre cabras y que ahora se enfrenta al reto de sobrevivir al instituto.",
-    "poster": "https://image.tmdb.org/t/p/w500/n8F065d47fqJXWjH5HCMcxfuGFN.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/n3x5J55F2x8F5l9oAqNKsHfl7A.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
-      "Comedia",
-      "Animación"
-    ],
-    "year": "2026",
-    "rating": "5.5",
-    "updated": "2026-09-02 10:28:23",
-    "type": "series"
-  },
-  {
-    "tmdb": 1226863,
-    "title": "Super Mario Galaxy la película",
-    "plot": "Secuela de 'Super Mario Bros: La película', basada en la saga 'Mario Galaxy'. Los hermanos Mario y Luigi y la princesa Peach emprenden una aventura hasta los confines del espacio y a través de la galaxia.",
-    "poster": "https://image.tmdb.org/t/p/w500/4Js0gYWxuvTN6b8iAaSF1cSQzBs.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Aventura",
-      "Familia",
-      "Fantasía",
-      "Animación",
-      "Comedia"
-    ],
-    "year": "2026",
-    "rating": "8.0",
-    "updated": "2026-09-02 10:28:21",
-    "type": "movie"
-  },
-  {
     "tmdb": 1530941,
     "title": "Gintama: Yoshiwara en llamas",
     "plot": "Al conocer a un joven llamado Seita, que se gana la vida como carterista, Gintoki descubre que roba con la esperanza de poder reencontrarse con su madre, Hinowa, a quien perdió hace mucho tiempo y que es la cortesana número uno de Yoshiwara. Gintoki y sus amigos se dirigen a Yoshiwara para cumplir el deseo de Seita, pero en su camino se interpone Housen, el Rey de la Noche que gobierna Yoshiwara.",
@@ -885,76 +416,6 @@
     "rating": "9.6",
     "updated": "2026-09-02 10:28:19",
     "type": "movie"
-  },
-  {
-    "tmdb": 9904,
-    "title": "Salvaje (The Wild)",
-    "plot": "Salvaje cuenta la historia de un joven león del Zoo de Nueva York que es embarcado accidentalmente en un barco con destino a África, separándole de los suyos. Varios de sus intrépidos compañeros intentarán rescatarle.",
-    "poster": "https://image.tmdb.org/t/p/w500/muDdhFdx4qZvqmO3DjIPaBR3qRW.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/i8zpnOQEZI14iYXWHtbf6ct1Fo0.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
-      "Animación"
-    ],
-    "year": "2006",
-    "rating": "5.5",
-    "updated": "2026-09-02 10:28:17",
-    "type": "movie"
-  },
-  {
-    "tmdb": 512236,
-    "title": "Chuck Steel: Night of the Trampires",
-    "plot": "Es 1986, y Chuck  Steel, el mejor policía de la ciudad, va a tener que ponerse las pilas si quiere evitar que una de las peores plagas que se han visto asole Los Ángeles. Steel se verá las caras con unos vagabundos vampíricos, en una película que cuenta con un protagonista que es la versión en stop motion de Sylvester Stallone y Bruce Willis.",
-    "poster": "https://image.tmdb.org/t/p/w500/lLqvs49ABhfqbaiWsSqKRvOFt8A.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/jp0pwahviZdvvsDaFWC9DxDflmV.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Acción",
-      "Comedia",
-      "Terror"
-    ],
-    "year": "2018",
-    "rating": "7.2",
-    "updated": "2026-09-02 10:28:14",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1461201,
-    "title": "El guardián del árbol de alcanfor",
-    "plot": "Reito Naoi, despedido injustamente y arrestado tras un acto desesperado, recibe una misteriosa oferta: será liberado si acepta una misión. Así conoce a Chifune Yanagisawa, influyente empresaria y media hermana de su madre fallecida, quien le encarga convertirse en el guardián de un árbol sagrado en el santuario Tsukigo.",
-    "poster": "https://image.tmdb.org/t/p/w500/nFQj1w1YY8r3MSHBxSlD5iTCdfM.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/hyCJPi8TsipcJP6ggAjNAegjCLf.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Fantasía",
-      "Misterio",
-      "Drama",
-      "Animación"
-    ],
-    "year": "2026",
-    "rating": "6.0",
-    "updated": "2026-09-02 10:28:14",
-    "type": "movie"
-  },
-  {
-    "tmdb": 240576,
-    "title": "Magilumiere Magical Girls S. A.",
-    "plot": "Chicas mágicas: fuertes, molonas, el trabajo más soñado. Kana Sakuragi está buscando trabajo, pero ¡no hay manera! Un día, es víctima del ataque de un Kaii.",
-    "poster": "https://image.tmdb.org/t/p/w500/dBj8pKdhCTlTlpwWMsUmgPe3u5J.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/6aicKBDCaK0KRpgd2eqN6aQ7Mak.jpg",
-    "category": "Anime",
-    "genres": [
-      "Ciencia ficción",
-      "Acción",
-      "Animación",
-      "Comedia"
-    ],
-    "year": "2024",
-    "rating": "5.8",
-    "updated": "2026-09-02 10:28:14",
-    "type": "series"
   },
   {
     "tmdb": 82684,
@@ -975,51 +436,21 @@
     "type": "series"
   },
   {
-    "tmdb": 116055,
-    "title": "Juan Pilila",
-    "plot": "John Dillermand es un hombre de mediana edad que lleva puesto un bañador con rayas rojas y blancas. Su 'pilila' su puede extender varios metros, algo que emplea como herramienta para domar leones o volar como si fuese un helicóptero, entre otras cosas.",
-    "poster": "https://image.tmdb.org/t/p/w500/5BKu23LviGX4Vn6gWPvFHtyjGof.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/uxesOqNvT4GQf9SKt08wURbm5Zu.jpg",
-    "category": "Dibujo",
+    "tmdb": 240576,
+    "title": "Magilumiere Magical Girls S. A.",
+    "plot": "Chicas mágicas: fuertes, molonas, el trabajo más soñado. Kana Sakuragi está buscando trabajo, pero ¡no hay manera! Un día, es víctima del ataque de un Kaii.",
+    "poster": "https://image.tmdb.org/t/p/w500/dBj8pKdhCTlTlpwWMsUmgPe3u5J.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/6aicKBDCaK0KRpgd2eqN6aQ7Mak.jpg",
+    "category": "Anime",
     "genres": [
-      "Animación"
-    ],
-    "year": "2021",
-    "rating": "4.7",
-    "updated": "2026-09-02 10:28:07",
-    "type": "series"
-  },
-  {
-    "tmdb": 210684,
-    "title": "In the Know",
-    "plot": "Lauren Caspian es la tercera presentadora de radio pública más popular. Es un imbécil hipócrita y bien intencionado, como tú y como yo.",
-    "poster": "https://image.tmdb.org/t/p/w500/gDZwEThWQDSpMz6mVAizer14yLc.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/pLPEjJGeU1jlkjp850vrEuXhtHJ.jpg",
-    "category": "Dibujo",
-    "genres": [
+      "Ciencia ficción",
+      "Acción",
       "Animación",
       "Comedia"
     ],
     "year": "2024",
-    "rating": "6.2",
-    "updated": "2026-09-02 10:28:06",
-    "type": "series"
-  },
-  {
-    "tmdb": 202864,
-    "title": "Farzar",
-    "plot": "‘Farzar’ es una estrafalaria comedia de ciencia ficción sobre las andanzas del príncipe Fichael. Este y su equipo se aventuran fuera de su ciudad humana, protegida por una cúpula, para combatir a los malvados alienígenas que quieren matarlos e incluso comérselos.",
-    "poster": "https://image.tmdb.org/t/p/w500/dS6EY4kzPpiH1kR2rnoPT8XeoKS.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/22jtylVHZ3pUoZPA5JE2g1CvCC0.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Comedia",
-      "Ciencia ficción"
-    ],
-    "year": "2022",
-    "rating": "6.4",
-    "updated": "2026-09-02 10:28:06",
+    "rating": "5.8",
+    "updated": "2026-09-02 10:28:14",
     "type": "series"
   },
   {
@@ -1038,90 +469,6 @@
     "rating": "7.8",
     "updated": "2026-09-02 10:28:05",
     "type": "series"
-  },
-  {
-    "tmdb": 238151,
-    "title": "Carol y el fin del mundo",
-    "plot": "Con un apocalipsis planetario inminente, una mujer a la que le cuesta asumir el fin de los días intenta buscarle sentido a la vida durante sus últimos meses en la Tierra.",
-    "poster": "https://image.tmdb.org/t/p/w500/eqXQL8XGvL2tn2NfXKirBHQKo2d.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/nUaOYBs1z1L3hx1ZuUNanXaKwxN.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Comedia"
-    ],
-    "year": "2023",
-    "rating": "7.6",
-    "updated": "2026-09-02 10:28:04",
-    "type": "series"
-  },
-  {
-    "tmdb": 6278,
-    "title": "Los Megabebés (Super Bebés)",
-    "plot": "Serie de animación emitida en España hace unos años por Antena 3, y protagonizada por tres jóvenes bebés con superpoderes que debían salvar el mundo.",
-    "poster": "https://image.tmdb.org/t/p/w500/3VT1T4gYPCBcG3dNLiHkcweMC2F.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/1YL9jDvLlGDeW6IcZfG0YhjKbEj.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Comedia"
-    ],
-    "year": "1999",
-    "rating": "5.2",
-    "updated": "2026-08-30 15:31:56",
-    "type": "series"
-  },
-  {
-    "tmdb": 155779,
-    "title": "Tiny Toons: Looniversidad",
-    "plot": "Los Tiny Toons se inscriben en Looniversity Acme, la más importante institución de aprendizaje superior local.",
-    "poster": "https://image.tmdb.org/t/p/w500/xI6MI3WjqL8cpN64zFGHgIfBFCd.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/nRWIpNayk6lyk5Acm60qditaa3H.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Comedia",
-      "Animación"
-    ],
-    "year": "2023",
-    "rating": "7.6",
-    "updated": "2026-08-30 15:31:56",
-    "type": "series"
-  },
-  {
-    "tmdb": 1744462,
-    "title": "Grand Theft Auto VI: Una mirada extendida",
-    "plot": "No te pierdas la próxima evolución de la revolucionaria saga Grand Theft Auto.",
-    "poster": "https://image.tmdb.org/t/p/w500/923Rlahei29QkKDFSKXoGAu6Uj7.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/po0uFYwWNByHQzHLCVJ6FetkN4M.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Crimen",
-      "Aventura",
-      "Acción",
-      "Animación"
-    ],
-    "year": "2026",
-    "rating": "9.0",
-    "updated": "2026-08-30 15:31:54",
-    "type": "movie"
-  },
-  {
-    "tmdb": 42949,
-    "title": "Arthur y la guerra de los mundos",
-    "plot": "Maltazard ha conseguido colarse en el mundo de los humanos. Su objetivo es sencillo: reclutar un ejército de gigantescos secuaces y dominar el universo.",
-    "poster": "https://image.tmdb.org/t/p/w500/y2FwChmqk1twjhslQNtgBA3Oik6.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/ArzlBZ7uPYl4GjNf950U57DUCmT.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Aventura",
-      "Fantasía",
-      "Familia"
-    ],
-    "year": "2010",
-    "rating": "5.8",
-    "updated": "2026-08-30 15:31:54",
-    "type": "movie"
   },
   {
     "tmdb": 325052,
@@ -1157,22 +504,6 @@
     "type": "series"
   },
   {
-    "tmdb": 245842,
-    "title": "Wistoria: Wand and Sword",
-    "plot": "En un mundo donde reina la magia, Will Serfort no puede lanzar un hechizo. Aunque es muy trabajador, sus compañeros de clase piensan menos de él por ello.",
-    "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/7sGeLiMVrD0QyKWjhEbLWmZIj2w.jpg",
-    "category": "Anime",
-    "genres": [
-      "Animación",
-      "Acción"
-    ],
-    "year": "2024",
-    "rating": "7.5",
-    "updated": "2026-08-30 15:31:53",
-    "type": "series"
-  },
-  {
     "tmdb": 69346,
     "title": "Youjo Senki",
     "plot": "La serie gira en torno a una joven chica que lucha en los frentes de una guerra. Tiene el pelo rubio, ojos azules y una piel blanca, casi transparente, y es conocida por moverse como el viento en el campo de batalla.",
@@ -1187,6 +518,22 @@
     ],
     "year": "2017",
     "rating": "8.4",
+    "updated": "2026-08-30 15:31:53",
+    "type": "series"
+  },
+  {
+    "tmdb": 245842,
+    "title": "Wistoria: Wand and Sword",
+    "plot": "En un mundo donde reina la magia, Will Serfort no puede lanzar un hechizo. Aunque es muy trabajador, sus compañeros de clase piensan menos de él por ello.",
+    "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/7sGeLiMVrD0QyKWjhEbLWmZIj2w.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Acción"
+    ],
+    "year": "2024",
+    "rating": "7.5",
     "updated": "2026-08-30 15:31:53",
     "type": "series"
   },
@@ -1279,38 +626,6 @@
     "type": "series"
   },
   {
-    "tmdb": 250008,
-    "title": "Oh Boy, Was I Wrong About Her",
-    "plot": "Siete años después de prometerse amistad eterna, Hayato se reencuentra con Haruki, su antiguo amigo. ¡Pero era una chica y él no lo sabía! Pese al cambio físico, su complicidad sigue intacta.",
-    "poster": "https://image.tmdb.org/t/p/w500/ji0E3wdLIfcjcNzXdYuyIrCFIrC.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/9PBeccJiwTMPE9ZR7IHrUxSCb9s.jpg",
-    "category": "Anime",
-    "genres": [
-      "Comedia",
-      "Animación"
-    ],
-    "year": "2026",
-    "rating": "8.7",
-    "updated": "2026-08-30 15:31:50",
-    "type": "series"
-  },
-  {
-    "tmdb": 96316,
-    "title": "Rent-a-Girlfriend",
-    "plot": "Kazuya Kinoshita es un joven universitario de 20 años que tras conseguir novia, pudo besarla, ¡pero lo dejó tras solo un mes! 'Maldita sea, no quiero tener que volver a pasar por eso'. Desesperado, recurre a un método muy particular para tener por fin una cita: solicitar una novia de alquiler.",
-    "poster": "https://image.tmdb.org/t/p/w500/wl7ZiXJx5r67u1CIf7oXz5oLSQm.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/ullfy98STkno11rDGi44SK6llwx.jpg",
-    "category": "Anime",
-    "genres": [
-      "Comedia",
-      "Animación"
-    ],
-    "year": "2020",
-    "rating": "8.5",
-    "updated": "2026-08-30 15:31:50",
-    "type": "series"
-  },
-  {
     "tmdb": 198152,
     "title": "Onii-chan wa Oshimai! (ONIMAI: I´m Now Your Sister!)",
     "plot": "Mahiro Oyama es un chico vago y amante de los juegos eróticos, pero todo cambia cuando su hermana menor, una científica, lo convierte en una chica como parte de uno de sus experimentos. Aunque al principio está decidido a volver a su forma original, pronto se da cuenta de que su transformación podría ser la oportunidad que necesitaba para cambiar su vida.",
@@ -1323,6 +638,22 @@
     ],
     "year": "2023",
     "rating": "7.1",
+    "updated": "2026-08-30 15:31:50",
+    "type": "series"
+  },
+  {
+    "tmdb": 250008,
+    "title": "Oh Boy, Was I Wrong About Her",
+    "plot": "Siete años después de prometerse amistad eterna, Hayato se reencuentra con Haruki, su antiguo amigo. ¡Pero era una chica y él no lo sabía! Pese al cambio físico, su complicidad sigue intacta.",
+    "poster": "https://image.tmdb.org/t/p/w500/ji0E3wdLIfcjcNzXdYuyIrCFIrC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/9PBeccJiwTMPE9ZR7IHrUxSCb9s.jpg",
+    "category": "Anime",
+    "genres": [
+      "Comedia",
+      "Animación"
+    ],
+    "year": "2026",
+    "rating": "8.7",
     "updated": "2026-08-30 15:31:50",
     "type": "series"
   },
@@ -1355,6 +686,22 @@
       "Acción"
     ],
     "year": "2021",
+    "rating": "8.5",
+    "updated": "2026-08-30 15:31:50",
+    "type": "series"
+  },
+  {
+    "tmdb": 96316,
+    "title": "Rent-a-Girlfriend",
+    "plot": "Kazuya Kinoshita es un joven universitario de 20 años que tras conseguir novia, pudo besarla, ¡pero lo dejó tras solo un mes! 'Maldita sea, no quiero tener que volver a pasar por eso'. Desesperado, recurre a un método muy particular para tener por fin una cita: solicitar una novia de alquiler.",
+    "poster": "https://image.tmdb.org/t/p/w500/wl7ZiXJx5r67u1CIf7oXz5oLSQm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ullfy98STkno11rDGi44SK6llwx.jpg",
+    "category": "Anime",
+    "genres": [
+      "Comedia",
+      "Animación"
+    ],
+    "year": "2020",
     "rating": "8.5",
     "updated": "2026-08-30 15:31:50",
     "type": "series"
@@ -1431,6 +778,125 @@
     "type": "series"
   },
   {
+    "tmdb": 308874,
+    "title": "KAIJU GIRL CARAMELISE",
+    "plot": "Kuroe Akaishi solo aspira a tener una vida estudiantil normal y corriente, pero le resulta imposible debido a una extraña condición: ¡se transforma en un kaiju gigante cada vez que le dan sofocones emocionales! La cosa se complica todavía más cuando se enamora de Arata Minami, el chico más popular de la clase.",
+    "poster": "https://image.tmdb.org/t/p/w500/tG2yE7HILQdH32RzYajSgXYSrRV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/jixTjPxzMFv9yTDzeVBFACZRzdQ.jpg",
+    "category": "Anime",
+    "genres": [
+      "Ciencia ficción",
+      "Comedia",
+      "Animación"
+    ],
+    "year": "2026",
+    "rating": "7.5",
+    "updated": "2026-08-30 15:31:48",
+    "type": "series"
+  },
+  {
+    "tmdb": 88046,
+    "title": "Enen no Shouboutai",
+    "plot": "Tokio se encuentra bajo un extraño fenómeno: ¡la gente entra, sin explicación alguna, en combustión espontánea! Aunque, afortunadamente, hay un equipo a cargo de mantener a raya este particular fenómeno… ¡El Cuerpo Especial de Bomberos! Quienes, además, ahora cuenta con un nuevo miembro: Shinra, un adolescente de sonrisa perturbadora, poder curioso y cuyo objetivo es convertirse en un héroe.",
+    "poster": "https://image.tmdb.org/t/p/w500/qDNgM4STqdzl4IBMyqCVMIr6uUV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/zDXuwmqkTi2lGM4AyloAAX4v51P.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Acción",
+      "Ciencia ficción",
+      "Comedia"
+    ],
+    "year": "2019",
+    "rating": "8.4",
+    "updated": "2026-08-30 15:31:48",
+    "type": "series"
+  },
+  {
+    "tmdb": 79166,
+    "title": "Grand Blue",
+    "plot": "Cuando Iori Kitahara empieza la universidad, decide vivir en la tienda de buceo de su tío en Izu llamada Grand Blue. Iori está deseando estudiar, disfrutar de las olas, el sol y de la compañía de su primo que vive con él.",
+    "poster": "https://image.tmdb.org/t/p/w500/qUKJh4lPiU7sVQMZ0dAYp3QL6tA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pJqAgDico7ZTMAfAXyzldYqj5ME.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Comedia"
+    ],
+    "year": "2018",
+    "rating": "7.5",
+    "updated": "2026-08-30 15:31:48",
+    "type": "series"
+  },
+  {
+    "tmdb": 293697,
+    "title": "I Want to End this Love Game",
+    "plot": "Yukiya y Miku, amigos desde la infancia, lo comparten todo… excepto sus sentimientos. Desde sexto grado, juegan a un juego de amor: se turnan para decirse «Te quiero» y la que se sonroja primero pierde.",
+    "poster": "https://image.tmdb.org/t/p/w500/vNXVxjzHrUFnhZkZlQgvdUmzG4Q.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rep8uV9N7jSYpxpxH7glSP6qOmp.jpg",
+    "category": "Anime",
+    "genres": [
+      "Comedia",
+      "Animación"
+    ],
+    "year": "2026",
+    "rating": "6.5",
+    "updated": "2026-08-30 15:31:48",
+    "type": "series"
+  },
+  {
+    "tmdb": 295071,
+    "title": "Goodbye, Lara",
+    "plot": "Hace mucho tiempo, una princesa sirena llamada Lara se enamoró de un príncipe humano. Para estar con él, usó la poción de una bruja y se convirtió en humana, pero la magia tenía un precio: si no encontraba el amor verdadero, se desvanecería para siempre en espuma de mar.",
+    "poster": "https://image.tmdb.org/t/p/w500/pmKGSvCKL3qh9iyLYVlnYP0eguT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/2ZiCNiuOiUGfAF0j73RI8DX1Z1N.jpg",
+    "category": "Anime",
+    "genres": [
+      "Ciencia ficción",
+      "Animación",
+      "Drama"
+    ],
+    "year": "2026",
+    "rating": "8.7",
+    "updated": "2026-08-30 15:31:47",
+    "type": "series"
+  },
+  {
+    "tmdb": 260463,
+    "title": "Espíritus del Inframundo",
+    "plot": "En un mundo donde ciertos humanos controlan poderosos dúos sobrenaturales llamados tsugai, gobernar sobre estas entidades es el derecho de nacimiento de 'los hijos que separan el día y la noche': los gemelos Yoru y Asa. Separados desde pequeños y ajenos a la verdad sobre su origen, hermano y hermana deberán luchar para reencontrarse, reclamar lo que les pertenece y salvar el mundo…",
+    "poster": "https://image.tmdb.org/t/p/w500/mNqW2jnAogZa0nJ94q1LUum8Hos.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qc30hdrxHQgN5wiopU4bkRZow5L.jpg",
+    "category": "Anime",
+    "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Animación"
+    ],
+    "year": "2026",
+    "rating": "8.9",
+    "updated": "2026-08-30 15:31:47",
+    "type": "series"
+  },
+  {
+    "tmdb": 258348,
+    "title": "Clevatess",
+    "plot": "El reinado de Clevatess, uno de los Señores de las Bestias Oscuras, se desmorona al revivir a un héroe al que él mismo mató y adoptar a un bebé humanoide huérfano: la última esperanza para salvar un mundo moribundo. Ahora unidos, ¿qué destino les espera a este improbable trío?",
+    "poster": "https://image.tmdb.org/t/p/w500/tJCR0g2EvVQ8V0laox1HB7Up9DS.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/UErKAycnzSAJqGvJpSy0tw5auS.jpg",
+    "category": "Anime",
+    "genres": [
+      "Drama",
+      "Acción",
+      "Ciencia ficción",
+      "Animación"
+    ],
+    "year": "2025",
+    "rating": "8.0",
+    "updated": "2026-08-30 15:31:47",
+    "type": "series"
+  },
+  {
     "tmdb": 149,
     "title": "Akira",
     "plot": "Corre el año 2019. Un estado policial, políticos tramposos, sectas religiosas, revolucionarios y un proyecto científico secreto se combinan para causar una atmósfera explosiva en Neo-Tokyo.",
@@ -1448,89 +914,76 @@
     "type": "movie"
   },
   {
-    "tmdb": 12889,
-    "title": "Futurama: La bestia con un millón de espaldas",
-    "plot": "En la segunda y más tentaculosa aventura de Futurama en el espacio se rompe revelando un portal que permite acceder a un universo alternativo? ¿Pero a Cuál? ¿Terror? ¿Amor? O quizá ambos, porque resulta que contiene un monstruo repulsivo del tamaño de un planeta con intenciones de lo más románticas? Nada más y nada menos que los destinos de las especies humana y cibernética están en peligro? Y entonces entra en juego la pandilla de Futurama..",
-    "poster": "https://image.tmdb.org/t/p/w500/qCcFtWhZ9O5iOO7wNjLHEVEL196.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/vpviitHyakuHAGlVJOR3fvzN0YP.jpg",
-    "category": "Dibujo",
+    "tmdb": 80885,
+    "title": "Ninja Hattori",
+    "plot": "Trata de un ninja, Hanzo Hattori, que viene de Iga, a la ciudad donde vive Kenichi, un niño que no confiaba en sí mismo, Hattori elige a Kenichi para ser su amo. Junto a Shinzo, su hermano, y Shishimaru, su perro ninja, que hacen cosas maravillosas, técnicas, comportamientos, habilidades ninja, etc.",
+    "poster": "https://image.tmdb.org/t/p/w500/9PUkpvq0wJnJ2M00dtgxKn6LptB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/tJF9M5niAnb4fm881PGc2GwS0e1.jpg",
+    "category": "Anime",
     "genres": [
+      "Peques",
+      "Animación",
       "Comedia",
-      "Romance",
-      "Animación",
-      "Ciencia ficción"
+      "Familia",
+      "Acción"
     ],
-    "year": "2008",
-    "rating": "7.0",
-    "updated": "2026-08-30 15:31:42",
-    "type": "movie"
+    "year": "1981",
+    "rating": "6.6",
+    "updated": "2026-08-30 09:41:22",
+    "type": "series"
   },
   {
-    "tmdb": 10150,
-    "title": "El último unicornio",
-    "plot": "Cansada de estar sola en el enorme bosque, la unicornio Amalthea comienza a preguntarse si es la última de su especie y sale por el mundo a buscar a sus semejantes. En su viaje se une al mago Schmendick y a Molly Grue que la ayudarán a buscar al Toro Rojo, una criatura mística que caza y aprisiona unicornios.",
-    "poster": "https://image.tmdb.org/t/p/w500/4Cp4wtNd1odNn0QUCCaKSZzRkwd.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/fwxOQkzYtRVKs3kzcyukdbsyIuh.jpg",
-    "category": "Dibujo",
+    "tmdb": 76533,
+    "title": "Scan2Go",
+    "plot": "En algún momento en el futuro cercano, en una era en la que hemos establecido contactos y comunicaciones con planetas fuera de nuestra galaxia, Scan2Go se ha convertido en un gran fenómeno en todo el espacio exterior. Las carreras gigantes se llevan a cabo en cada localidad, ¡con cada corredor buscando el título del piloto número uno del universo!",
+    "poster": "https://image.tmdb.org/t/p/w500/2RCbibrQMTcHA7yMWra0qrv9gDy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/fIcfiImoMkiIkTZLan5cCsR2drt.jpg",
+    "category": "Anime",
     "genres": [
-      "Fantasía",
-      "Animación",
+      "Drama",
       "Familia",
-      "Aventura"
-    ],
-    "year": "1982",
-    "rating": "7.1",
-    "updated": "2026-08-30 08:50:43",
-    "type": "movie"
-  },
-  {
-    "tmdb": 823610,
-    "title": "Equipo foca",
-    "plot": "Después de que su mejor amigo muere en un ataque de tiburón, Quinn, una adorable pero tenaz foca, reúne un EQUIPO SEAL para luchar contra una banda de tiburones que se apodera del vecindario. Pero esta alegre banda de focas internacionales no está en absoluto entrenada para tal misión.",
-    "poster": "https://image.tmdb.org/t/p/w500/m7qA3Im0QNJped98ViHUXgnibnw.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/ezyFE2H7vdFoK3dXK4p4ZUaTukW.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
-      "Animación"
-    ],
-    "year": "2021",
-    "rating": "6.9",
-    "updated": "2026-08-30 08:50:34",
-    "type": "movie"
-  },
-  {
-    "tmdb": 74658,
-    "title": "Winx Club: La aventura mágica",
-    "plot": "Bloom es una princesa que vive en un cuento de hadas. Después de encontrar a sus verdaderos padres, se encuentra en su verdadero hogar.",
-    "poster": "https://image.tmdb.org/t/p/w500/muraB56GWhkIeqCyhScuZjgShRe.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/wwPz0aBv5ZMU4Nzl8E9zfjPHfus.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Familia",
+      "Ciencia ficción",
+      "Acción",
+      "Peques",
+      "Comedia",
       "Animación"
     ],
     "year": "2010",
-    "rating": "7.2",
-    "updated": "2026-08-30 08:50:33",
-    "type": "movie"
+    "rating": "8.5",
+    "updated": "2026-08-30 09:41:09",
+    "type": "series"
   },
   {
-    "tmdb": 14903,
-    "title": "La gran aventura de Winnie the Pooh",
-    "plot": "De la espesura del Bosque de los Cien Acres llega una nueva y encantadora película protagonizada por el más querido de los osos. Es el último día de verano, y Christopher Robin no se atreve a decirle a Pooh que se marcha para ir al colegio.",
-    "poster": "https://image.tmdb.org/t/p/w500/qa419JCL94R6GzS6WWiLKf4pTzi.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/2Wc2Mo59HCvo7NkIHaax8nekpaQ.jpg",
-    "category": "Dibujo",
+    "tmdb": 46298,
+    "title": "Hunter × Hunter",
+    "plot": "Gon Frecks, un niño de 12 años, vive con su tía Mito y su abuela en Isla Ballena, huérfano de madre y según su tía también de padre. Un día Gon es atacado por un oso del bosque, pero es salvado por un cazador quien le explica que está en busca de su maestro para así convertirse en un cazador, él es quien le dice que su padre Gin está vivo.",
+    "poster": "https://image.tmdb.org/t/p/w500/9WxfAQquTun9ATkV6iAeFHMkqxv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bFKKyCI89Xq98Gul8cGox8K3sZa.jpg",
+    "category": "Anime",
     "genres": [
-      "Aventura",
-      "Familia",
+      "Ciencia ficción",
+      "Acción",
       "Animación"
     ],
-    "year": "1997",
-    "rating": "7.1",
-    "updated": "2026-08-30 08:50:29",
-    "type": "movie"
+    "year": "2011",
+    "rating": "8.6",
+    "updated": "2026-08-30 09:41:08",
+    "type": "series"
+  },
+  {
+    "tmdb": 105204,
+    "title": "El nuevo puño de la estrella del norte",
+    "plot": "En la devastada Tierra post-apocalíptica, el agua es un recurso casi inexistente aunque todavía se conserva una reserva potable. Una banda de matones liderados por el cruel Sanga ha creado una zona fortificada llamada Lastland y ha tomado el control del agua y de lo que queda de civilización.",
+    "poster": "https://image.tmdb.org/t/p/w500/27jqUBmHptkiCV8Au7W1iQrBD3z.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/n375gcLIkgMnl1DW9r7VfbChY67.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación"
+    ],
+    "year": "2003",
+    "rating": "5.5",
+    "updated": "2026-08-30 09:41:07",
+    "type": "series"
   },
   {
     "tmdb": 1263421,
@@ -1549,43 +1002,6 @@
     "type": "movie"
   },
   {
-    "tmdb": 20694,
-    "title": "Los Rugrats: Vacaciones salvajes",
-    "plot": "Las vacaciones familiares de los Rugrats dan un giro tan inesperado como exótico cuando su barco naufraga junto a una isla tropical desierta.",
-    "poster": "https://image.tmdb.org/t/p/w500/hpVpXRNY2IsU0xvfXtYOxu0QDwc.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/doPPODsoTbrMXQWvOAIcRYsD3Yg.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Familia",
-      "Aventura",
-      "Comedia"
-    ],
-    "year": "2003",
-    "rating": "6.2",
-    "updated": "2026-08-30 08:50:19",
-    "type": "movie"
-  },
-  {
-    "tmdb": 1406675,
-    "title": "Winx Club - Battaglia per Magix",
-    "plot": "Las Trix han tomado la Llama del Dragón de Bloom y no se detendrán ante nada para apoderarse de todo Magix. Las brujas malvadas buscan hacerse cargo de su propia escuela, Cloudtower.",
-    "poster": "https://image.tmdb.org/t/p/w500/fzTMkSEj2yVRyKLNbT3oSS6j4Z6.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/yMYwwDl8tvBqbiRkpESKrrLvQtU.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Aventura",
-      "Familia",
-      "Animación",
-      "Fantasía",
-      "Película de TV"
-    ],
-    "year": "2011",
-    "rating": "10.",
-    "updated": "2026-08-30 08:50:19",
-    "type": "movie"
-  },
-  {
     "tmdb": 83088,
     "title": "Los Caballeros del Zodiaco:  Los guerreros de la última guerra santa",
     "plot": "Despertado por los espíritus de Eris, Abel y Poseidón, y derrotando a los caballeros de oro, Lucifer regresa a la Tierra, acompañado de sus cuatro ángeles infernales, con el objetivo de vengarse de Atenea, destruir a la humanidad y proclamarse soberano absoluto del universo. Para evitarlo, Saori Kido, decide sacrificar su vida en el Pandemonium, residencia de Lucifer, mientras que los caballeros de bronce lucharán para salvarla.",
@@ -1600,23 +1016,6 @@
     "year": "1989",
     "rating": "7.3",
     "updated": "2026-08-30 08:50:13",
-    "type": "movie"
-  },
-  {
-    "tmdb": 80797,
-    "title": "Winx Club: El secreto del reino perdido",
-    "plot": "Hace 16 años, los magos guerreros más poderosos de la Dimensión Mágica se sacrificaron para luchar contra el mal absoluto. Ahora, el destino de todo un reino se encuentra en manos de una joven muchacha: Bloom, el hada con el signo del Dragón.",
-    "poster": "https://image.tmdb.org/t/p/w500/yowrgcOqxXNY82YVx2pyrLLcrp7.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/pz5iPl72ORLQiS6Z5tBe8BGoC5d.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Familia",
-      "Fantasía"
-    ],
-    "year": "2007",
-    "rating": "7.3",
-    "updated": "2026-08-30 08:50:05",
     "type": "movie"
   },
   {
@@ -1655,40 +1054,6 @@
     "type": "movie"
   },
   {
-    "tmdb": 1245399,
-    "title": "¡Hola, Frida!",
-    "plot": "Adaptación libre animada del libro infantil Frida c'est moi, que retrata la infancia de Frida Kahlo en Coyoacán, México. A través de una narrativa vibrante, ¡HOLA, FRIDA! sigue a una niña curiosa y soñadora que enfrenta los desafíos de su entorno con una imaginación desbordante.",
-    "poster": "https://image.tmdb.org/t/p/w500/nbGkOwaxnqINpbNVkLw0QnIx5DV.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/6z9TlQE2HRU1djxoI3e4XNYfcAD.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Animación",
-      "Familia",
-      "Historia"
-    ],
-    "year": "2024",
-    "rating": "6.5",
-    "updated": "2026-08-30 08:49:37",
-    "type": "movie"
-  },
-  {
-    "tmdb": 82094,
-    "title": "El flautista de Hamelín",
-    "plot": "Versión oscura del famoso cuento del flautista de Hamelin, de Robert Browning, que mezcla diferentes técnicas de animación, especialmente stop-motion (marionetas) y diferentes estilos que van desde el arte medieval al expresionismo alemán.",
-    "poster": "https://image.tmdb.org/t/p/w500/uBHizsyr6RaxDa0auK2Ms7EyrKo.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/cY3sSQRZZc7olOMYHVqeYAEGRvd.jpg",
-    "category": "Dibujo",
-    "genres": [
-      "Fantasía",
-      "Drama",
-      "Animación"
-    ],
-    "year": "1986",
-    "rating": "7.5",
-    "updated": "2026-08-30 08:49:32",
-    "type": "movie"
-  },
-  {
     "tmdb": 73792,
     "title": "Digital Devil Story",
     "plot": "Akemi ha creado un terrible montruo con sus ordenadores. Su blanco favorito de sus venganzas son.",
@@ -1706,21 +1071,662 @@
     "type": "movie"
   },
   {
-    "tmdb": 19016,
-    "title": "Clifford mi pequeña gran mascota",
-    "plot": "Clifford pasará multitud de aventuras en compañía de Cleo y T-Bone, haciendo amigos por todos los sitios por los que pasan.",
-    "poster": "https://image.tmdb.org/t/p/w500/cpaynGAqDjr0N5I92JEEqW0dpTl.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/e1n5MPCnrwOU3A0bELZH6OtA0wR.jpg",
-    "category": "Dibujo",
+    "tmdb": 615165,
+    "title": "Her Blue Sky",
+    "plot": "Cuando murieron sus padres hace 13 años, Akane se quedó en su pueblo natal para cuidar de su hermana pequeña Aoi. Para aliviar la carga que supone para Akane cuidarla sola, Aoi quiere mudarse a Tokio tras graduarse e iniciar allí su carrera musical, inspirada por el antiguo novio de Akane, Shinnosuke 'Shinno' Kanamuro.",
+    "poster": "https://image.tmdb.org/t/p/w500/jWIh1hteYPHwD5efmlsyCWHhXsw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/k1jWHgAICsNGM5roYcIwaDpryYS.jpg",
+    "category": "Anime",
     "genres": [
-      "Comedia",
-      "Aventura",
       "Animación",
+      "Romance"
+    ],
+    "year": "2019",
+    "rating": "7.1",
+    "updated": "2026-08-30 08:48:59",
+    "type": "movie"
+  },
+  {
+    "tmdb": 475215,
+    "title": "Mirai, mi hermana pequeña",
+    "plot": "El niño y la bestia, la anterior película de Mamoru Hosoda, relataba el tránsito de un chico desde Shibuya a un universo sobrenatural. En el cine de Hosoda, el fantástico mezcla con la cotidianidad, algo que ocurre de nuevo en Mirai, película de una belleza conmovedora.",
+    "poster": "https://image.tmdb.org/t/p/w500/raj0bsOIqyp3lCyMhXKWZ6Z5SN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qz9iKhw2SlEysbFWXytcnwEEUXL.jpg",
+    "category": "Anime",
+    "genres": [
+      "Fantasía",
+      "Animación",
+      "Drama",
+      "Familia",
+      "Aventura"
+    ],
+    "year": "2018",
+    "rating": "7.2",
+    "updated": "2026-08-30 08:48:25",
+    "type": "movie"
+  },
+  {
+    "tmdb": 683127,
+    "title": "Earwig y la bruja",
+    "plot": "Earwig tiene diez años, vive en el orfanato San Morwald y no quiere marcharse de allí. Para ahuyentar a posibles padres adoptivos, utiliza sus poderes mágicos.",
+    "poster": "https://image.tmdb.org/t/p/w500/oH7XpfTSKZ2Uwn30yHnkBsnfVFQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qMxpGzmmnY1jLd4p7EhhoW43wWF.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Fantasía",
       "Familia"
     ],
-    "year": "2004",
-    "rating": "6.2",
-    "updated": "2026-08-30 08:49:13",
+    "year": "2021",
+    "rating": "5.9",
+    "updated": "2026-08-30 08:47:52",
     "type": "movie"
+  },
+  {
+    "tmdb": 20043,
+    "title": "Royal Space Force: Las alas de Honneamise",
+    "plot": "Cuento épico sobre los primeros pasos de una civilización en el espacio, situados en un mundo extraño y hostil que recuerda al nuestro. Cuando el cadete Shiro Lhadatt se enrola en la Real Fuerza Espacial choca con la apatía de los líderes manipuladores y el cinismo público.",
+    "poster": "https://image.tmdb.org/t/p/w500/9JxnXWzU8WNWKoilSeldBTUEosp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/gAJ6zOXosDs6YVizhEQQuUHbFU1.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Ciencia ficción"
+    ],
+    "year": "1987",
+    "rating": "6.9",
+    "updated": "2026-08-30 08:47:34",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1311031,
+    "title": "Guardianes de la noche: Kimetsu no Yaiba La fortaleza infinita",
+    "plot": "El Cuerpo de Cazadores de Demonios se enfrenta a los Doce Kizuki restantes antes de enfrentarse a Muzan en el Castillo del Infinito para derrotarlo de una vez por todas.",
+    "poster": "https://image.tmdb.org/t/p/w500/iWLV12z9oexSRLz2WKyqCZbKoPA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+    "category": "Anime",
+    "genres": [
+      "Acción",
+      "Animación",
+      "Fantasía"
+    ],
+    "year": "2025",
+    "rating": "8.4",
+    "updated": "2026-08-30 08:47:22",
+    "type": "movie"
+  },
+  {
+    "tmdb": 56827,
+    "title": "El mundo maravilloso de Heidi",
+    "plot": "La huérfana Heidi vive con su abuelo en los Alpes suizos. Ella trae alegría a todos los que están allí.",
+    "poster": "https://image.tmdb.org/t/p/w500/kAFOAyUaIIg3azpmgwGzmZKvTPt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/u00BOSHtezn6RQKsSR4i4zTbsTz.jpg",
+    "category": "Anime",
+    "genres": [
+      "Familia",
+      "Animación"
+    ],
+    "year": "1982",
+    "rating": "6.0",
+    "updated": "2026-08-30 08:47:04",
+    "type": "movie"
+  },
+  {
+    "tmdb": 66105,
+    "title": "Los Caballeros del Zodiaco: La leyenda de los santos escarlatas",
+    "plot": "Febo Abel, dios del Sol y hermano de Atenea, retorna a la Tierra y resucita a los santos de oro muertos en la batalla de las doce casas, a fin de llevarse a su hermana y extinguir a la humanidad, considerando que ha llegado a un estado decadente. No obstante, los santos de bronce, quienes aparentemente son abandonados por Saori, evitarán que Abel cumpla su propósito, por lo que deberán enfrentarse a los santos de oro y a los tres misteriosos santos de la Corona.",
+    "poster": "https://image.tmdb.org/t/p/w500/paC5oA5f1xRA43Udj1vyIrGbFFd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/zb86Am9s1OU6anjemv1WZJ0vD3E.jpg",
+    "category": "Anime",
+    "genres": [
+      "Acción",
+      "Animación",
+      "Fantasía"
+    ],
+    "year": "1988",
+    "rating": "7.6",
+    "updated": "2026-08-30 08:46:41",
+    "type": "movie"
+  },
+  {
+    "tmdb": 845387,
+    "title": "maboroshi",
+    "plot": "Cuando la explosión de una fábrica hace que el tiempo se detenga en su pequeña ciudad, el joven Masamune y sus amigas se enfrentan a un mundo que se derrumba rápidamente.",
+    "poster": "https://image.tmdb.org/t/p/w500/gv8Kvn8oSPsfknFCwAJWcU78YsD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/9yOe8oOyLw5iTiOUhm0F8I17aw9.jpg",
+    "category": "Anime",
+    "genres": [
+      "Fantasía",
+      "Drama",
+      "Animación",
+      "Romance"
+    ],
+    "year": "2023",
+    "rating": "7.3",
+    "updated": "2026-08-30 08:46:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 225745,
+    "title": "Steins Gate the Movie: Load Region of Déjà vu",
+    "plot": "La película tiene lugar un año después de los acontecimientos de la serie de anime. Después de pasar por un camino arduo a través de múltiples líneas de tiempo debido a la invención de los 'D-Mails', es decir, los mensajes de texto que se pueden enviar al pasado, Rintaro Okabe ha aterrizado, según las informaciones de la 'Steins Gate', en una línea de tiempo en la que ninguno de sus amigos tendrían que morir y en la que no existe un futuro gobernado por SERN debido a que no se produjo la invención de una máquina del tiempo.",
+    "poster": "https://image.tmdb.org/t/p/w500/maTEWDbqf09wfZYlJDF5XIQJD84.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/noPMcHv45ngiwAUd71s6FyDZoLW.jpg",
+    "category": "Anime",
+    "genres": [
+      "Ciencia ficción",
+      "Animación",
+      "Drama"
+    ],
+    "year": "2013",
+    "rating": "7.6",
+    "updated": "2026-08-30 08:46:32",
+    "type": "movie"
+  },
+  {
+    "tmdb": 647,
+    "title": "Final Fantasy VII: Advent Children",
+    "plot": "Esta película generada íntegramente por ordenador, es la continuación del videojuego de Square Enix; Final Fantasy VII y forma parte de una estrategía de la propia compañía para completar la historia de la saga. El argumento nos sitúa dos años después de Final Fantasy VII.",
+    "poster": "https://image.tmdb.org/t/p/w500/bCiTioVufIGpIgC8OlG7boEzm9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/8xhgpYyNSX5sJi0P35hwL73QYOV.jpg",
+    "category": "Anime",
+    "genres": [
+      "Acción",
+      "Fantasía",
+      "Aventura",
+      "Ciencia ficción",
+      "Animación"
+    ],
+    "year": "2005",
+    "rating": "7.2",
+    "updated": "2026-08-30 08:45:56",
+    "type": "movie"
+  },
+  {
+    "tmdb": 989730,
+    "title": "Mononoke: El fantasma bajo la lluvia",
+    "plot": "En los aposentos del harén de Edo, dos recién llegadas destapan intrigas políticas, rivalidades y un espíritu vengativo al que solo puede doblegar un vendedor de medicinas.",
+    "poster": "https://image.tmdb.org/t/p/w500/f09x6QhTC702Gu0F14NszBfqCiO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/jIJhDofDxf7TCHZSg99YbOLqIsZ.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Misterio",
+      "Fantasía",
+      "Terror"
+    ],
+    "year": "2024",
+    "rating": "7.1",
+    "updated": "2026-08-30 08:45:51",
+    "type": "movie"
+  },
+  {
+    "tmdb": 42001,
+    "title": "La princesa y los duendes",
+    "plot": "La historia trata sobre la princesa Irene y un joven guerrero llamado Curty. Irene debe usar su poder mágico para luchar contra los duendes y salvar el reino.",
+    "poster": "https://image.tmdb.org/t/p/w500/gWXeEzpOavcmv1Ca8sjqkorfuIO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/m5LUZjChsyXnaQiueEpxbskIYk.jpg",
+    "category": "Anime",
+    "genres": [
+      "Familia",
+      "Animación",
+      "Aventura",
+      "Fantasía"
+    ],
+    "year": "1991",
+    "rating": "6.0",
+    "updated": "2026-08-30 08:45:25",
+    "type": "movie"
+  },
+  {
+    "tmdb": 39977,
+    "title": "Kenshin, El Guerrero Samurái",
+    "plot": "Durante un viaje a Yokohama, Kenshin entabla amistad con un guerrero llamado Shigure, casualmente en la guerra civil que precedió el nacimiento de la era Meji ambos se encontraban luchando en diferentes bandos. Ambos parecen compartir el mismo desprecio por la violencia que el conflicto armado generó, pero las verdaderas intenciones de Shigure son distintas a las suyas.",
+    "poster": "https://image.tmdb.org/t/p/w500/j0miDkVlkOK3dyxOR42LlZbintp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/uf3Y6AoO7jBfdFfFjGe3BhLNgbj.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Acción",
+      "Fantasía"
+    ],
+    "year": "1997",
+    "rating": "7.1",
+    "updated": "2026-08-30 08:45:00",
+    "type": "movie"
+  },
+  {
+    "tmdb": 919,
+    "title": "Blood: El último vampiro",
+    "plot": "Una nueva raza de vampiros ha surgido de la oscuridad. Están entre nosotros, acechando, sedientos de sangre en busca de nuevas víctimas.",
+    "poster": "https://image.tmdb.org/t/p/w500/zG4woL5SKyjKUrRq5GIjkyJlaBe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/17s9ojb8j8QnBGCfqDUJraXLlFi.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Fantasía",
+      "Terror"
+    ],
+    "year": "2000",
+    "rating": "6.8",
+    "updated": "2026-08-30 08:44:55",
+    "type": "movie"
+  },
+  {
+    "tmdb": 118266,
+    "title": "Las fabulosas aventuras del barón Munchausen",
+    "plot": "El Barón Munchausen, personaje aventurero y atrevido, tiene por costumbre reunir en grandes banquetes a sus mejores amigos, para contarles maravillosas aventuras, como la de la liebre de ocho patas, la del ciervo que ve crecer un cerezo en medio de sus astas o la vez que cazó una bandada de patos con trozos de tocino. Sin embargo la gran aventura del Barón da comienzo ahora, cuando un mensajero del Rey llega para confiarle una misión muy delicada.",
+    "poster": "https://image.tmdb.org/t/p/w500/qgUlWPxCFMvhy3Jtbw5gjImUSmV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/kVAHjIxnBKHkxDh1FKdtRjNWiab.jpg",
+    "category": "Anime",
+    "genres": [
+      "Fantasía",
+      "Familia",
+      "Animación"
+    ],
+    "year": "1979",
+    "rating": "6.4",
+    "updated": "2026-08-30 08:44:46",
+    "type": "movie"
+  },
+  {
+    "tmdb": 50253,
+    "title": "Los Caballeros del Zodiaco: Capítulo del cielo - Overture",
+    "plot": "Después de la batalla con Hades, Seiya es dado por muerto. Saori se encarga de él y ahora esta confinado a una silla de ruedas, en una casa de descanso cerca del Santuario.",
+    "poster": "https://image.tmdb.org/t/p/w500/jZt8wA1wZqEnmcskIC6cUKlorhU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/afMyocyc9QHdksy5EAJW6Mm2rt4.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Fantasía"
+    ],
+    "year": "2004",
+    "rating": "7.6",
+    "updated": "2026-08-30 08:44:35",
+    "type": "movie"
+  },
+  {
+    "tmdb": 476292,
+    "title": "Maquia, una historia de amor inmortal",
+    "plot": "Maquia pertenece a un grupo de gente que deja de envejecer en la adolescencia. Aunque vive tranquila, se siente sola.",
+    "poster": "https://image.tmdb.org/t/p/w500/hUJvmSl8EOFAYgXO1VfwNoQPRLX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/yjfwNSDljAKsuHwwE34xjlY3tQj.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Fantasía",
+      "Drama"
+    ],
+    "year": "2018",
+    "rating": "8.2",
+    "updated": "2026-08-30 08:43:37",
+    "type": "movie"
+  },
+  {
+    "tmdb": 59297,
+    "title": "Princesa Arete",
+    "plot": "Confinada en la torre del castillo por su padre, la princesa Arete pasa sus días mirando al mundo exterior por su ventana, observando a la gente en su trabajo. Los caballeros del reino compiten entre ellos para conseguir unos objetos mágicos, hechos por una raza de hechiceros ya desaparecidos, y poder casarse con la princesa y gobernar la tierra.",
+    "poster": "https://image.tmdb.org/t/p/w500/vXoVOje6X2yM6C9AoosMq5bKXib.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/w5TOLHmwAxMmkyfo71qYVr4AhdQ.jpg",
+    "category": "Anime",
+    "genres": [
+      "Fantasía",
+      "Animación",
+      "Aventura",
+      "Misterio"
+    ],
+    "year": "2001",
+    "rating": "6.9",
+    "updated": "2026-08-30 08:43:03",
+    "type": "movie"
+  },
+  {
+    "tmdb": 108183,
+    "title": "En conclusión: La pesadilla del mañana",
+    "plot": "En un planeta Tierra post-apocalíptico, un ángel desciende de los cielos para ayudar a los supervivientes..",
+    "poster": "https://image.tmdb.org/t/p/w500/21EIQjnnye94SjoIWrdilhcbKmL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/21EIQjnnye94SjoIWrdilhcbKmL.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Drama",
+      "Fantasía",
+      "Ciencia ficción"
+    ],
+    "year": "1988",
+    "rating": "4.4",
+    "updated": "2026-08-30 08:42:07",
+    "type": "movie"
+  },
+  {
+    "tmdb": 317442,
+    "title": "Naruto Shippuden, La Película: The Last",
+    "plot": "Han pasado dos años desde que acabó la Cuarta Guerra Shinobi y con ello la última pelea entre Naruto y Sasuke. Konoha se encuentra en paz, pero un nuevo enemigo amenaza esta paz.",
+    "poster": "https://image.tmdb.org/t/p/w500/x0CwUdcWWQgOb9tO8cW6jxyo9Zx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/l8ubUlfzlB5R2j9cJ3CN7tj0gmd.jpg",
+    "category": "Anime",
+    "genres": [
+      "Acción",
+      "Romance",
+      "Animación"
+    ],
+    "year": "2014",
+    "rating": "7.8",
+    "updated": "2026-08-30 08:41:27",
+    "type": "movie"
+  },
+  {
+    "tmdb": 62181,
+    "title": "Devilman Volumen 1: El nacimiento",
+    "plot": "Akira es el 'Devil Man', mitad hombre, mitad demonio, y tiene un cometido: se ha propuesto luchar contra todos los demonios que quieren destruir la tierra y toda la humanidad. Primera de las OVAs basadas en el manga de Gô Nagai.",
+    "poster": "https://image.tmdb.org/t/p/w500/1IzKhcdnvDAwQq3UJHtzqNG1vbd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/yIBWdKeJWsJylRsNYIYHohOylsy.jpg",
+    "category": "Anime",
+    "genres": [
+      "Acción",
+      "Fantasía",
+      "Terror",
+      "Animación"
+    ],
+    "year": "1987",
+    "rating": "6.6",
+    "updated": "2026-08-30 08:41:18",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1014505,
+    "title": "Overlord: El reino sagrado",
+    "plot": "Después de doce años de jugar a su juego MMORPG favorito, Momonga inicia sesión por última vez y se encuentra transportado a su mundo para jugarlo indefinidamente. A lo largo de sus aventuras, su avatar asciende al título de Rey Hechicero Ains Ooal Gown.",
+    "poster": "https://image.tmdb.org/t/p/w500/sWPhQZZKPDZaxRlx18A9l657vO5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/hkJhGayONXn96CqIRM9GhWKnlCf.jpg",
+    "category": "Anime",
+    "genres": [
+      "Acción",
+      "Animación",
+      "Fantasía",
+      "Aventura"
+    ],
+    "year": "2024",
+    "rating": "7.8",
+    "updated": "2026-08-30 08:40:50",
+    "type": "movie"
+  },
+  {
+    "tmdb": 86277,
+    "title": "Katy, la oruga",
+    "plot": "Katy es una pequeña oruga que decide un día irse del cerezo, donde vive con sus hermanas, para conocer bien todo el bosque. Unos malvados cuervos quieren comérsela, pero una luz milagrosa de la Madre Naturaleza le salva.",
+    "poster": "https://image.tmdb.org/t/p/w500/nW4PXtnuXUzga2Er5suXzZNHR3a.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/8bbvv99EbrcVXrzfaKPOAgdILu8.jpg",
+    "category": "Anime",
+    "genres": [
+      "Familia",
+      "Animación",
+      "Aventura"
+    ],
+    "year": "1984",
+    "rating": "6.2",
+    "updated": "2026-08-30 08:40:49",
+    "type": "movie"
+  },
+  {
+    "tmdb": 430214,
+    "title": "Night Is Short, Walk on Girl",
+    "plot": "La historia sigue a un hombre que se enamora de una joven, y hará todo lo posible por llamar su atención. Adaptación de una exitosa novela de Tomohiko Mori publicada en 2006, producida por el equipo responsable de la serie 'Tatami Galaxy' y dirigida por el aclamado Masaaki Yuasa ('Ping Pong', 'Adventure Time'), siendo su segundo largometraje tras 'Mind Game'.",
+    "poster": "https://image.tmdb.org/t/p/w500/nxiXjfpVWyIYbC0KjbN7tKtVzUG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/iBl3hhtHC7qQX7jGphIAYLpmpPC.jpg",
+    "category": "Anime",
+    "genres": [
+      "Comedia",
+      "Animación",
+      "Romance",
+      "Fantasía"
+    ],
+    "year": "2017",
+    "rating": "7.5",
+    "updated": "2026-08-30 08:40:39",
+    "type": "movie"
+  },
+  {
+    "tmdb": 530079,
+    "title": "El amor está en el agua",
+    "plot": "Tras acceder a la Universidad, Hinako se muda a un pueblo de la costa. Allí se dedica a coger olas, pues se siente invencible cuando surfea, pera sigue sin tener claro qué le depara el futuro.",
+    "poster": "https://image.tmdb.org/t/p/w500/glAzGD7Qt8zMuwHvAJ1QbUAbs7i.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vooRKLGVvFRFmx9swcMh26uYZSf.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Romance",
+      "Comedia",
+      "Drama",
+      "Fantasía"
+    ],
+    "year": "2019",
+    "rating": "7.6",
+    "updated": "2026-08-30 08:40:28",
+    "type": "movie"
+  },
+  {
+    "tmdb": 25525,
+    "title": "Lensman",
+    "plot": "Año 2.500.",
+    "poster": "https://image.tmdb.org/t/p/w500/fZ5PeFsXTqH91AvlqReY2PEfuCw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/fI1pPWaa8Xb4W9CM3EG99ZyjCO0.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "year": "1984",
+    "rating": "6.1",
+    "updated": "2026-08-30 08:40:11",
+    "type": "movie"
+  },
+  {
+    "tmdb": 382248,
+    "title": "Cuento de Watt Poe",
+    "plot": "Una fabulosa e increíble aventura en la que Jam y su fiel perro Beardon trata de conquistar la cima de la misteriosa montaña donde se halla prisionero su gran amigo Watt Poe, el unicornio-ballena que traía suerte a todo el pueblo. Bardo, el maléfico diablo de la montaña, se encargará de impedir a nuestros amigos que consigan su objetivo poniendo en su camino fantásticas y perversas trampas.",
+    "poster": "https://image.tmdb.org/t/p/w500/hwwcYyc5MBnxUlngRu9ymLrJnhO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/a9Yk8SUM9x0TDCov8Yo4H9YDbz8.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Aventura",
+      "Ciencia ficción"
+    ],
+    "year": "1988",
+    "rating": "5.0",
+    "updated": "2026-08-28 15:06:15",
+    "type": "movie"
+  },
+  {
+    "tmdb": 1097,
+    "title": "Ergo Proxy",
+    "plot": "La historia comienza en la ciudad en forma de domo llamada Romdou, construida para proteger a sus habitantes del ambiente devastante en el cual el planeta ha caído. Es aquí donde los humanos y androides, llamados Autoraves, conviven en paz bajo un complejo sistema de leyes.",
+    "poster": "https://image.tmdb.org/t/p/w500/ctq3DBf7t3qtgVPlm8CO2x1Zj4v.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pocqO2L8PW9xh1oA7ZG3iXh62FL.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Ciencia ficción",
+      "Misterio"
+    ],
+    "year": "2006",
+    "rating": "7.5",
+    "updated": "2026-08-25 19:08:49",
+    "type": "series"
+  },
+  {
+    "tmdb": 474395,
+    "title": "Teen Titans Go! La película",
+    "plot": "Cuando los Jóvenes Titanes se enteran de que otros superhéroes de DC han realizado sus propias películas, estos buscaran encontrar en un viaje épico un director perfecto para su debut en la gran pantalla, pero un viejo enemigo tiene otras ideas planeadas para ellos.",
+    "poster": "https://image.tmdb.org/t/p/w500/c6DNJJyuqenEf0eEBXSi9sl7j7d.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/1SjsVcGO2T2cCrhlhXi8gxQl7jx.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Acción",
+      "Comedia",
+      "Ciencia ficción"
+    ],
+    "year": "2018",
+    "rating": "7.2",
+    "updated": "2026-08-24 15:36:08",
+    "type": "movie"
+  },
+  {
+    "tmdb": 980431,
+    "title": "La leyenda de Aang: El último Airbender",
+    "plot": "Película de animación que seguirá a Aang y sus amigos, ahora como jóvenes adultos, varios años después de los acontecimientos del final de 'Avatar: The Last Airbender'.",
+    "poster": "https://image.tmdb.org/t/p/w500/iMsORWhD8MawINagL6kvpDVAtS.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qPNG2riEQLBknaa20RhUCr8QtWA.jpg",
+    "category": "Anime",
+    "genres": [
+      "Aventura",
+      "Acción",
+      "Animación",
+      "Fantasía"
+    ],
+    "year": "2026",
+    "rating": "9.3",
+    "updated": "2026-08-24 15:36:08",
+    "type": "movie"
+  },
+  {
+    "tmdb": 282662,
+    "title": "With You, Our Love Will Make It Through",
+    "plot": "Cuando Mari, estudiante de secundaria, llega tarde a la escuela, nunca espera enamorarse de Tsunagu, ¡una bestia gentil y sensible! En un mundo donde los pueblos bestia están segregados detrás de muros, Mari y Tsunagu muestran que sus diferencias son realmente puentes. ¿Podrá su amor superar la división entre los pueblos bestia y la humanidad?",
+    "poster": "https://image.tmdb.org/t/p/w500/l8YQfVfTKtWnBS54cvHlCLeUidc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/e8GfDn0MlqaxddpU6s928wOcAdI.jpg",
+    "category": "Anime",
+    "genres": [
+      "Ciencia ficción",
+      "Animación",
+      "Drama"
+    ],
+    "year": "2025",
+    "rating": "9.1",
+    "updated": "2026-08-23 09:25:42",
+    "type": "series"
+  },
+  {
+    "tmdb": 1179505,
+    "title": "Make a Girl",
+    "plot": "En un futuro cercano, los robots se han convertido en parte de la vida cotidiana gracias a un joven prodigio de la ciencia, Akira Mizutamari, desarrollador del modelo de asistencia doméstica “Salt”. Pero tras una serie de fracasos, Akira empieza a sentir que ha tocado techo.",
+    "poster": "https://image.tmdb.org/t/p/w500/zgcTimQTpSpakFELdBaqBkYROYM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/c1w22v5nOisFG6pvDPTpGnV7s0R.jpg",
+    "category": "Anime",
+    "genres": [
+      "Ciencia ficción",
+      "Animación",
+      "Romance"
+    ],
+    "year": "2025",
+    "rating": "8.3",
+    "updated": "2026-08-22 09:13:05",
+    "type": "movie"
+  },
+  {
+    "tmdb": 92592,
+    "title": "Brand New Animal",
+    "plot": "Transformada en una beastman mapache, Michiru busca refugio (y respuestas) dentro de la zona especial de Anima City con la ayuda del beastman lobo Shirou.",
+    "poster": "https://image.tmdb.org/t/p/w500/iqn8gUXhV4kiaWdKKwWZRUlLMzm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/45bPhpF6dsONWpzCchS674w87PH.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "year": "2020",
+    "rating": "8.2",
+    "updated": "2026-08-19 08:53:16",
+    "type": "series"
+  },
+  {
+    "tmdb": 42509,
+    "title": "Steins;Gate",
+    "plot": "Okabe Rintarou es un joven que se define  a sí mismo como científico loco. Juntos con sus amigos Mayuri y Daru, forma parte el “Laboratorio de Dispositivos del Futuro” una especie de laboratorio clandestino en un pequeño apartamento.",
+    "poster": "https://image.tmdb.org/t/p/w500/ogureH3QhG8Ls349Cf5HLJDiQxA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/gDvxT2z6TNxervG97WfpePRZ3aR.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Misterio",
+      "Ciencia ficción",
+      "Comedia"
+    ],
+    "year": "2011",
+    "rating": "8.4",
+    "updated": "2026-08-18 19:20:33",
+    "type": "series"
+  },
+  {
+    "tmdb": 63145,
+    "title": "Charlotte",
+    "plot": "Muy pocos chicos y chicas adolescentes desarrollan habilidades especiales. Yu Otosaka es un joven que usa su habilidad sin que otros lo sepan con el fin de llevar una vida escolar satisfactoria.",
+    "poster": "https://image.tmdb.org/t/p/w500/gS38sGWsa3vxD1dInO078JEpE2m.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/nqd36m68bHNJyzV6EuJzl3CB5J4.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Drama",
+      "Ciencia ficción"
+    ],
+    "year": "2015",
+    "rating": "8.3",
+    "updated": "2026-08-18 19:20:23",
+    "type": "series"
+  },
+  {
+    "tmdb": 8655,
+    "title": "Voltus V",
+    "plot": "Una armada de alienígenas humanoides con cuernos conocidos como boazanianos invaden la tierra y lanzan sus 'luchadores de bestias' en todo el mundo, derrotando a la mayoría de las fuerzas armadas del mundo. La primera derrota de los boazanianos de manos de la Máquina Súper Electromagnética Voltus V lleva a los invasores a enfocar sus ataques en Japón.",
+    "poster": "https://image.tmdb.org/t/p/w500/h9PQVm5ywoFtjCXjmdk7kYOea0z.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/z62FIWnRW6TmRIXkzVKe8zPifuX.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Drama"
+    ],
+    "year": "1977",
+    "rating": "7.1",
+    "updated": "2026-08-16 10:49:15",
+    "type": "series"
+  },
+  {
+    "tmdb": 60572,
+    "title": "Pokémon",
+    "plot": "La serie narra las aventuras del joven entrenador Pokemon de diez años Ash Ketchum, que decide comenzar su aventura para llegar a convertirse un día en un gran Maestro de Pokemon. Para ello deberá recorrer distintas regiones, capturar cuantos más pokemon pueda, y conseguir las medallas de gimnasio necesarias y así participar en la Liga Pokemon, ganarla y así estar un paso más cerca de convertirse en Maestro Pokemon.",
+    "poster": "https://image.tmdb.org/t/p/w500/hCUoyfXpP3xfcNrjr0EHgJttd9w.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rm6zG1gESQT0ww3mp8oUUT5LJBL.jpg",
+    "category": "Anime",
+    "genres": [
+      "Animación",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "year": "1997",
+    "rating": "7.7",
+    "updated": "2026-08-15 14:07:42",
+    "type": "series"
+  },
+  {
+    "tmdb": 74018,
+    "title": "La leyenda de los héroes de la galaxia: La nueva tesis",
+    "plot": "Algunos miles de años en el futuro, los humanos han empezado a emigrar al espacio. Estas colonias espaciales están divididas en dos países con gobiernos opuestos: el Imperio Galáctico, una autocracia, y la Alianza Galáctica Libre, una democracia.",
+    "poster": "https://image.tmdb.org/t/p/w500/pZFDWmMaCnFwbcTIWJihRbjqfAC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/mfj4QndoKjpRsvIUBnZQPpGcczb.jpg",
+    "category": "Anime",
+    "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Animación",
+      "Bélica"
+    ],
+    "year": "2018",
+    "rating": "7.6",
+    "updated": "2026-08-15 13:12:41",
+    "type": "series"
   }
 ]
