@@ -20,7 +20,15 @@ if os.path.isfile(env_file):
                 k, v = line.split("=", 1)
                 os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
-DATABASE_URL = os.environ.get("DATABASE_URL_DIRECT") or os.environ.get("DATABASE_URL")
+def clean_db_url(url):
+    # Limpiamos espacios, comillas y parámetros incompatibles de libpq
+    if not url:
+        return ""
+    u = url.strip().strip('"').strip("'")
+    u = u.replace("&channel_binding=require", "").replace("channel_binding=require&", "").replace("channel_binding=require", "")
+    return u.strip()
+
+DATABASE_URL = clean_db_url(os.environ.get("DATABASE_URL_DIRECT") or os.environ.get("DATABASE_URL"))
 DOCS_DATA_DIR = os.path.join(parent_dir, "docs", "data")
 
 def format_poster(path):

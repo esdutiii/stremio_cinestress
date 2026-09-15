@@ -53,7 +53,9 @@ def get_connection():
     # Conectamos a PostgreSQL si se ha definido DATABASE_URL
     database_url = os.environ.get("DATABASE_URL")
     if database_url and POSTGRES_AVAILABLE:
-        return psycopg2.connect(database_url, cursor_factory=psycopg2.extras.RealDictCursor)
+        cleaned_url = database_url.strip().strip('"').strip("'")
+        cleaned_url = cleaned_url.replace("&channel_binding=require", "").replace("channel_binding=require&", "").replace("channel_binding=require", "").strip()
+        return psycopg2.connect(cleaned_url, cursor_factory=psycopg2.extras.RealDictCursor)
 
     # De lo contrario conectamos a SQLite
     db_file = get_db_path()

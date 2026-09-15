@@ -94,9 +94,17 @@ def load_env_file():
                     k, v = line.split("=", 1)
                     os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
+def clean_db_url(url):
+    # Limpiamos espacios, comillas y parámetros incompatibles de libpq
+    if not url:
+        return ""
+    u = url.strip().strip('"').strip("'")
+    u = u.replace("&channel_binding=require", "").replace("channel_binding=require&", "").replace("channel_binding=require", "")
+    return u.strip()
+
 def sync():
     load_env_file()
-    database_url = os.environ.get("DATABASE_URL")
+    database_url = clean_db_url(os.environ.get("DATABASE_URL"))
     is_postgres = bool(database_url and POSTGRES_AVAILABLE)
 
     if is_postgres:
