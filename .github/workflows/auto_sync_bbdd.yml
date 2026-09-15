@@ -31,13 +31,21 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
-          python scripts/sync_updates.py
+          if [ -z "$DATABASE_URL" ]; then
+            echo "::warning ::El secreto DATABASE_URL no está configurado en GitHub Secrets. Saltando sincronización de Kodi."
+          else
+            python scripts/sync_updates.py
+          fi
 
       - name: Generar catálogo estático JSON
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
-          python scripts/generate_catalog.py
+          if [ -z "$DATABASE_URL" ]; then
+            echo "::warning ::El secreto DATABASE_URL no está configurado en GitHub Secrets. Manteniendo los JSONs existentes."
+          else
+            python scripts/generate_catalog.py
+          fi
 
       - name: Publicar cambios del catálogo en el repositorio
         run: |
