@@ -6,6 +6,7 @@ const state = {
   currentList: [],
   selectedItem: null,
   activeSeason: null,
+  activeEpisode: null,
   linksOpen: false,
   unlockedPassword: sessionStorage.getItem('cinestress_vault_key') || ''
 };
@@ -27,7 +28,6 @@ const elements = {
   statAnime: document.getElementById('stat-anime'),
   statMusic: document.getElementById('stat-music'),
   statRetro: document.getElementById('stat-retro'),
-  statLinks: document.getElementById('stat-links'),
   btnToggleLinks: document.getElementById('btn-toggle-links'),
   btnTmdb: document.getElementById('btn-open-tmdb'),
   linksContainer: document.getElementById('links-container'),
@@ -37,7 +37,10 @@ const elements = {
   btnUnlock: document.getElementById('btn-unlock'),
   authError: document.getElementById('auth-error'),
   linksCount: document.getElementById('links-count'),
-  seriesSeasonBar: document.getElementById('series-season-bar'),
+  seriesNav: document.getElementById('series-nav'),
+  seasonSelect: document.getElementById('season-select'),
+  episodeSelect: document.getElementById('episode-select'),
+  episodeChipsBar: document.getElementById('episode-chips-bar'),
   linksItemsList: document.getElementById('links-items-list')
 };
 
@@ -130,7 +133,6 @@ async function loadStats() {
     if (elements.statAnime) elements.statAnime.textContent = Number(data.anime || 0).toLocaleString();
     if (elements.statMusic) elements.statMusic.textContent = Number(data.music || 0).toLocaleString();
     if (elements.statRetro) elements.statRetro.textContent = Number(data.retro || 0).toLocaleString();
-    if (elements.statLinks) elements.statLinks.textContent = Number(data.total_links || 0).toLocaleString();
   } catch (err) {
     console.warn('No se pudieron cargar las estadísticas:', err);
   }
@@ -213,6 +215,7 @@ function openDetailsModal(tmdbId, itemType) {
   state.selectedItem = item;
   state.linksOpen = false;
   state.activeSeason = null;
+  state.activeEpisode = null;
 
   const backdropEl = document.getElementById('modal-backdrop-img');
   const posterEl = document.getElementById('modal-poster');
@@ -287,7 +290,7 @@ async function renderDecryptedLinks() {
 
   if (!links || links.length === 0) {
     if (elements.linksCount) elements.linksCount.textContent = '0 enlaces';
-    if (elements.seriesSeasonBar) elements.seriesSeasonBar.style.display = 'none';
+    if (elements.seriesNav) elements.seriesNav.style.display = 'none';
     if (elements.linksItemsList) {
       elements.linksItemsList.innerHTML = '<div class="no-links-msg">ℹ️ No hay enlaces registrados para este título en la base de datos.</div>';
     }
@@ -296,7 +299,7 @@ async function renderDecryptedLinks() {
 
   // Si es película, mostramos todas las versiones de calidad/audio
   if (state.selectedItem.type === 'movie') {
-    if (elements.seriesSeasonBar) elements.seriesSeasonBar.style.display = 'none';
+    if (elements.seriesNav) elements.seriesNav.style.display = 'none';
     if (elements.linksCount) {
       elements.linksCount.textContent = `${links.length} enlace${links.length > 1 ? 's' : ''}`;
     }
@@ -322,28 +325,69 @@ async function renderDecryptedLinks() {
     return;
   }
 
-  // Si es serie, agrupamos por temporada
+  // Si es serie, mostramos controles de Temporada y Episodio
+  if (elements.seriesNav) {
+    elements.seriesNav.style.display = 'flex';
+  }
+
+  // Obtenemos las temporadas disponibles
   const seasons = [...new Set(links.map(l => l.s))].sort((a, b) => a - b);
   if (!state.activeSeason || !seasons.includes(state.activeSeason)) {
     state.activeSeason = seasons[0];
   }
 
-  // Renderizamos la barra de botones de temporada
-  if (elements.seriesSeasonBar) {
-    elements.seriesSeasonBar.style.display = seasons.length > 0 ? 'flex' : 'none';
-    elements.seriesSeasonBar.innerHTML = seasons.map(s => {
-      const activeClass = s === state.activeSeason ? 'active' : '';
-      return `<button type="button" class="season-tab-btn ${activeClass}" onclick="selectSeason(${s})">Temporada ${s}</button>`;
+  // Rellenamos el desplegable de temporadas
+  if (elements.seasonSelect) {
+    elements.seasonSelect.innerHTML = seasons.map(s => {
+      const epCount = [...new Set(links.filter(l => l.s === s).map(l => l.e))].length;
+      return `<option value="${s}" ${s === state.activeSeason ? 'selected' : ''}>Temporada ${s} (${epCount} caps)</option>`;
     }).join('');
   }
 
-  // Filtramos los episodios de la temporada activa
+  // Obtenemos los episodios de la temporada activa
   const seasonLinks = links.filter(l => l.s === state.activeSeason);
-  if (elements.linksCount) {
-    elements.linksCount.textContent = `${seasonLinks.length} episodio${seasonLinks.length > 1 ? 's' : ''} (T${state.activeSeason})`;
+  const episodes = [...new Set(seasonLinks.map(l => l.e))].sort((a, b) => a - b);
+
+  // Si el episodio activo no es válido para esta temporada, seleccionamos el primero disponible
+  if (state.activeEpisode !== 'all' && (!state.activeEpisode || !episodes.includes(state.activeEpisode))) {
+    state.activeEpisode = episodes[0] || 'all';
   }
 
-  elements.linksItemsList.innerHTML = seasonLinks.map(l => {
+  // Rellenamos el desplegable de episodios
+  if (elements.episodeSelect) {
+    let epOptions = `<option value="all" ${state.activeEpisode === 'all' ? 'selected' : ''}>Todos los episodios (${seasonLinks.length} enlaces)</option>`;
+    epOptions += episodes.map(e => {
+      const verCount = seasonLinks.filter(l => l.e === e).length;
+      return `<option value="${e}" ${state.activeEpisode === e ? 'selected' : ''}>Episodio ${e} (${verCount} versión${verCount > 1 ? 'es' : ''})</option>`;
+    }).join('');
+    elements.episodeSelect.innerHTML = epOptions;
+  }
+
+  // Rellenamos los botones/chips rápidos de episodios
+  if (elements.episodeChipsBar) {
+    let chipsHtml = `<button type="button" class="ep-chip-btn ${state.activeEpisode === 'all' ? 'active' : ''}" onclick="selectEpisode('all')">Todos</button>`;
+    chipsHtml += episodes.map(e => {
+      return `<button type="button" class="ep-chip-btn ${state.activeEpisode === e ? 'active' : ''}" onclick="selectEpisode(${e})">E${e}</button>`;
+    }).join('');
+    elements.episodeChipsBar.innerHTML = chipsHtml;
+  }
+
+  // Filtramos los enlaces a mostrar según el episodio seleccionado
+  const displayLinks = state.activeEpisode === 'all' 
+    ? seasonLinks 
+    : seasonLinks.filter(l => l.e === state.activeEpisode);
+
+  // Actualizamos el contador
+  if (elements.linksCount) {
+    if (state.activeEpisode === 'all') {
+      elements.linksCount.textContent = `${displayLinks.length} enlaces · T${state.activeSeason} (Todos)`;
+    } else {
+      elements.linksCount.textContent = `${displayLinks.length} versión${displayLinks.length > 1 ? 'es' : ''} · T${state.activeSeason}·E${state.activeEpisode}`;
+    }
+  }
+
+  // Renderizamos la lista de enlaces
+  elements.linksItemsList.innerHTML = displayLinks.map(l => {
     const epBadge = `<span class="badge-ep">T${l.s} · E${l.e}</span>`;
     const q = l.q ? `<span class="badge-quality">${l.q}</span>` : '';
     const a = l.a ? `<span class="badge-audio">${l.a}</span>` : '';
@@ -365,9 +409,16 @@ async function renderDecryptedLinks() {
   }).join('');
 }
 
+// Cambia el episodio activo seleccionado
+window.selectEpisode = function(epVal) {
+  state.activeEpisode = epVal === 'all' ? 'all' : Number(epVal);
+  renderDecryptedLinks();
+};
+
 // Cambia la temporada activa seleccionada
 window.selectSeason = function(seasonNum) {
-  state.activeSeason = seasonNum;
+  state.activeSeason = Number(seasonNum);
+  state.activeEpisode = null;
   renderDecryptedLinks();
 };
 
@@ -465,6 +516,22 @@ elements.searchInput.addEventListener('input', (e) => {
   state.searchQuery = e.target.value;
   renderGrid();
 });
+
+if (elements.seasonSelect) {
+  elements.seasonSelect.addEventListener('change', (e) => {
+    state.activeSeason = Number(e.target.value);
+    state.activeEpisode = null; // Reinicia al primer episodio de la nueva temporada
+    renderDecryptedLinks();
+  });
+}
+
+if (elements.episodeSelect) {
+  elements.episodeSelect.addEventListener('change', (e) => {
+    const val = e.target.value;
+    state.activeEpisode = val === 'all' ? 'all' : Number(val);
+    renderDecryptedLinks();
+  });
+}
 
 if (elements.btnToggleLinks) {
   elements.btnToggleLinks.addEventListener('click', toggleLinksPanel);
